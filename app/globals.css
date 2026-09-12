@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+  body {
+    @apply bg-ink-50 text-ink-900;
+  }
+  :focus-visible {
+    @apply outline outline-2 outline-offset-2 outline-saffron-600;
+  }
+}
+
+@layer utilities {
+  /* Respect reduced-motion preference for the Top Rated ticker (WCAG 2.2 SC 2.2.2). */
+  @media (prefers-reduced-motion: reduce) {
+    .ticker-track {
+      animation: none !important;
+    }
+  }
+}
+
+@keyframes ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker-track {
+  animation: ticker-scroll 40s linear infinite;
+}
+
+.ticker-track[data-paused="true"] {
+  animation-play-state: paused;
+}

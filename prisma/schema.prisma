@@ -1,0 +1,265 @@
+// Kalabhavans.com — Prisma schema
+// Matches the database design in the "Website Development" project doc
+// (kalabhavans-website-plan.md, section 9).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum Role {
+  member
+  admin
+}
+
+enum AgeGroup {
+  under_18
+  age_18_24
+  age_25_34
+  age_35_44
+  age_45_54
+  age_55_64
+  age_65_plus
+}
+
+enum Gender {
+  female
+  male
+  non_binary
+  prefer_not_to_say
+}
+
+enum Difficulty {
+  easy
+  medium
+  hard
+}
+
+// Mirrors lib/geo.ts's ContinentValue union exactly. Always derived
+// server-side from `country` (see continentForCountry in lib/geo.ts) —
+// never accepted directly from a recipe submission — so it can't drift out
+// of sync with the country it describes.
+enum Continent {
+  africa
+  asia
+  europe
+  north_america
+  south_america
+  oceania
+}
+
+// Mirrors lib/dish-classify.ts's DietValue union exactly.
+enum Diet {
+  vegetarian
+  vegan
+  non_vegetarian
+  eggetarian
+}
+
+enum ReportStatus {
+  open
+  dismissed
+  actioned
+}
+
+// A user account. `email` is the required login/verification identifier;
+// `phone` is optional. `authUserId` links this row to the Supabase Auth user
+// (auth.users.id) created at sign-up — Supabase owns password/session
+// handling, this table owns the site-specific profile + role.
+model User {
+  id         String   @id @default(uuid())
+  authUserId String   @unique // Supabase auth.users.id
+  firstName  String
+  lastName   String
+  email      String   @unique
+  phone      String?
+  gender     Gender?
+  ageGroup   AgeGroup?
+  address    String?
+  role       Role     @default(member)
+  createdAt  DateTime @default(now())
+
+  recipes   Recipe[]
+  ratings   Rating[]
+  comments  Comment[]
+  favorites Favorite[]
+  reports   Report[]
+
+  @@map("users")
+}
+
+// A recipe. `ownerId` is nullable specifically to represent the seed
+// catalog, which has no real submitting member: those rows keep `ownerId`
+// null and `ownerLabel` set to the literal "Internet" (see the Owner column
+// in kalabhavans-india-ingredients-dishes.md). Every member-submitted recipe
+// has `ownerId` set server-side from the authenticated session — never from
+// client input — so authorship can't be spoofed.
+//
+// Geography is three levels, from broadest to narrowest, so the site can
+// genuinely host "every state and country" rather than just India:
+//   `continent` — always derived server-side from `country` via
+//                 continentForCountry() (lib/geo.ts), never client-supplied.
+//   `country`   — required; free text validated against a ~250-country list.
+//   `region`    — optional state/province/city (e.g. "Tamil Nadu", "Sichuan",
+//                 "Tuscany"); null when a dish isn't tied to a sub-region.
+//
+// `originalAt` is stamped once at creation and never changes. `updatedAt` is
+// refreshed automatically by Prisma on every write. Both are stored as UTC
+// datetimes (Postgres `timestamptz`); the UI formats them as DD/MM/CCYY +
+// 24-hour HH:MM in the *viewer's* local timezone (see lib/format.ts and
+// components/TimestampDisplay.tsx) rather than storing a display string.
+model Recipe {
+  id          String      @id @default(uuid())
+  slug        String      @unique
+  title       String
+  description String?
+  continent    Continent
+  country      String // e.g. "India", "Italy", "Japan"
+  region       String? // optional state/province/city — e.g. "Punjab", "Sichuan"
+  diet         Diet
+  isStreetFood Boolean     @default(false)
+  cookTimeMin Int?
+  prepTimeMin Int?
+  servings    Int?
+  difficulty  Difficulty  @default(medium)
+  imageUrl    String // required — every recipe must have a photo
+  videoUrl    String?
+
+  ownerId    String?
+  owner      User?   @relation(fields: [ownerId], references: [id], onDelete: SetNull)
+  ownerLabel String? // "Internet" for seed rows; null when ownerId is set (derive display name from the relation)
+
+  avgRating    Float @default(0) // cached, refreshed whenever a Rating changes
+  ratingCount  Int   @default(0) // cached, refreshed whenever a Rating changes
+
+  originalAt DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  ingredients RecipeIngredient[]
+  steps       RecipeStep[]
+  tags        RecipeTag[]
+  ratings     Rating[]
+  comments    Comment[]
+  favorites   Favorite[]
+  reports     Report[]
+
+  @@index([continent])
+  @@index([country])
+  @@index([region])
+  @@index([diet])
+  @@index([isStreetFood])
+  @@index([avgRating])
+  @@map("recipes")
+}
+
+model RecipeIngredient {
+  id        String @id @default(uuid())
+  recipeId  String
+  recipe    Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  sortOrder Int    @default(0)
+  quantity  String? // free-text ("2 cups", "1 tsp") — kept simple for MVP
+  name      String
+
+  @@index([recipeId])
+  @@map("recipe_ingredients")
+}
+
+model RecipeStep {
+  id         String @id @default(uuid())
+  recipeId   String
+  recipe     Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  stepNumber Int
+  instruction String
+
+  @@index([recipeId])
+  @@map("recipe_steps")
+}
+
+// Shared lookup table for region/diet/ingredient tags, driving the Cuisine
+// Explorer filters and the region/ingredient landing pages.
+model Tag {
+  id      String      @id @default(uuid())
+  name    String      @unique
+  kind    String // "region" | "ingredient" | "diet"
+  recipes RecipeTag[]
+
+  @@map("tags")
+}
+
+model RecipeTag {
+  recipeId String
+  recipe   Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  tagId    String
+  tag      Tag    @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([recipeId, tagId])
+  @@map("recipe_tags")
+}
+
+// One rating per user per recipe (editable). Drives Recipe.avgRating /
+// Recipe.ratingCount, which are cached so the Top Rated ticker stays cheap
+// to query.
+model Rating {
+  id        String   @id @default(uuid())
+  recipeId  String
+  recipe    Recipe   @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  score     Int // 1-5
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([recipeId, userId])
+  @@map("ratings")
+}
+
+// An open-ended discussion thread per recipe — unlike Rating, a user may
+// post more than once.
+model Comment {
+  id        String   @id @default(uuid())
+  recipeId  String
+  recipe    Recipe   @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  body      String
+  createdAt DateTime @default(now())
+
+  reports Report[]
+
+  @@index([recipeId])
+  @@map("comments")
+}
+
+model Favorite {
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  recipeId  String
+  recipe    Recipe   @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@id([userId, recipeId])
+  @@map("favorites")
+}
+
+// Report/flag safety valve for both recipes and comments, since content
+// auto-publishes with no pre-review.
+model Report {
+  id         String       @id @default(uuid())
+  reporterId String
+  reporter   User         @relation(fields: [reporterId], references: [id], onDelete: Cascade)
+  recipeId   String?
+  recipe     Recipe?      @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  commentId  String?
+  comment    Comment?     @relation(fields: [commentId], references: [id], onDelete: Cascade)
+  reason     String
+  status     ReportStatus @default(open)
+  createdAt  DateTime     @default(now())
+
+  @@index([status])
+  @@map("reports")
+}
