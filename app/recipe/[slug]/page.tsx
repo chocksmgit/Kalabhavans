@@ -11,6 +11,7 @@ import TimestampDisplay from "@/components/TimestampDisplay";
 import CommentList from "@/components/CommentList";
 import CommentForm from "@/components/CommentForm";
 import ReportButton from "@/components/ReportButton";
+import BackLink from "@/components/BackLink";
 import { dietLabels, dietBadgeClasses } from "@/lib/dish-labels";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -110,7 +111,9 @@ export default async function RecipeDetailPage({ params }: Props) {
       {/* eslint-disable-next-line react/no-danger */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-      <div className="flex flex-wrap items-center gap-2">
+      <BackLink />
+
+      <div className="mt-4 flex flex-wrap items-center gap-2">
         <p className="text-xs font-semibold uppercase tracking-wide text-saffron-600">{place}</p>
         {recipe.isStreetFood && (
           <span className="rounded-full bg-gradient-to-r from-berry-500 to-violet-600 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white">
