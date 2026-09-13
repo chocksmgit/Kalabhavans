@@ -7,10 +7,6 @@ export default function TermsPage() {
     <div className="mx-auto max-w-2xl px-4 py-14 sm:px-6">
       <h1 className="font-display text-3xl font-semibold text-ink-900">Terms of Use</h1>
       <p className="mt-2 text-sm text-ink-400">Effective date: September 13, 2026</p>
-      <p className="mt-4 text-sm text-ink-400">
-        This is a founder-drafted starting point, not formal legal advice &mdash; have a lawyer
-        review it before you rely on it in a dispute.
-      </p>
 
       <div className="mt-6 space-y-6 leading-relaxed text-ink-700">
         <p>
