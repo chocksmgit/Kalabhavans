@@ -546,7 +546,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Shrimp", "Andouille sausage", "All-purpose flour", "Vegetable oil", "Yellow onion", "Green bell pepper", "Celery", "Garlic", "Okra", "Chicken stock", "Cajun spice blend", "White rice", "Green onion"],
     instructions:
       "Heat vegetable oil in a heavy pot over medium heat and whisk in the flour to form a roux. Cook the roux for 25 to 30 minutes, stirring constantly, until it turns a deep reddish brown color and smells nutty and toasted. Add the diced onion, green bell pepper, and celery straight into the hot roux and stir well, letting the vegetables soften for about 5 minutes. Stir in minced garlic and sliced andouille sausage and cook for 3 more minutes. Pour in the chicken stock gradually, whisking to smooth out any lumps, then bring the pot to a gentle simmer. Add sliced okra and a generous spoonful of Cajun spice blend and let the gumbo simmer uncovered for 45 minutes, stirring occasionally, until it thickens. Add the peeled shrimp during the last 5 minutes of cooking and simmer just until they turn pink and opaque. Taste and adjust the seasoning with salt and hot sauce as needed. Spoon the gumbo over scoops of steamed white rice and scatter chopped green onion on top before serving.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/7/78/Shrimp_and_crab_gumbo.jpg",
   },
   {
     region: "Deep South",
@@ -556,7 +556,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Shrimp", "Cornmeal", "All-purpose flour", "Buttermilk", "Cayenne pepper", "Vegetable oil", "French bread roll", "Lettuce", "Tomato", "Pickles", "Mayonnaise", "Hot sauce"],
     instructions:
       "Soak peeled shrimp in buttermilk seasoned with a dash of hot sauce for about 15 minutes to tenderize them. In a shallow dish, mix cornmeal, flour, cayenne pepper, and salt together. Heat about 2 inches of vegetable oil in a heavy pot to 350 degrees Fahrenheit. Lift the shrimp out of the buttermilk, letting the excess drip off, then dredge each one thoroughly in the cornmeal mixture. Fry the shrimp in small batches for 2 to 3 minutes, until the coating turns golden brown and crisp. Drain the fried shrimp on a wire rack while you split open a crusty French bread roll. Spread mayonnaise mixed with a little hot sauce along the inside of the roll. Layer in shredded lettuce, sliced tomato, and pickles, then pile the hot fried shrimp on top. Close the sandwich and serve it right away while the shrimp are still crackling hot.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/8/89/Shrimppoboy.jpg",
     isStreetFood: true,
   },
   {
@@ -567,7 +567,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Shrimp", "Stone-ground grits", "Chicken stock", "Cheddar cheese", "Bacon", "Yellow onion", "Garlic", "Butter", "Green onion", "Lemon juice"],
     instructions:
       "Bring chicken stock and a splash of water to a boil in a saucepan, then whisk in the stone-ground grits. Reduce the heat to low and let the grits simmer gently for 25 to 30 minutes, stirring often, until thick and creamy. Stir shredded cheddar cheese and a knob of butter into the finished grits and keep them warm over low heat. Meanwhile, cook chopped bacon in a skillet over medium heat for about 6 minutes, until crisp, then remove it and set it aside, leaving the fat in the pan. Add diced onion to the bacon fat and cook for 4 minutes, until softened, then stir in minced garlic for 30 seconds. Toss in the peeled shrimp and cook for 2 to 3 minutes per side, until they turn pink and just cooked through. Squeeze fresh lemon juice over the shrimp and season with salt and black pepper. Spoon the warm cheesy grits into bowls and top with the shrimp mixture. Scatter the reserved crispy bacon and chopped green onion over the top before serving.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Commander's_Palace_shrimp_&_grits.jpg",
   },
   {
     region: "Texas",
@@ -577,7 +577,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Beef chuck", "Dried ancho chilies", "Dried guajillo chilies", "Cumin", "Garlic", "Yellow onion", "Beef stock", "Tomato paste", "Masa harina", "Lime"],
     instructions:
       "Toast the dried ancho and guajillo chilies in a dry skillet over medium heat for about 1 minute per side, until fragrant, then soak them in hot water for 15 minutes to soften. Blend the softened chilies with a little of their soaking liquid, garlic, and cumin into a smooth paste. Cut the beef chuck into small cubes and brown it in a heavy pot over high heat in batches, about 4 minutes per batch, until deeply seared. Remove the beef and cook the diced onion in the same pot for 5 minutes, until softened and lightly browned. Stir in the chili paste and tomato paste and cook for 2 minutes, until the mixture darkens slightly. Return the browned beef to the pot and pour in enough beef stock to just cover the meat. Cover and simmer over low heat for 2 hours, stirring occasionally, until the beef is fork-tender. Whisk a spoonful of masa harina into the chili to thicken the sauce and simmer uncovered for 10 more minutes. Season with salt and a squeeze of lime juice before ladling into bowls.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/2/22/Chili_con_carne_1.jpg",
   },
   {
     region: "Texas",
@@ -587,7 +587,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Eggs", "Chorizo", "Flour tortillas", "Potato", "Cheddar cheese", "Pico de gallo", "Vegetable oil"],
     instructions:
       "Peel and dice the potato into small cubes and fry them in vegetable oil over medium heat for about 10 minutes, until golden and tender, then drain on paper towels. Crumble the chorizo into a hot skillet and cook for 6 to 8 minutes, breaking it apart with a spoon, until fully cooked and slightly crisp. Whisk the eggs with a pinch of salt, then pour them into the skillet with the chorizo. Scramble gently over medium-low heat for 2 to 3 minutes, until just set and still soft. Fold the crispy potatoes into the eggs and chorizo and remove the skillet from the heat. Warm the flour tortillas on a dry griddle for about 20 seconds per side, until pliable and lightly toasted. Spoon the chorizo and egg filling down the center of each tortilla and sprinkle with shredded cheddar cheese. Top with a spoonful of fresh pico de gallo, then fold the tortilla and wrap it in foil for an easy handheld breakfast.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/3/3e/Breakfast_tacos.jpg",
     isStreetFood: true,
   },
   {
@@ -598,7 +598,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Bread flour", "Cornmeal", "Yeast", "Olive oil", "Butter", "Mozzarella cheese", "Italian sausage", "Crushed tomatoes", "Garlic", "Dried oregano", "Parmesan cheese"],
     instructions:
       "Mix bread flour with cornmeal, yeast, salt, and warm water, then knead in softened butter and olive oil until you have a smooth, slightly greasy dough. Let the dough rise in a covered bowl for about 1 hour, until doubled in size. Press the dough evenly into a well-oiled deep round pan, pushing it up the sides to form a thick edge. Cook crumbled Italian sausage in a skillet over medium heat for 7 to 8 minutes, until browned, then set it aside. Layer sliced mozzarella cheese directly over the dough first, followed by the cooked sausage. Simmer crushed tomatoes with minced garlic, dried oregano, and a pinch of salt for 10 minutes to make a thick sauce, then spoon it evenly over the toppings. Sprinkle grated Parmesan cheese over the top and bake in an oven preheated to 425 degrees Fahrenheit for 35 to 40 minutes, until the crust is deep golden brown. Let the pizza rest for 10 minutes before slicing so the layers set. Cut into thick wedges and serve hot with a knife and fork.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Chicago-style_pizza.jpg",
   },
   {
     region: "Midwest",
@@ -608,7 +608,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Cheese curds", "All-purpose flour", "Eggs", "Milk", "Beer", "Breadcrumbs", "Vegetable oil"],
     instructions:
       "Whisk together flour, beer, milk, and a pinch of salt to form a smooth, thick batter, then let it rest for 15 minutes. In a separate bowl, beat the eggs with a splash of milk. Set out a plate of breadcrumbs for the final coating. Heat about 3 inches of vegetable oil in a deep pot or fryer to 375 degrees Fahrenheit. Dip each cheese curd first into the beer batter, letting the excess drip off, then into the egg wash, and finally roll it in breadcrumbs to coat completely. Carefully lower the coated curds into the hot oil in small batches. Fry for about 2 minutes, turning once, until the coating is deep golden brown and the cheese inside just begins to soften. Lift the curds out with a slotted spoon and drain them briefly on paper towels. Serve immediately in a paper basket while the outside is crackly and the cheese is warm and squeaky.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Fried_Cheese_Curds_Green_Bay_Wisconsin.JPG",
     isStreetFood: true,
   },
   {
@@ -619,7 +619,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Clams", "Bacon", "Yellow onion", "Celery", "Potato", "Heavy cream", "Clam juice", "Butter", "Thyme", "Oyster crackers"],
     instructions:
       "Cook diced bacon in a large pot over medium heat for about 6 minutes, until crisp, then remove it with a slotted spoon and set aside. Add diced onion and celery to the bacon fat and cook for 5 minutes, until softened. Stir in diced potato, clam juice, a splash of water, and a few sprigs of thyme, then bring the pot to a simmer. Cook for 12 to 15 minutes, until the potato is tender when pierced with a fork. Meanwhile, steam the clams in a separate covered pot over high heat for 5 to 7 minutes, until they open, then remove the meat from the shells and roughly chop it, reserving any liquid, and discard any clams that stay closed. Strain the reserved clam liquid into the soup pot and stir in the chopped clam meat. Pour in the heavy cream and a knob of butter, then warm the chowder gently over low heat without letting it boil. Season with salt and pepper. Ladle into bowls and top with the reserved crispy bacon and a handful of oyster crackers.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/9/98/Clam_Chowder.JPG",
   },
   {
     region: "New England",
@@ -629,7 +629,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Lobster meat", "Mayonnaise", "Celery", "Lemon juice", "Butter", "Hot dog buns", "Chives"],
     instructions:
       "Boil the lobsters in a large pot of salted water for 8 to 10 minutes, until the shells turn bright red, then plunge them into ice water to stop the cooking. Crack the shells and pick out the meat from the tail, claws, and knuckles, then chop it into bite-sized chunks. In a bowl, gently fold the lobster meat with mayonnaise, finely diced celery, and a squeeze of lemon juice, being careful not to mash the meat. Season lightly with salt and pepper and chill the mixture in the refrigerator for at least 20 minutes. Melt butter in a skillet over medium heat and toast the split-top hot dog buns on their flat sides for about 2 minutes, until golden and crisp. Spoon the chilled lobster salad generously into each toasted bun, letting it mound over the top. Scatter chopped chives over the filling for a fresh finish. Serve right away from the window while the bun is still warm and the lobster salad is cold.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Lobster_roll.jpg",
     isStreetFood: true,
   },
   {
@@ -640,7 +640,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Ribeye steak", "Onion", "Provolone cheese", "Hoagie roll", "Vegetable oil", "Salt", "Black pepper"],
     instructions:
       "Freeze the ribeye steak for about 30 minutes to firm it up, then slice it as thinly as possible against the grain. Heat a flat griddle or large skillet over high heat with a little vegetable oil. Add sliced onion to the griddle and cook for 5 to 6 minutes, stirring often, until soft and lightly caramelized, then push it to one side. Spread the thin-sliced steak across the hot griddle and chop it into smaller pieces with the edge of a spatula as it cooks. Season the meat with salt and pepper and cook for 2 to 3 minutes, until no longer pink. Mix the cooked onion back into the steak, then lay slices of provolone cheese directly over the meat. Let the cheese melt for about 1 minute, folding it gently into the steak once softened. Split open a fresh hoagie roll and scoop the cheesy steak mixture directly into it. Wrap the sandwich in paper and serve immediately while it is hot and the cheese is still stretchy.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/4/47/Philly_cheesesteak_sandwich.jpg",
     isStreetFood: true,
   },
   {
@@ -651,7 +651,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Dungeness crab meat", "Breadcrumbs", "Mayonnaise", "Egg", "Dijon mustard", "Green onion", "Old Bay seasoning", "Butter", "Lemon"],
     instructions:
       "Pick through the crab meat carefully to remove any small bits of shell or cartilage, keeping the lumps as intact as possible. In a bowl, whisk together the egg, mayonnaise, Dijon mustard, and a spoonful of seasoning until smooth. Gently fold in the crab meat, chopped green onion, and breadcrumbs, mixing just enough to bind everything without breaking up the crab too much. Cover the mixture and refrigerate it for 30 minutes so the cakes hold together better when cooked. Shape the chilled mixture into patties about 3 inches wide and 1 inch thick. Melt butter in a skillet over medium heat until it foams. Cook the crab cakes for 4 to 5 minutes per side, until deep golden brown and heated through. Transfer the cakes to a paper towel-lined plate to drain briefly. Serve warm with a wedge of lemon and a light drizzle of extra mayonnaise or tartar sauce.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Dungeness_crab_cake_at_Oso_-_Sarah_Stierch.jpg",
   },
   {
     region: "California",
@@ -661,7 +661,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Shrimp", "Mussels", "Clams", "Firm white fish", "Crushed tomatoes", "White wine", "Garlic", "Fennel", "Onion", "Fish stock", "Olive oil", "Red chili flakes", "Parsley"],
     instructions:
       "Heat olive oil in a large pot over medium heat and cook diced onion and sliced fennel for 6 to 7 minutes, until softened and fragrant. Stir in minced garlic and a pinch of red chili flakes and cook for 1 more minute. Pour in the white wine and let it bubble for 2 minutes to cook off the sharp alcohol smell. Add the crushed tomatoes and fish stock, then bring the pot to a simmer and cook uncovered for 20 minutes to let the flavors deepen. Season the broth with salt and pepper to taste. Nestle the mussels and clams into the simmering broth first, cover the pot, and cook for 5 minutes, until the shells begin to open. Add chunks of firm white fish and the shrimp on top, cover again, and cook for 5 more minutes, until the shrimp turn pink and the fish flakes easily, discarding any shellfish that never opened. Ladle the cioppino into wide bowls, making sure each portion gets a mix of seafood. Scatter chopped parsley over the top before serving with crusty bread.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/6/69/Cioppino_S_(212622623).jpeg",
   },
   {
     region: "California",
@@ -671,7 +671,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Carne asada", "French fries", "Cheddar cheese", "Sour cream", "Guacamole", "Pico de gallo", "Flour tortillas"],
     instructions:
       "Marinate thin steak strips for carne asada in lime juice, garlic, and a blend of spices for at least 30 minutes. Grill the marinated steak over high heat for 2 to 3 minutes per side, until charred on the outside and cooked through, then chop it into small pieces. Meanwhile, fry or bake the French fries until golden brown and crisp, then season them lightly with salt. Warm a large flour tortilla on a hot griddle for about 20 seconds per side, until soft and pliable. Lay the tortilla flat and spread a layer of guacamole down the center. Pile on the chopped carne asada, followed by a generous handful of the crispy fries. Sprinkle shredded cheddar cheese over the top and add spoonfuls of sour cream and pico de gallo. Fold in the sides of the tortilla and roll it tightly into a burrito. Wrap the burrito in foil and grill it seam-side down for a minute to seal before serving.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Lolita's_CA_burrito.jpg",
     isStreetFood: true,
   },
   {
@@ -703,7 +703,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Ground beef", "White rice", "Eggs", "Beef stock", "Butter", "All-purpose flour", "Soy sauce", "Yellow onion"],
     instructions:
       "Shape the ground beef into thick patties and season them with salt and pepper. Cook the patties in a hot skillet over medium-high heat for about 4 minutes per side, until well browned and cooked through, then set them aside. In the same skillet, cook sliced onion for 4 minutes, until softened, then sprinkle in flour and stir to form a paste. Slowly whisk in the beef stock and a splash of soy sauce, scraping up any browned bits from the pan. Simmer the gravy for 5 minutes, until it thickens slightly, then season with salt and pepper. Melt butter in a separate nonstick pan and fry the eggs over medium-low heat for 3 to 4 minutes, until the whites are set but the yolks remain runny. Scoop a generous mound of steamed white rice into each bowl. Place a beef patty on top of the rice and ladle the hot gravy generously over it. Finish each bowl with a fried egg on top so the yolk breaks over the dish when served.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/2/25/Homestyle_Hawaiian_loco_moco_-_1.jpg",
   },
   {
     region: "Hawaii",
@@ -713,7 +713,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Ahi tuna", "Soy sauce", "Sesame oil", "Green onion", "Sweet onion", "Sesame seeds", "White rice", "Seaweed salad", "Macadamia nuts"],
     instructions:
       "Cut the raw ahi tuna into even bite-sized cubes, keeping the pieces as uniform as possible for even seasoning. In a bowl, whisk together soy sauce, sesame oil, and a little sugar until combined. Add thinly sliced sweet onion, chopped green onion, and sesame seeds to the bowl. Gently fold the cubed tuna into the marinade, tossing carefully so every piece gets coated without breaking apart. Cover the bowl and let it marinate in the refrigerator for 15 to 20 minutes, no longer, so the fish stays fresh and firm. Scoop warm steamed white rice into serving bowls as the base. Spoon the marinated poke generously over the rice. Add a small portion of seaweed salad alongside the poke for a briny contrast. Scatter crushed macadamia nuts and a few extra sesame seeds over the top just before serving from the counter.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ahi_tuna_Poke.jpeg",
     isStreetFood: true,
   },
   {
@@ -724,7 +724,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Pinto beans", "Ham hock", "Yellow onion", "Garlic", "Cornmeal", "Buttermilk", "Egg", "Baking powder", "Butter"],
     instructions:
       "Soak the dried pinto beans in a large bowl of water overnight, then drain and rinse them well. Place the soaked beans in a pot with the ham hock, diced onion, minced garlic, and enough water to cover everything by a couple of inches. Bring the pot to a boil, then reduce the heat and let it simmer gently, partially covered, for 2 hours, until the beans are very soft. Check occasionally and add more water if the beans start to look dry. Remove the ham hock, pull off any meat, and stir the shredded meat back into the pot, discarding the bone and skin. Mash a small portion of the beans against the side of the pot to thicken the broth slightly, then season with salt and pepper. While the beans finish cooking, preheat a well-oiled cast iron skillet in an oven set to 425 degrees Fahrenheit for about 10 minutes, until very hot. Whisk together cornmeal, baking powder, buttermilk, egg, and melted butter, then pour the batter into the hot skillet, where it should sizzle on contact. Bake the cornbread for 20 to 25 minutes, until golden brown on top and a toothpick comes out clean, then serve wedges alongside bowls of the soup beans.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Skillet_cornbread.jpg",
   },
   {
     region: "Sicily",
@@ -734,7 +734,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Rice", "Saffron", "Ground beef", "Tomato paste", "Peas", "Mozzarella", "Eggs", "Breadcrumbs", "Vegetable oil"],
     instructions:
       "Cook rice with a pinch of saffron until tender and let it cool completely so it holds together when shaped. Meanwhile, brown ground beef with onion and tomato paste, stirring in peas, to make a thick ragu filling. Scoop a portion of the cooled rice into your palm and press a hollow into the center. Spoon in a little of the ragu filling along with a cube of mozzarella, then mold more rice around it to fully enclose the filling into a ball or cone shape. Roll each rice ball in flour, dip it in beaten egg, then coat thoroughly in breadcrumbs. Heat vegetable oil in a deep pot and fry the arancini in batches until deep golden brown and crisp all over. Drain briefly on paper towels and let them rest for a minute before serving, since the molten cheese center stays very hot. Serve warm as a handheld snack, straight from the paper wrapper they are traditionally sold in.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/e/ee/Arancini_002.jpg",
     isStreetFood: true,
   },
   {
@@ -745,7 +745,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Cannellini beans", "Cavolo nero (Tuscan kale)", "Carrots", "Celery", "Onion", "Stale bread", "Tomato", "Olive oil", "Garlic"],
     instructions:
       "Soak dried cannellini beans overnight, then simmer them in water with a bay leaf until soft, and set aside a portion to mash into a paste. Sauté chopped onion, carrot, and celery in olive oil over medium heat for about ten minutes, until softened and fragrant. Stir in chopped tomato and cook for a few minutes until it breaks down slightly. Add the whole beans, the mashed bean paste, and enough of the bean cooking liquid to make a loose soup, then simmer for twenty minutes. Add torn cavolo nero leaves and continue simmering until the greens turn tender and deep green. Tear stale, dense country bread into chunks and stir it directly into the pot, letting it soak up the broth and thicken the soup as it sits off the heat. Traditionally the soup is made a day ahead and reheated, or reboiled, the next day, which is where its name comes from. Ladle into bowls and finish with a generous drizzle of good olive oil before serving.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Ribollita_toscana.JPG",
     dietOverride: "vegan",
   },
   {
@@ -756,7 +756,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Ground beef", "Pancetta", "Carrot", "Celery", "Onion", "Tomato paste", "Red wine", "Whole milk", "Tagliatelle pasta", "Parmesan"],
     instructions:
       "Finely dice pancetta, carrot, celery, and onion, then cook them slowly in a wide pot over low heat until the pancetta renders its fat and the vegetables soften into a fragrant base. Add ground beef and increase the heat, breaking it apart and browning it thoroughly for several minutes. Pour in red wine and let it bubble and reduce until mostly evaporated. Stir in tomato paste and a little stock, then reduce the heat to a bare simmer. Let the ragu cook uncovered for at least two hours, stirring occasionally and adding splashes of milk partway through to keep it rich and tender. The finished sauce should be thick, deeply savory, and hold together in loose clumps rather than looking watery. Cook fresh egg tagliatelle in boiling salted water for just a minute or two, until barely tender. Toss the drained pasta directly in the ragu over low heat so the sauce clings to every strand. Serve immediately with a generous shower of grated Parmesan.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/3/30/Tagliatelle_al_ragu_Bolognese.jpg",
   },
   {
     region: "Guangdong",
@@ -766,7 +766,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Pork shoulder", "Hoisin sauce", "Honey", "Soy sauce", "Five-spice powder", "Flour", "Yeast", "Sugar", "Baking powder"],
     instructions:
       "Marinate strips of pork shoulder in a mixture of hoisin sauce, soy sauce, honey, and five-spice powder for several hours or overnight. Roast the pork in a hot oven, basting occasionally, until the edges caramelize and turn slightly sticky, then let it cool and dice it into small pieces. Simmer the diced pork briefly with any extra marinade and a little cornstarch slurry to make a thick, glossy filling. Make a soft, slightly sweet dough with flour, sugar, yeast, and baking powder, and let it rise until doubled in size. Divide the dough into small rounds and flatten each into a disc with a thicker center and thinner edges. Spoon the char siu filling into the center of each disc and gather the edges upward, twisting to seal into a pleated bun. Let the shaped buns proof for a further twenty minutes, then steam them over gently boiling water for about twelve minutes, until puffed and glossy white. Serve hot, straight from the steamer basket, as they are commonly sold from carts and dim sum stalls.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Char_siu_bao.jpg",
     isStreetFood: true,
   },
   {
@@ -777,7 +777,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Rice noodles", "Chicken", "Chicken stock", "Egg", "Ham", "Bean sprouts", "Scallions", "Chili oil", "Chicken fat"],
     instructions:
       "Simmer a whole chicken with aromatics for several hours to make a clear, deeply flavorful stock, then skim a generous layer of fat off the top and reserve it separately. Shred the cooked chicken meat and thinly slice cured ham into small pieces. Bring the stock to a rolling boil and ladle it into a large deep bowl, spooning a layer of the reserved chicken fat on top so the surface seals in heat without appearing to steam. Working quickly at the table, crack a raw egg into the hot broth and let it begin to poach in the residual heat. Add the thin slices of ham, shredded chicken, and other raw ingredients such as bean sprouts, letting the broth's heat cook them through in seconds. Finally, add freshly boiled rice noodles to the bowl along with chopped scallions. Stir everything together gently so the egg finishes cooking and the noodles absorb the rich broth. Season with a spoonful of chili oil to taste and eat immediately while the broth is still steaming hot.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Guo_Qiao_Mi_Xian.jpg",
   },
   {
     region: "Shaanxi",
@@ -798,7 +798,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Beef shank", "Pork hock", "Lemongrass", "Shrimp paste", "Chili oil", "Rice vermicelli", "Bean sprouts", "Banana blossom", "Lime"],
     instructions:
       "Simmer beef shank and pork hock together in a large pot of water for a couple of hours, skimming off any foam, until both are tender. Bruise stalks of lemongrass and add them to the pot along with shallots, letting the broth simmer further to absorb their fragrance. Stir a spoonful of fermented shrimp paste into the broth for depth, along with a splash of fish sauce and a little sugar to balance the seasoning. Remove the meats, slice the beef shank thinly, and chop the pork hock into pieces, then set them aside. Skim excess fat from the top of the broth and stir in a spoonful of chili oil to give the soup its characteristic reddish tint and gentle heat. Cook thick round rice vermicelli noodles separately until tender, then divide them among serving bowls. Ladle the hot, spicy broth over the noodles and top with the sliced beef and pork. Serve with a plate of fresh herbs, shredded banana blossom, bean sprouts, and lime wedges for guests to add themselves.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Bun_Bo_Hue.jpg",
   },
   {
     region: "Quang Nam",
@@ -808,7 +808,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Cao lau noodles", "Pork belly", "Soy sauce", "Five-spice powder", "Bean sprouts", "Fresh herbs", "Rice crackers", "Star anise"],
     instructions:
       "Marinate slices of pork belly in soy sauce, five-spice powder, and a little sugar for at least an hour. Sear the marinated pork in a hot pan until the edges caramelize, then add a splash of water and simmer briefly until the pork is glazed and tender. Cook thick, chewy cao lau noodles, which are traditionally made with water from a specific local well, in boiling water just until tender, then drain. Toss the warm noodles with a small amount of the pork's cooking liquid so they take on a light golden color and savory flavor. Arrange the noodles in a bowl and top with the sliced braised pork. Scatter over a small handful of fresh bean sprouts and torn herbs such as mint and coriander, keeping the noodles mostly dry rather than soupy. Crumble a few crisp rice crackers over the top for crunch. Serve immediately at room temperature, as is typical from the noodle stalls of Hoi An's old town.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/1/12/Cao_Lau_Hoi_An.JPG",
     isStreetFood: true,
   },
   {
@@ -830,7 +830,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Smoked fish (haddock)", "Potatoes", "Onion", "Milk", "Butter", "Bay leaf", "Parsley"],
     instructions:
       "Place smoked haddock fillets in a wide pan, cover with milk, and add a bay leaf, then gently poach over low heat for about eight minutes, until the fish is just cooked through. Lift the haddock out of the milk and set it aside, straining and reserving the poaching milk separately. Melt butter in a pot and cook finely chopped onion over medium heat for about eight minutes, until soft and translucent. Add diced potatoes to the pot along with the reserved poaching milk and a little water, then simmer for fifteen minutes, until the potatoes are tender. Mash some of the potatoes directly in the pot against the side to thicken the soup slightly while leaving other pieces whole. Flake the poached haddock into large chunks, discarding any skin and bones, and stir it gently into the soup. Simmer for a few more minutes so the fish warms through without breaking apart too much. Season with black pepper, ladle into bowls, and finish with a knob of butter and chopped parsley on top.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Cullen_Skink.JPG",
   },
   {
     region: "South West England",
@@ -840,7 +840,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Flour", "Butter", "Beef skirt steak", "Potato", "Swede (rutabaga)", "Onion", "Egg"],
     instructions:
       "Rub cold cubed butter into flour with a pinch of salt until the mixture resembles coarse crumbs, then bind it with cold water into a firm dough and chill it for at least thirty minutes. Roll the dough out and cut it into large rounds using a plate as a guide. Dice beef skirt steak, potato, swede, and onion into small even pieces and toss them together with a good amount of salt and pepper. Pile the raw filling onto one half of each pastry round, leaving a border clear around the edge. Brush the border with water, fold the other half of the pastry over the filling, and press the edges together firmly. Crimp the sealed edge by folding it over on itself in a rope pattern along the curve, which was traditionally done so tin miners could hold the pasty by its edge without touching the filling with dirty hands. Brush the top of each pasty with beaten egg for a shiny finish. Bake in a hot oven for the first twenty minutes, then reduce the heat and continue baking for another forty minutes, until the pastry is deep golden and the filling inside is tender.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Cornish_pasty_-_cut.jpeg",
     isStreetFood: true,
   },
   {
@@ -861,7 +861,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Phyllo pastry", "Pistachios", "Butter", "Sugar", "Water", "Lemon juice"],
     instructions:
       "Melt butter and brush it generously over the base of a wide baking tray. Layer sheets of thin phyllo pastry into the tray one at a time, brushing melted butter between every couple of sheets, building up about half the total layers. Finely chop pistachios and spread an even layer of them across the buttered phyllo base. Continue layering the remaining phyllo sheets on top, brushing butter between each one, finishing with a well-buttered top layer. Using a sharp knife, cut the assembled pastry into diamond or square shapes, cutting all the way through to the bottom of the tray. Bake in a moderate oven for about forty minutes, until the top turns deep golden brown and crisp. While the baklava bakes, dissolve sugar in water with a squeeze of lemon juice and simmer it into a light syrup. Pour the hot syrup evenly over the baklava as soon as it comes out of the oven, letting it soak in fully as the pastry cools before serving.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Baklava.jpg",
   },
   {
     region: "Black Sea Region",
@@ -871,7 +871,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Cornmeal", "Butter", "Local cheese", "Water"],
     instructions:
       "Melt a generous amount of butter in a heavy pan over medium heat until it turns lightly golden and fragrant. Slowly sprinkle in cornmeal while whisking constantly, so it does not clump, then add a little water to loosen the mixture. Reduce the heat to low and let the cornmeal cook gently, stirring frequently, for about ten minutes, until it thickens and loses its raw, gritty texture. Grate or tear a soft, stretchy local cheese into small pieces and add it gradually to the pan, stirring continuously. Keep stirring over low heat until the cheese melts completely and the mixture becomes smooth, glossy, and elastic, with long stretchy strands forming when lifted with a spoon. Taste and adjust with a touch more butter if the mixture looks dry rather than glossy. Serve immediately straight from the pan while still bubbling hot, since the dish stiffens quickly as it cools. Traditionally it is eaten by dipping bread directly into the pan, sharing among the table.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Muhlama.jpg",
   },
   {
     region: "Southeastern Anatolia",
@@ -881,7 +881,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Ground lamb", "Flour", "Yeast", "Tomato", "Red bell pepper", "Onion", "Garlic", "Parsley", "Paprika", "Lemon"],
     instructions:
       "Make a simple yeasted dough with flour, water, and a little oil, and let it rest until slightly puffed. Blend tomato, red bell pepper, onion, and garlic into a smooth, thick paste. Mix the paste with ground lamb, chopped parsley, and paprika until it forms a spreadable, well-seasoned filling. Divide the dough into small balls and roll each one out into a very thin, almost paper-like round. Spread a thin, even layer of the meat mixture over each round, right to the edges, so it covers the dough completely. Slide the topped rounds into a very hot oven, or onto a hot flat griddle, and cook for just a few minutes, until the edges of the dough turn crisp and lightly charred and the meat topping is cooked through. Squeeze fresh lemon juice over the hot lahmacun as soon as it comes off the heat. Roll it up around a handful of fresh parsley and sliced onion, and eat it immediately while walking, as is common from street vendors.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Lahmacun.jpg",
     isStreetFood: true,
   },
   {
@@ -892,7 +892,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Egg noodles", "Chicken thighs", "Red curry paste", "Coconut milk", "Turmeric", "Shallots", "Pickled mustard greens", "Lime", "Vegetable oil"],
     instructions:
       "Fry a portion of fresh egg noodles in hot oil in small batches until they puff and turn crisp and golden, then drain them on paper towels and set aside for topping. Fry red curry paste with a little turmeric in oil over medium heat for a few minutes, until it turns deeply fragrant and slightly darker in color. Stir in coconut milk gradually, letting the paste dissolve smoothly into it, then bring the mixture to a gentle simmer. Add chicken thighs to the simmering broth and cook for fifteen to twenty minutes, until the chicken is tender and the broth has thickened slightly. Season the broth with fish sauce, a little sugar, and a splash more coconut milk for richness. Cook a fresh batch of egg noodles in boiling water until tender, then divide them among serving bowls. Ladle the hot chicken curry broth generously over the noodles. Top each bowl with the crispy fried noodles, sliced shallots, pickled mustard greens, and a wedge of lime.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Khao_soi_Chiang_Mai.jpg",
     isStreetFood: true,
   },
   {
@@ -903,7 +903,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Beef chunks", "Massaman curry paste", "Coconut milk", "Potatoes", "Onion", "Roasted peanuts", "Tamarind paste", "Palm sugar", "Cinnamon", "Cardamom"],
     instructions:
       "Simmer the thick part of a can of coconut milk in a pot over medium heat, without stirring too much, until the oil begins to separate and rise to the surface. Add massaman curry paste to the separated coconut cream and fry it for a few minutes, stirring, until deeply fragrant. Add chunks of beef to the pot and stir to coat them thoroughly in the fried paste. Pour in the remaining coconut milk along with cinnamon and cardamom pods, then bring the pot to a gentle simmer. Cover and cook low and slow for around an hour, until the beef begins to turn tender. Add potato chunks, onion wedges, and roasted peanuts, then continue simmering for another thirty minutes, until the potatoes are soft and the beef is falling-apart tender. Season the curry with tamarind paste, palm sugar, and fish sauce, balancing it between sweet, sour, and salty. Serve hot over steamed jasmine rice.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Massaman_curry,_Bang_Kapi,_Bangkok.jpg",
   },
   {
     region: "Central Thailand",
@@ -913,7 +913,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Pork shoulder", "Coconut milk", "Palm sugar", "Coriander root", "Garlic", "White pepper", "Fish sauce", "Soy sauce", "Sticky rice"],
     instructions:
       "Slice pork shoulder thinly against the grain, keeping a little fat attached to each piece for moisture and flavor. Pound coriander root, garlic, and white pepper together into a rough paste using a mortar and pestle. Mix the paste with coconut milk, palm sugar, fish sauce, and a little soy sauce to make a sweet, savory marinade. Toss the sliced pork thoroughly in the marinade, cover, and refrigerate for several hours, or overnight for deeper flavor. Thread the marinated pork slices onto bamboo skewers, weaving the skewer through each slice a couple of times so it lies flat. Grill the skewers over medium-hot charcoal, turning frequently, for about eight to ten minutes, until the edges char slightly and caramelize while the pork stays juicy inside. Brush the skewers with any remaining marinade partway through grilling for extra glaze. Serve hot off the grill alongside a bag of sticky rice, as is typical from roadside charcoal grills.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/4/49/%E0%B8%A3%E0%B8%96%E0%B9%80%E0%B8%82%E0%B9%87%E0%B8%99%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B8%9B%E0%B8%B4%E0%B9%89%E0%B8%87.jpg",
     isStreetFood: true,
   },
   {
@@ -924,7 +924,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Crab", "Coconut milk", "Curry leaves", "Pandan leaf", "Tamarind", "Chili powder", "Turmeric", "Fennel seeds", "Shallots", "Garlic"],
     instructions:
       "Clean whole crabs thoroughly, cracking the claws slightly so the sauce can penetrate, and set them aside. Dry roast chili powder, fennel seeds, and a few other whole spices in a pan for a minute or two, until fragrant, then grind them into a coarse spice mix. Sauté chopped shallots, garlic, and curry leaves in oil over medium heat until the shallots turn soft and lightly golden. Stir in the ground spice mix along with turmeric and cook for a minute, until the raw spice smell fades. Add the cleaned crabs to the pot and toss them well to coat evenly in the spice paste. Pour in coconut milk along with a pandan leaf and a small piece of tamarind, then bring the curry to a simmer. Cover and cook for fifteen to twenty minutes, stirring occasionally, until the crab is fully cooked and the sauce has thickened and turned a deep reddish-orange. Serve hot with steamed rice or string hoppers, alongside extra napkins for cracking the shells.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/b/b4/Crab_curry_or_Nandu_Kulambu.jpg",
   },
   {
     region: "Central Province",
@@ -934,7 +934,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Rice", "Chicken", "Beef", "Frikkadels (meatballs)", "Eggplant", "Onion", "Tamarind", "Banana leaf", "Cinnamon", "Cardamom"],
     instructions:
       "Cook a mixed meat curry of chicken and beef with cinnamon, cardamom, and other warming spices, simmering until the meat is tender and the sauce is thick. Separately shape a spiced ground meat mixture into small meatballs, called frikkadels, and shallow fry them until browned on all sides. Fry sliced eggplant in oil until soft and lightly caramelized, then set it aside. Make a tangy onion and tamarind relish by cooking sliced onion in a sour, spiced tamarind sauce until jammy. Cook rice in the reserved stock from the meat curry so the grains take on a rich, savory flavor and light brown color. Lay a square of banana leaf flat and place a portion of the flavored rice in the center. Arrange spoonfuls of the meat curry, a couple of frikkadels, the fried eggplant, and a little of the onion relish on top of the rice. Fold the banana leaf over the filling into a secure parcel, securing it with a toothpick or string, then bake or steam the parcels for about twenty minutes so the flavors meld together before unwrapping and serving.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/4/43/Lamprais_(Sri_Lankan_cuisine).jpg",
   },
   {
     region: "Southern Province",
@@ -955,7 +955,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Rice", "Chicken", "Rabbit", "Green beans", "Butter beans", "Tomato", "Saffron", "Paprika", "Rosemary", "Olive oil"],
     instructions:
       "Heat olive oil in a wide, shallow paella pan and brown pieces of chicken and rabbit over medium-high heat until golden on all sides, then push them to the edges of the pan. Add green beans and cook them briefly in the center of the pan until they start to blister. Grate fresh tomato directly into the pan and cook it down with a little paprika until it forms a thick paste that coats the base. Stir the meat and beans back into the tomato mixture and add butter beans along with a sprig of rosemary. Pour in hot water or stock along with a pinch of saffron, and bring the whole pan to a rolling boil. Sprinkle rice evenly over the entire surface of the pan, without stirring it in, and let it settle beneath the liquid. Boil hard for the first ten minutes, then reduce the heat to a gentle simmer and cook for another ten minutes, until the rice has absorbed almost all the liquid. Raise the heat briefly at the very end to let a thin, crisp layer of rice, called socarrat, form on the bottom of the pan. Remove from the heat, cover loosely, and let it rest for a few minutes before serving directly from the pan.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/1/12/Paella_valenciana_01.jpg",
   },
   {
     region: "Basque Country",
@@ -965,7 +965,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Green olives", "Pickled guindilla peppers", "Anchovy fillets", "Cocktail sticks", "Baguette", "Olive oil"],
     instructions:
       "Lay out a small cocktail stick for each pintxo you plan to make. Thread a plump green olive onto the stick first, pushing it down toward one end. Fold a cured anchovy fillet in half and thread it onto the stick next to the olive, so it drapes slightly. Add a whole pickled guindilla pepper alongside the anchovy, threading it through its stem end so it sits securely. Repeat the pattern of olive, anchovy, and pepper once more on the same stick for a fuller bite, if desired. Arrange the finished skewers on a small plate or directly on a slice of baguette. Drizzle lightly with good olive oil just before serving. Set the pintxos out on a bar counter for guests to help themselves, in the traditional style of Basque tapas bars, where diners pick and choose freely as they move from bar to bar.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Gildas_en_Donostia.jpg",
   },
   {
     region: "Andalusia",
@@ -975,7 +975,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Ripe tomatoes", "Cucumber", "Green bell pepper", "Garlic", "Stale bread", "Olive oil", "Sherry vinegar", "Salt"],
     instructions:
       "Roughly chop ripe tomatoes, cucumber, green bell pepper, and garlic, and place them all in a blender. Tear stale bread into pieces, soak it briefly in water, then squeeze out the excess liquid and add it to the blender too. Blend everything together on high speed until completely smooth. With the blender still running, drizzle in olive oil slowly, letting it emulsify into the soup and turn the color a lighter, more vivid orange. Add a splash of sherry vinegar and a good pinch of salt, then blend again briefly to combine. Taste and adjust the balance of vinegar, salt, and oil until the soup tastes bright, rounded, and well seasoned. Pass the soup through a fine sieve for an extra silky texture, pressing firmly to extract as much liquid as possible. Chill the gazpacho in the refrigerator for at least two hours before serving very cold, garnished with small diced cucumber, pepper, and a final drizzle of olive oil.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Gazpacho_andaluz.jpg",
     dietOverride: "vegan",
   },
   {
@@ -986,7 +986,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Flour", "Glutinous rice flour", "Yeast", "Sugar", "Cinnamon", "Sunflower seeds", "Pumpkin seeds", "Peanuts", "Vegetable oil"],
     instructions:
       "Mix flour, glutinous rice flour, sugar, and yeast with warm water into a soft, sticky dough, then let it rise in a warm place for about an hour, until doubled in size. Mix brown sugar with ground cinnamon to make a sweet, spiced filling. Combine sunflower seeds, pumpkin seeds, and chopped peanuts in a separate small bowl for stuffing. With well-oiled hands, flatten a portion of the risen dough into a disc and place a spoonful of the cinnamon sugar filling in the center. Gather the edges of the dough up and over the filling, pinching them together to seal it completely inside. Heat a well-oiled griddle over medium heat and place the filled dough ball on it seam-side down, pressing it flat with a special flat press or the back of a spatula. Fry for a couple of minutes per side, until the outside turns golden brown and slightly crisp while the filling inside turns syrupy. Just before the pancake finishes cooking, press a handful of the mixed seeds and nuts into the top so they toast lightly and stick to the surface. Serve hot in a small paper cup, as is traditional from Busan's street stalls, since the melted sugar filling stays very hot.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Ssiat_hotteok.jpg",
     isStreetFood: true,
     dietOverride: "vegan",
   },
@@ -1008,7 +1008,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Chicken thigh", "Gochujang", "Gochugaru", "Soy sauce", "Garlic", "Ginger", "Cabbage", "Sweet potato", "Rice cakes", "Scallions"],
     instructions:
       "Mix gochujang, gochugaru, soy sauce, minced garlic, and grated ginger together into a thick, spicy marinade. Cut chicken thigh into bite-sized pieces and toss them thoroughly in the marinade, letting them sit for at least thirty minutes. Heat a large, flat pan or griddle and add the marinated chicken, spreading it out in a single layer. Add chunks of cabbage, sliced sweet potato, and rice cakes around the chicken on the same pan. Cook everything together over medium-high heat, stirring and flipping occasionally, for about fifteen minutes, until the chicken is cooked through and the vegetables have softened. Let the mixture continue cooking, undisturbed for short stretches, so some pieces develop a light char against the hot pan. Scatter chopped scallions and sesame seeds over the top once everything is cooked. Serve directly from the pan at the table, with the option to stir in cooked rice at the end to soak up the spicy sauce.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Korean_Food_Dakgalbi.JPG",
   },
   {
     region: "Arequipa",
@@ -1018,7 +1018,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Rocoto peppers", "Ground beef", "Onion", "Garlic", "Raisins", "Black olives", "Hard-boiled egg", "Queso fresco", "Milk"],
     instructions:
       "Cut the tops off rocoto peppers and carefully scoop out the seeds and membranes, keeping the peppers whole. Boil the hollowed peppers briefly in water with a little sugar and vinegar to soften them and tame some of their intense heat, then drain. Sauté chopped onion and garlic until soft, then add ground beef and cook until browned. Stir in chopped raisins and sliced black olives, along with a little cumin and paprika, and cook for a few more minutes until well combined. Chop hard-boiled egg and fold it gently into the beef mixture off the heat. Stuff each softened rocoto pepper generously with the beef filling, packing it down firmly. Top each stuffed pepper with a slice of queso fresco and set them in a baking dish with a splash of milk poured around the base. Bake in a hot oven for about twenty minutes, until the cheese on top melts and turns lightly golden. Serve the stuffed peppers with a slice of baked potato gratin alongside, as is traditional in Arequipa.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/1/17/Rocoto_relleno.jpg",
   },
   {
     region: "Cusco",
@@ -1028,7 +1028,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Beef heart", "Aji panca paste", "Garlic", "Cumin", "Vinegar", "Vegetable oil", "Potato", "Corn"],
     instructions:
       "Trim beef heart of any silver skin and tough connective tissue, then cut the meat into bite-sized cubes. Blend aji panca paste with garlic, cumin, vinegar, and a little oil into a smooth, deep red marinade. Toss the cubed heart thoroughly in the marinade, cover, and refrigerate for several hours, or ideally overnight, so the meat tenderizes and absorbs the spices. Thread the marinated pieces tightly onto skewers, several to a stick. Grill the skewers over hot charcoal, turning frequently and basting with more marinade, for about eight minutes, until the edges char slightly while the inside stays tender. Boil chunks of potato and corn on the cob separately until tender, to serve alongside the skewers. Brush the skewers with a little extra oil just before removing them from the grill for a glossy finish. Serve hot straight off the grill with the boiled potato and corn, as is classic from street carts found across Peruvian cities in the evening.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Anticucho.jpg",
     isStreetFood: true,
   },
   {
@@ -1039,7 +1039,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Rice", "Chicken", "Turmeric", "Hard-boiled egg", "Black olives", "Garlic", "Cumin", "Bijao leaves (or banana leaf)"],
     instructions:
       "Marinate chicken pieces in garlic, cumin, and a little turmeric, then cook them until browned and mostly cooked through. Cook rice with turmeric until it turns a bright yellow color, then let it cool slightly so it is easier to handle. Mix the yellow rice with a little of the chicken cooking liquid to keep it moist and flavorful. Lay a large bijao or banana leaf flat and place a bed of the seasoned rice in the center. Nestle a piece of the marinated chicken, a slice of hard-boiled egg, and a black olive into the rice. Cover with a little more rice to fully enclose the filling, then fold the leaf tightly around the mound into a compact bundle. Tie the wrapped bundle securely with string or strips of the same leaf. Boil the wrapped bundles in a large pot of water for about an hour, until the rice inside is fully cooked and firm. Let the bundles cool slightly before unwrapping and serving, traditionally eaten cold or at room temperature during river journeys and festivals.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Juane.JPG",
   },
   {
     region: "Southeast Nigeria",
@@ -1049,7 +1049,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Cassava flakes", "Palm oil", "Potash", "Ugba (oil bean seeds)", "Onion", "Dried shrimp (crayfish)", "Garden eggs", "Utazi leaves", "Dried fish (stockfish)", "Scotch bonnet pepper"],
     instructions:
       "Soak dried cassava flakes, known as abacha, in warm water for about ten minutes, until they soften slightly and become pliable, then drain thoroughly. Dissolve a small amount of potash in a little water, then whisk it into red palm oil until the oil turns pale and creamy in color and texture. Grind dried shrimp and scotch bonnet pepper together into a coarse, spicy powder. Combine the softened cassava flakes with the potash-palm oil mixture, tossing thoroughly so every strand is coated in the pale, creamy sauce. Add the ground shrimp and pepper, along with fermented oil bean seeds called ugba, chopped onion, and thin strips of bitter utazi leaves, then toss again. Fold in small pieces of softened dried fish for added flavor and protein. Taste and adjust the seasoning with salt and more pepper as needed, since the dish should taste rich, tangy, and lightly bitter. Serve at room temperature, often garnished with sliced garden eggs on the side, as is common from roadside sellers who prepare it fresh to order.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/8/87/A_plate_of_abacha_(african_salad)_ready_for_consumption.jpg",
     isStreetFood: true,
   },
   {
@@ -1060,7 +1060,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Yam flour", "Jute leaves (ewedu)", "Locust beans", "Brown beans", "Palm oil", "Onion", "Dried shrimp (crayfish)", "Beef", "Dried fish (stockfish)", "Scotch bonnet pepper"],
     instructions:
       "Boil water in a pot, then gradually whisk in yam flour, stirring vigorously and continuously to prevent lumps from forming, until the mixture turns into a smooth, stretchy, dark brown dough called amala. Cover and keep the amala warm while preparing the soups. Blanch fresh jute leaves briefly, then blend or chop them very finely, and simmer them with a little locust bean paste, ground dried shrimp, and chopped onion until the mixture becomes thick and slightly slimy, forming ewedu soup. In a separate pot, boil peeled brown beans until completely soft, then blend or mash them smooth with some of their cooking water. Simmer the blended beans with palm oil, ground dried shrimp, chopped onion, and pieces of cooked beef and dried fish to make a rich gbegiri soup. Blend scotch bonnet pepper with onion and tomato, then fry the mixture in palm oil until it thickens into a spicy stew. Combine the gbegiri and the pepper stew together in one pot just before serving, so their flavors meld while keeping the ewedu separate. Mold the warm amala into smooth, rounded portions using a wooden spoon or paddle. Serve the amala in a bowl surrounded by the ewedu and combined gbegiri stew, ready to be scooped together in each bite without chewing, as amala is traditionally swallowed.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/7/75/Amala_and_ewedu_with_gbegiri_soup.jpg",
   },
   {
     region: "Northern Nigeria",
@@ -1070,7 +1070,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Beef", "Peanuts", "Ginger", "Garlic", "Cayenne pepper", "Cloves", "Vegetable oil", "Salt"],
     instructions:
       "Slice lean beef into very thin, wide sheets, trimming away as much fat as possible. Lay the beef sheets out on raised wire racks or mats and dry them under the sun or over a low fire for several hours, until they become firm and leathery. Grind roasted peanuts into a fine, oily paste and mix it with ground ginger, garlic, cayenne pepper, and a pinch of ground cloves to make a thick spice paste. Brush the dried beef sheets generously on both sides with the peanut spice paste, coating them evenly. Return the coated beef to the racks and dry it again in the sun, or briefly over open flame, until the spice coating sets and dries onto the surface. Once fully dried, quickly pass each sheet over an open flame or hot coals for a short time, just enough to lightly toast and char the spice coating without burning the meat underneath. Let the kilishi cool completely before handling, at which point it becomes firm, chewy, and intensely savory. Break or cut the dried spiced beef into smaller pieces and sell it wrapped in paper, a popular snack found at roadside stalls and markets across northern Nigeria.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Kilishi.JPG",
     isStreetFood: true,
   },
   {
@@ -1081,7 +1081,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Buffalo meat", "Mustard oil", "Garlic", "Ginger", "Dried red chili", "Timur pepper", "Green chili", "Onion", "Fresh coriander", "Lemon juice", "Beaten rice"],
     instructions:
       "Hold the buffalo meat directly over an open charcoal flame or under a very hot grill, turning it every couple of minutes until the surface is charred and blistered on all sides. Let the meat rest for a few minutes, then chop it into small bite-sized pieces with a heavy cleaver. Heat mustard oil in a wide pan until it just begins to smoke, then pull the pan off the heat to let the oil settle for a moment. Add crushed garlic, ginger, and dried red chili to the warm oil and stir for under a minute, until the kitchen fills with their aroma. Toss the chopped meat into the pan along with sliced green chili, thinly sliced onion, and a pinch of ground timur pepper, mixing everything so the meat soaks up the spiced oil. Return the pan to low heat and cook for another 5 minutes, stirring often, until the edges of the meat crisp up slightly. Finish with a generous squeeze of lemon juice and a handful of chopped fresh coriander. Serve the choila warm, piled onto a plate of flattened beaten rice, the way street vendors in Kathmandu's old town ladle it out from big steel pans.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/2/26/Choila.jpg",
     isStreetFood: true,
   },
   {
@@ -1102,7 +1102,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Puffed rice", "Boiled potato", "Chickpeas", "Tomato", "Onion", "Green chili", "Tamarind", "Chaat masala", "Lemon juice", "Fresh coriander", "Sev"],
     instructions:
       "Set a large steel bowl on the street cart and tip in a generous mound of puffed rice. Add diced boiled potato and boiled chickpeas, then scatter over finely chopped onion, tomato, and green chili. Whisk tamarind pulp with a little water and a spoonful of chaat masala until it forms a thin, tangy sauce. Pour the tamarind sauce over the puffed rice mixture and toss everything vigorously with two long spoons, the way vendors do it to coat every grain evenly. Squeeze fresh lemon juice over the top and sprinkle on a little more chaat masala and salt to sharpen the flavor. Toss once more, then finish with a shower of crunchy sev and chopped coriander leaves. Spoon the chatpate into a small paper cone or bowl and hand it over immediately, before the puffed rice has any chance to soften.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/7/73/Chatpate.jpg",
     isStreetFood: true,
   },
   {
@@ -1113,7 +1113,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Chicken thighs", "Warqa pastry", "Almonds", "Onion", "Egg", "Cinnamon", "Saffron", "Ginger", "Butter", "Powdered sugar", "Fresh coriander"],
     instructions:
       "Simmer chicken thighs in a wide pot with chopped onion, saffron threads, ground ginger, and a stick of cinnamon, covering everything with water and cooking gently for about 40 minutes until the meat is very tender. Lift the chicken out to cool, then shred it into small pieces with your fingers, discarding the skin and bones. Boil the cooking liquid hard until it reduces to a thick, fragrant sauce, then whisk in beaten eggs a little at a time, stirring constantly until they scramble into soft curds within the sauce. Toast whole almonds in a dry pan until golden, then crush them coarsely and mix with powdered sugar and a little ground cinnamon. Brush a round baking pan with melted butter and layer sheets of warqa pastry across it, letting the edges drape over the sides. Spread the shredded chicken and egg mixture over the pastry, then scatter the sweet almond mixture on top. Fold the overhanging pastry edges back over the filling, brushing each layer with more melted butter, then add a final layer of pastry on top to seal everything in. Bake in a hot oven for about 25 minutes, until the pastry turns deep golden and crisp. Dust the finished pastilla generously with powdered sugar and a lattice of ground cinnamon before slicing it into wedges.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/d/dc/Pastilla_au_poulet_et_amandes.jpg",
   },
   {
     region: "Marrakech-Safi",
@@ -1123,7 +1123,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Potato", "Garlic", "Fresh coriander", "Parsley", "Cumin", "Paprika", "Egg", "Flour", "Vegetable oil", "Lemon"],
     instructions:
       "Boil peeled potatoes in salted water for about 20 minutes, until a knife slides through them easily, then drain and mash them while still warm. Stir crushed garlic, chopped coriander, chopped parsley, ground cumin, and paprika into the warm mash, seasoning well with salt and pepper. Let the mixture cool slightly, then shape it into small flat patties with damp hands. Beat an egg in one shallow bowl and spread flour in another, then dip each patty first into the flour and then into the egg. Heat a generous depth of vegetable oil in a wide pan set over the vendor's charcoal brazier until it shimmers. Fry the patties in batches for about 3 minutes per side, until the outside turns deep golden brown and crisp. Lift them out onto a tray lined with paper to drain off the excess oil. Serve the maakouda hot, wrapped in a scrap of paper with a squeeze of lemon and sometimes tucked into a small bread roll with harissa.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/2/21/Maakouda.jpg",
     isStreetFood: true,
   },
   {
@@ -1134,7 +1134,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Fresh sardines", "Garlic", "Fresh coriander", "Paprika", "Cumin", "Olive oil", "Lemon", "Sea salt", "Chili flakes"],
     instructions:
       "Scale and gut fresh sardines at the harborside stall, keeping the heads and tails on so they hold together over the fire. Blend crushed garlic, chopped coriander, paprika, cumin, and a splash of olive oil into a loose green marinade called chermoula. Rub the chermoula generously inside and over the outside of each sardine, then let them sit for about 15 minutes so the flavors soak in. Lay the sardines directly onto a small charcoal grill balanced on the cart, arranging them in neat rows. Grill the sardines for about 2 minutes per side, watching closely as the skin blisters and the flesh turns opaque and firm. Turn them only once with a thin metal spatula to keep the delicate skin from tearing. Scatter chili flakes and a pinch of sea salt over the hot fish as soon as they come off the grill. Serve the sardines stacked on a sheet of paper with lemon wedges, ready to be eaten with the fingers by the harbor wall.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sardines_Titus_du_Maroc.JPG",
     isStreetFood: true,
   },
   {
@@ -1145,7 +1145,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Corn tortilla", "Refried black beans", "Oaxaca cheese", "Lettuce", "Avocado", "Tomato", "Tasajo beef", "Salsa roja", "Lard"],
     instructions:
       "Warm a large, thin corn tortilla directly over a charcoal comal until it turns slightly leathery and dotted with brown spots. Spread a thin layer of lard across the tortilla, then follow with a generous smear of refried black beans all the way to the edges. Scatter shredded Oaxaca cheese evenly over the beans so it melts as the tortilla continues to cook. Lay the tortilla back onto the comal and cook it for a few more minutes, until the underside crisps up like a cracker and the cheese turns soft and glossy. While it cooks, grill strips of tasajo beef over the same open flame until charred at the edges and cooked through. Slide the crisp tortilla onto a board and top it with shredded lettuce, sliced tomato, and mashed avocado. Lay the grilled tasajo over one half of the tlayuda and drizzle everything with salsa roja. Fold the tlayuda in half like a giant taco and cut it into wedges for sharing.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/2/23/Tlayuda_con_chorizo_en_Oaxaca.jpg",
     isStreetFood: true,
   },
   {
@@ -1156,7 +1156,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Pork shoulder", "Achiote paste", "Sour orange juice", "Garlic", "Banana leaves", "White onion", "Habanero chili", "Cumin", "Oregano"],
     instructions:
       "Dissolve achiote paste into sour orange juice along with crushed garlic, cumin, and oregano, whisking until the marinade turns a deep brick red. Cut the pork shoulder into large chunks and rub the achiote marinade into the meat thoroughly, working it into every crevice. Cover the meat and let it marinate in the refrigerator for at least 4 hours, or overnight for a deeper flavor. Pass banana leaves briefly over an open flame until they soften and turn glossy, then use them to line a heavy roasting dish. Pile the marinated pork into the banana leaf lined dish and fold the leaves over the top to wrap the meat completely. Roast the wrapped pork in a low oven for about 3 hours, until it becomes so tender it falls apart at the touch of a fork. Meanwhile, pickle thinly sliced white onion and sliced habanero chili in sour orange juice with a pinch of salt, letting them turn bright pink. Unwrap the pork and shred it with two forks, mixing the shredded meat with the flavorful juices left in the leaves. Serve the cochinita pibil piled onto warm tortillas and topped with the pickled onion and habanero.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/8/84/Cochinita_pibil_2.jpg",
   },
   {
     region: "Gulf Coast",
@@ -1166,7 +1166,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Red snapper", "Tomato", "White onion", "Garlic", "Green olives", "Capers", "Bay leaf", "Pickled jalapeno", "Olive oil", "Fresh oregano"],
     instructions:
       "Season whole red snapper fillets with salt and a squeeze of lime, then set them aside while the sauce comes together. Heat olive oil in a wide skillet and cook chopped onion and garlic over medium heat for about 5 minutes, until soft and fragrant. Add chopped tomato, bay leaf, and dried oregano, and let the mixture simmer for 10 minutes, stirring occasionally, until it thickens into a rich sauce. Stir in sliced green olives, capers, and sliced pickled jalapeno, letting their brininess mingle into the tomato base. Nestle the seasoned fish fillets into the simmering sauce, spooning some sauce over the top of each piece. Cover the skillet and let the fish poach gently for about 10 minutes, until it turns opaque and flakes easily with a fork. Baste the fish once more with the sauce just before serving. Plate the fish with plenty of the tomato and olive sauce spooned over the top, alongside steamed white rice.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/6/6d/HuachinangoVeracruzana.JPG",
   },
   {
     region: "Mount Lebanon Coast",
@@ -1197,7 +1197,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Shredded phyllo", "Akkawi cheese", "Clarified butter", "Sugar syrup", "Rosewater", "Ground pistachio"],
     instructions:
       "Soak akkawi cheese in cold water the night before, changing the water once or twice to draw out its saltiness. Chop the shredded phyllo dough finely on a large tray, working in clarified butter until every strand is coated and glistening. Press about two thirds of the buttered phyllo firmly into the base of a round metal tray, packing it down into an even layer. Drain the soaked cheese well and slice it thin, then layer the cheese evenly over the phyllo base. Cover the cheese completely with the remaining buttered phyllo, pressing it down firmly so the layers stick together. Set the tray directly over the vendor's flat griddle and cook it for about 15 minutes, rotating often, until the underside turns deep golden and crisp. Flip the whole knafeh out onto a large tray in one confident motion, so the crisp golden side faces up. Drizzle the hot knafeh immediately with cool sugar syrup scented with rosewater, letting it soak in. Scatter crushed pistachio over the top and cut the knafeh into squares to serve right away while the cheese is still stretchy.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Knafeh.jpg",
     isStreetFood: true,
   },
   {
@@ -1208,7 +1208,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Pork bones", "Thin ramen noodles", "Pork belly", "Garlic", "Soy sauce", "Green onion", "Wood ear mushroom", "Sesame oil", "Pickled ginger"],
     instructions:
       "Blanch pork bones in boiling water for a few minutes to remove impurities, then scrub them clean under running water. Return the cleaned bones to a large stockpot, cover them generously with fresh water, and bring the pot to a hard, rolling boil. Keep the broth boiling vigorously, uncovered, for several hours, topping up water as needed, until it turns cloudy white and thickens into a rich, milky base. Separately, braise pork belly in a mixture of soy sauce, sake, and sugar until it becomes tender enough to slice with a spoon. Strain the finished tonkotsu broth through a fine sieve and season it with a splash of soy sauce and crushed garlic just before serving. Cook thin ramen noodles in a separate pot of boiling water for less than a minute, since they are meant to stay firm. Drain the noodles quickly and coil them into the bottom of a deep bowl. Ladle the hot, milky broth over the noodles and arrange slices of braised pork belly, wood ear mushroom, and chopped green onion on top. Finish with a few drops of sesame oil and a small pile of pickled ginger on the side.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/3/3b/Hakata_Style_48-Hour_Tonkotsu_Ramen.jpg",
     isStreetFood: true,
   },
   {
@@ -1219,7 +1219,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Octopus", "Flour", "Dashi stock", "Egg", "Green onion", "Pickled ginger", "Takoyaki sauce", "Mayonnaise", "Bonito flakes", "Vegetable oil"],
     instructions:
       "Whisk flour, dashi stock, and beaten egg together into a thin, pourable batter and let it rest for a few minutes. Brush the hemispherical wells of a hot cast iron takoyaki pan generously with vegetable oil. Pour the batter into the wells until they overflow slightly, letting it pool across the surface of the pan. Drop a small piece of boiled octopus, a pinch of chopped green onion, and a bit of pickled ginger into each filled well. Once the edges of the batter begin to set, use two thin picks to slice around each ball, cutting away the excess batter connecting them. Flip each partially formed ball a quarter turn, letting the raw batter from the surface flow down into the well to reshape it into a sphere. Keep rotating and flipping every ball every minute or so, until each one turns a deep golden brown and cooks through completely. Pile the finished takoyaki balls into a paper boat and brush them generously with sweet takoyaki sauce and mayonnaise. Finish with a shower of dried bonito flakes that flutter in the rising heat, and hand the tray over still steaming.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Takoyaki.jpg",
     isStreetFood: true,
   },
   {
@@ -1230,7 +1230,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Salmon", "Miso paste", "Napa cabbage", "Daikon radish", "Tofu", "Shiitake mushroom", "Green onion", "Butter", "Kombu", "Corn"],
     instructions:
       "Soak a sheet of kombu in cold water in a large pot for about 30 minutes to draw out its flavor, then set the pot over low heat. Just before the water reaches a boil, lift out the kombu and dissolve miso paste directly into the gently simmering stock. Cut salmon into thick steaks and add them to the pot along with chunks of daikon radish, letting everything simmer for about 10 minutes. Add wedges of napa cabbage, sliced shiitake mushroom, and cubes of tofu, tucking them into the broth around the salmon. Simmer everything together for another 10 minutes, until the vegetables turn tender and the salmon flakes easily. Scatter kernels of sweet corn and chopped green onion over the top in the final few minutes of cooking. Drop a small knob of butter into the center of the pot just before serving, letting it melt slowly into the broth. Bring the pot straight to the table still bubbling and let everyone ladle their own portions into individual bowls.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/8/89/Ishikari_nabe_by_Adonis_Chen_in_Hokkaido.jpg",
   },
   {
     region: "Central Java",
@@ -1240,7 +1240,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Young jackfruit", "Coconut milk", "Palm sugar", "Bay leaf", "Galangal", "Shallot", "Garlic", "Coriander seed", "Teak leaves"],
     instructions:
       "Cut young jackfruit into large chunks and boil them in water for about 20 minutes, until they soften slightly and lose their raw bitterness. Grind shallot, garlic, and coriander seed into a smooth paste using a mortar and pestle. Layer teak leaves in the bottom of a heavy clay pot, a traditional trick that helps turn the finished dish a deep reddish brown. Arrange the boiled jackfruit over the leaves, then pour over the ground spice paste, bruised galangal, and torn bay leaves. Pour in coconut milk until the jackfruit is mostly submerged, then add generous chunks of palm sugar. Bring the pot to a gentle simmer and cook it uncovered for several hours, stirring occasionally and topping up coconut milk as it reduces. Continue simmering until the jackfruit turns deeply tender and almost falls apart, and the liquid reduces into a thick, sweet, mahogany colored sauce. Let the gudeg rest off the heat for a while so the jackfruit soaks up even more flavor. Serve the gudeg warm over steamed rice, often alongside hard boiled eggs and fried tempeh for a full meal.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/4/46/Gudeg_Wijilan_Yogyakarta_Ayam.JPG",
   },
   {
     region: "West Sumatra",
@@ -1250,7 +1250,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Beef chuck", "Coconut milk", "Shallot", "Garlic", "Ginger", "Galangal", "Turmeric", "Lemongrass", "Dried chili", "Kaffir lime leaves", "Toasted coconut"],
     instructions:
       "Grind shallot, garlic, ginger, galangal, turmeric, and soaked dried chili into a smooth, deep red paste using a mortar and pestle or blender. Cut beef chuck into large cubes, leaving some fat on for richness. Heat the ground spice paste in a heavy pot over medium heat, stirring for about 10 minutes until it turns fragrant and the oil begins to separate at the edges. Add bruised lemongrass and torn kaffir lime leaves, stirring them into the paste for a minute. Add the beef cubes and stir to coat every piece thoroughly in the fragrant paste. Pour in coconut milk to cover the meat, then bring the pot to a gentle simmer. Cook the rendang uncovered over low heat for several hours, stirring occasionally to prevent it from catching on the bottom. Stir in toasted, ground coconut partway through cooking to help thicken the sauce and deepen its flavor. Continue simmering until almost all the liquid has evaporated and the beef turns dark brown and glossy, coated in a thick, almost dry spice paste.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/6/6b/Nasi_Padang_With_beef_rendang.jpg",
   },
   {
     region: "Bali",
@@ -1260,7 +1260,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Minced fish", "Grated coconut", "Shallot", "Garlic", "Turmeric", "Galangal", "Lemongrass stalks", "Kaffir lime leaves", "Palm sugar", "Bird's eye chili"],
     instructions:
       "Grind shallot, garlic, turmeric, galangal, and bird's eye chili into a fine, aromatic paste. Mix the spice paste into minced fish along with grated coconut, finely sliced kaffir lime leaves, and a little palm sugar. Knead the mixture firmly with your hands for a few minutes, until it turns sticky and holds together well. Take a lemongrass stalk, trimmed to leave a firm handle, and mold a portion of the fish mixture around the upper part of the stalk. Press and smooth the mixture with wet fingers until it forms an even, tapered layer wrapped around the stalk like a small torch. Repeat with the remaining mixture and stalks, arranging the finished skewers on a tray. Grill the sate over hot charcoal, turning them every minute or so, until the coconut mixture turns golden brown and lightly charred in spots. Serve the sate lilit hot off the grill, holding the lemongrass stalk as a natural handle while eating.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Sate_Lilit.jpg",
     isStreetFood: true,
   },
   {
@@ -1271,7 +1271,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Phyllo pastry", "Semolina", "Milk", "Sugar", "Egg", "Butter", "Vanilla", "Cinnamon", "Powdered sugar"],
     instructions:
       "Heat milk in a pot with sugar and a scrape of vanilla until it just begins to steam. Sprinkle in semolina gradually while whisking constantly, so the mixture thickens smoothly without forming lumps. Keep stirring over low heat for a few minutes until the custard turns thick enough to coat the back of a spoon, then remove it from the heat. Whisk a beaten egg into the slightly cooled custard until fully incorporated. Brush a wide baking tray with melted butter and lay down several sheets of phyllo, brushing each one with more butter before adding the next. Spread the semolina custard evenly over the buttered phyllo base. Fold the edges of the phyllo over the filling, then top with a few more buttered sheets, tucking the edges neatly underneath. Bake the bougatsa in a hot oven for about 30 minutes, until the pastry turns golden and shatteringly crisp. Cut the bougatsa into squares at the counter and dust each portion generously with powdered sugar and cinnamon before handing it to the customer.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Bougatsa.png",
     isStreetFood: true,
   },
   {
@@ -1292,7 +1292,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Tomato", "Bell pepper", "Rice", "Onion", "Fresh mint", "Fresh parsley", "Olive oil", "Pine nuts", "Currants", "Potato"],
     instructions:
       "Slice the tops off ripe tomatoes and bell peppers and set the caps aside, then scoop out the flesh and seeds with a spoon, keeping the tomato pulp for later. Chop the reserved tomato pulp and mix it with finely diced onion, chopped mint, and chopped parsley. Stir in rice, a generous amount of olive oil, toasted pine nuts, and a handful of currants, seasoning the filling with salt and pepper. Spoon the rice mixture into the hollowed tomatoes and peppers, filling them about three quarters full to leave room for the rice to expand. Replace the caps loosely on top of each vegetable. Arrange the stuffed vegetables snugly in a large baking dish, tucking wedges of potato into the gaps between them. Drizzle everything generously with olive oil and pour a little water into the bottom of the dish. Bake in a moderate oven for about an hour, basting occasionally, until the rice turns tender and the tomatoes and peppers soften and caramelize slightly at the edges. Let the gemista cool to warm room temperature before serving, as is traditional in Greek homes.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/e/ee/Gemista.jpg",
   },
   {
     region: "Provence",
@@ -1302,7 +1302,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Eggplant", "Zucchini", "Bell pepper", "Tomato", "Onion", "Garlic", "Olive oil", "Fresh thyme", "Fresh basil", "Bay leaf"],
     instructions:
       "Cut the eggplant, zucchini, and bell pepper into similarly sized chunks, keeping each vegetable separate. Heat olive oil in a wide pan and sauté the eggplant on its own over medium heat for about 8 minutes, until it turns golden and softens, then transfer it to a bowl. Repeat the process separately with the zucchini and then the bell pepper, cooking each vegetable individually so their distinct textures and flavors stay intact. In the same pan, cook chopped onion and garlic for a few minutes until softened, then add chopped tomato, thyme, and a bay leaf. Let the tomato mixture simmer for about 15 minutes, stirring occasionally, until it breaks down into a thick, fragrant sauce. Return all the separately cooked vegetables to the pan with the tomato sauce, folding them together gently so they keep some of their individual shape. Simmer everything together over low heat for another 15 minutes, allowing the flavors to meld without turning the vegetables mushy. Season with salt and pepper to taste, and remove the bay leaf. Tear fresh basil leaves over the top just before serving, either warm or at room temperature.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/2/27/Ratatouille.jpg",
   },
   {
     region: "Brittany",
@@ -1312,7 +1312,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Buckwheat flour", "Egg", "Ham", "Gruyère cheese", "Butter", "Salt", "Water"],
     instructions:
       "Whisk buckwheat flour with a pinch of salt, then gradually beat in water until the batter turns completely smooth and pourable, similar to a thin crepe batter. Let the batter rest for at least an hour so the buckwheat fully hydrates. Heat a wide, flat crepe griddle until a drop of water sizzles and dances across the surface. Ladle a portion of batter onto the hot griddle and quickly spread it into a thin, even round using a wooden rake. Cook the galette for a couple of minutes until the edges begin to lift and turn lacy and crisp. Crack an egg directly onto the center of the galette and scatter grated Gruyère cheese and torn slices of ham around it. Fold the four edges of the galette inward toward the center, forming a square and leaving the egg yolk visible in the middle. Let it cook for another minute or two, until the egg white sets but the yolk stays soft and the cheese melts. Slide the galette off the griddle with a wide spatula and serve it hot, straight from the stall.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Galette_complete_sur_billig.jpg",
     isStreetFood: true,
   },
   {
@@ -1323,7 +1323,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Bread dough", "Crème fraîche", "Onion", "Bacon lardons", "Nutmeg", "Black pepper"],
     instructions:
       "Stretch a small ball of bread dough out on a floured surface, rolling and pulling it until it forms a very thin, almost translucent rectangle. Spread crème fraîche in a thin, even layer over the dough, leaving a small border bare around the edges. Season the crème fraîche generously with a little nutmeg and black pepper. Scatter thinly sliced onion evenly across the surface. Fry bacon lardons briefly in a hot pan just until they begin to render their fat, then scatter them over the onions while still warm. Slide the tarte onto a well floured peel and transfer it into a very hot wood fired oven. Bake the tarte flambée for only a few minutes, watching closely, until the edges char slightly and the onions turn soft and lightly browned. Pull the tarte out while the center is still tender and the crust is crisp at the edges. Cut it into rough squares with a pizza wheel and serve it immediately, piping hot from the fire.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/6/64/Tarte_flamb%C3%A9e_02.JPG",
     isStreetFood: true,
   },
   {
@@ -1334,7 +1334,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Chicken", "Berbere spice", "Red onion", "Garlic", "Ginger", "Niter kibbeh", "Hard boiled egg", "Tomato paste", "Lemon"],
     instructions:
       "Cook finely chopped red onion in a dry pot over medium heat, stirring often for about 20 minutes, until it turns soft and deeply golden without any oil. Stir in niter kibbeh, the spiced clarified butter, along with crushed garlic and grated ginger, letting them sizzle into the onions for a minute. Add a generous amount of berbere spice paste and stir constantly for several minutes, toasting the spices until the mixture turns a deep brick red and smells intensely fragrant. Stir in a spoonful of tomato paste and a splash of water, then let the sauce simmer for about 10 minutes, thickening slightly. Score chicken pieces with shallow cuts and rub them with lemon juice before adding them to the simmering sauce. Cover and cook the chicken in the sauce over low heat for about 30 minutes, turning the pieces occasionally, until they turn deeply tender and the sauce clings thickly to the meat. Gently nestle peeled hard boiled eggs into the sauce during the last 10 minutes of cooking, spooning sauce over them so they soak up the color and flavor. Taste and adjust the seasoning with more lemon juice or salt as needed. Serve the doro wat hot, with the eggs halved and arranged on top, alongside injera for scooping.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/6/61/Injera_and_doro_wat.jpg",
   },
   {
     region: "Tigray Region",
@@ -1344,7 +1344,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Roasted barley flour", "Water", "Berbere spice", "Niter kibbeh", "Garlic", "Onion", "Tomato"],
     instructions:
       "Toast barley flour in a dry pan over medium heat for a few minutes, stirring constantly, until it turns a shade darker and smells nutty and roasted. Bring water to a boil in a separate pot, then gradually stir in the toasted barley flour, mixing vigorously to prevent lumps from forming. Keep stirring and kneading the mixture directly in the pot with a wooden spoon for several minutes, until it comes together into a smooth, stiff dough. Wet your hands with cold water and roll small portions of the warm dough into smooth, firm balls about the size of a walnut. Set the barley balls aside to firm up slightly as they cool. For the sauce, cook chopped onion and garlic in niter kibbeh until softened, then stir in chopped tomato and a generous amount of berbere spice. Simmer the sauce for about 15 minutes, until it thickens into a rich, spicy stew. Drop the barley balls into the hot sauce, turning them gently so they become coated on all sides without breaking apart. Serve the tihlo balls hot, speared with small wooden sticks, dipped directly into the spicy sauce.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Eating_Traditional_Tihlo%2C_Ethiopia.jpg",
   },
   {
     region: "Oromia",
@@ -1354,7 +1354,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Ground beef", "Onion", "Berbere spice", "Garlic", "Jalapeno", "Thin pastry sheets", "Vegetable oil", "Flour paste"],
     instructions:
       "Cook finely chopped onion and garlic in a hot pan for a few minutes until softened and translucent. Add ground beef, breaking it apart with a spoon, and cook for about 8 minutes until it browns evenly. Stir in berbere spice and finely chopped jalapeno, cooking for a few more minutes until the mixture turns fragrant and any liquid evaporates. Let the filling cool completely before handling it further. Cut thin pastry sheets into long strips and place a spoonful of the cooled filling near one corner of each strip. Fold the pastry over the filling in a triangular shape, continuing to fold it triangle over triangle down the length of the strip, the way street vendors do it in quick, practiced motions. Seal the final edge with a dab of flour paste mixed with water, pressing it firmly closed. Heat vegetable oil in a deep pan until hot, then fry the sambusas in batches for about 4 minutes, turning occasionally, until they turn golden brown and crisp on every side. Drain the sambusas briefly on paper before handing them out hot, often with a small side of extra berbere or green chili sauce.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/3/37/Ethiopian_Sambusa.jpg",
     isStreetFood: true,
   },
   {
@@ -1365,7 +1365,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Rice", "Brown lentils", "Macaroni", "Chickpeas", "Fried onion", "Tomato sauce", "Garlic", "Vinegar", "Cumin", "Chili"],
     instructions:
       "Cook brown lentils in a pot of water until they turn tender but still hold their shape, then drain and set them aside. In a separate pot, cook rice until fluffy, and in another, boil macaroni until just tender. Slice onions thin and fry them in oil over medium heat, stirring often, until they turn deep brown and shatteringly crisp, then drain them on paper. For the sauce, simmer tomato sauce with crushed garlic, cumin, a splash of vinegar, and chili until it thickens into a tangy, spiced sauce. To build a bowl, layer rice on the bottom, followed by lentils, macaroni, and warmed chickpeas, piling them up in neat sections rather than mixing them together. Ladle the spiced tomato sauce generously over the top of the layered carbohydrates and legumes. Finish with a heavy scattering of the crisp fried onions over everything. Serve the koshari with extra vinegar and chili sauce on the side, so the customer can adjust the tang and heat to their own taste.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Egyptian_food_Koshary.jpg",
     isStreetFood: true,
   },
   {
@@ -1376,7 +1376,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Whole sea bream", "Garlic", "Cumin", "Coriander seed", "Lemon", "Olive oil", "Fresh parsley", "Tahini", "Rice"],
     instructions:
       "Clean and scale a whole sea bream, then score the flesh on both sides with a few diagonal cuts to help the marinade penetrate. Crush garlic with cumin, ground coriander seed, and a pinch of salt into a rough paste, then loosen it with olive oil and lemon juice. Rub the marinade all over the fish, working it into the scored cuts and the cavity, then let it rest for about 30 minutes. Stuff the cavity with a few slices of lemon and a handful of parsley stems. Heat a grill or a heavy pan until very hot, then lay the fish down and cook it for about 6 minutes per side, until the skin turns crisp and blistered and the flesh flakes easily. While the fish grills, prepare a simple rice pilaf and whisk tahini with lemon juice and water into a smooth, pourable sauce. Transfer the grilled fish to a platter and drizzle it with a little more olive oil and lemon juice. Serve the fish whole alongside the rice and a bowl of tahini sauce for spooning over each portion.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/9/96/Samak_mashwi.jpg",
   },
   {
     region: "Upper Egypt",
@@ -1386,7 +1386,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Fava beans", "Garlic", "Cumin", "Olive oil", "Lemon", "Tomato", "Fresh parsley", "Flatbread"],
     instructions:
       "Simmer dried fava beans in a large pot of water for several hours, or use a pressure pot for less time, until they turn completely soft and creamy. Drain the beans, reserving a little of the cooking liquid, and return them to the pot set over low heat. Mash some of the beans against the side of the pot with a spoon, leaving others whole for texture. Stir in crushed garlic, a pinch of cumin, and a splash of the reserved cooking liquid to loosen the mixture slightly. Ladle the warm beans into small serving bowls at the street cart. Drizzle each bowl generously with olive oil and a squeeze of fresh lemon juice. Top with chopped tomato and chopped parsley, letting customers add extra chili or more lemon as they like. Serve the ful medames with warm flatbread for scooping, the way workers grab their breakfast on the way to the fields or the docks.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Ful_medames.jpg",
     isStreetFood: true,
   },
   {
@@ -1397,7 +1397,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Black-eyed peas", "Onion", "Dried shrimp", "Palm oil", "Vatapá", "Chili pepper", "Salt"],
     instructions:
       "Soak black-eyed peas in water for a few hours, then rub them between your hands to loosen and remove their skins, letting the loosened skins float to the top to be skimmed away. Drain the skinned peas and grind them with chopped onion in a food processor until the mixture turns into a thick, pale, slightly grainy paste. Whip the paste vigorously by hand or with a mixer for several minutes, beating in air until it turns light and fluffy. Season the whipped batter with a pinch of salt. Heat a deep pot of dendê palm oil until it shimmers and turns fragrant. Scoop portions of the batter with a large spoon, shaping each one into an oval as it's lowered gently into the hot oil. Fry the acarajé for a few minutes, turning once, until the outside turns deep orange red and crisp while the inside stays soft. Drain the fried acarajé briefly, then slice each one open like a pocket. Fill the pocket with dried shrimp, a spoonful of vatapá, and a dab of chili pepper sauce, and hand it over wrapped in paper.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/2/29/Baiana-acaraj%C3%A9-Salvador.jpg",
     isStreetFood: true,
   },
   {
@@ -1408,7 +1408,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Pinto beans", "Bacon", "Pork sausage", "Cassava flour", "Garlic", "Onion", "Egg", "Collard greens", "Bay leaf"],
     instructions:
       "Cook dried pinto beans in a pot of water with a bay leaf until they turn tender but still hold their shape, then drain them, reserving a little of the liquid. Cut bacon and pork sausage into small pieces and fry them together in a wide pan over medium heat for about 10 minutes, until they render their fat and turn crisp and golden. Add chopped onion and garlic to the pan and cook for a few more minutes, until softened in the rendered fat. Stir the cooked beans into the pan along with a splash of their reserved cooking liquid, mixing everything together. Fry eggs separately in a little of the bacon fat until the whites set but the yolks stay soft, then chop them roughly and set aside. Sprinkle cassava flour gradually over the bean and bacon mixture, stirring constantly so it toasts lightly and binds everything into a loose, grainy texture rather than a paste. Wilt shredded collard greens in a separate hot pan with a touch of oil for a minute or two, until they turn bright green and tender. Fold the chopped fried eggs and wilted collard greens into the tropeiro just before serving. Serve the feijão tropeiro warm as a hearty side, traditionally alongside grilled meats and rice.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Feij%C3%A3o_tropeiro.jpg",
   },
   {
     region: "Rio Grande do Sul",
@@ -1418,7 +1418,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Picanha beef", "Coarse salt", "Skewers", "Chimichurri", "Garlic", "Parsley", "Olive oil", "Vinegar"],
     instructions:
       "Trim the picanha cut of any excess silver skin, leaving a thick, even layer of fat cap intact on top. Score the fat cap in a shallow crosshatch pattern, cutting just through the fat without reaching the meat below. Curve the meat into a crescent shape and thread it onto a long metal skewer, fat side out, securing it firmly. Pack a generous, even layer of coarse salt over the entire surface of the meat, letting it cling to the fat and flesh alike. Set up a bed of hot coals or wood embers and position the skewer at a moderate distance from the heat, fat side facing the fire first. Roast the picanha slowly, rotating the skewer every several minutes, until the fat renders and turns deeply golden and crackling. Slice thin portions directly off the outer crust as it forms, returning the remaining roast to the fire to continue cooking, a technique that lets everyone eat in rounds. Continue rotating and slicing until the whole cut is cooked through, with the center reaching a warm rosy pink. Serve the sliced picanha immediately with a bowl of chimichurri made from chopped parsley, garlic, olive oil, and vinegar.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Picanha_barbecue.jpg",
   },
   {
     region: "Far North Queensland",
@@ -1438,7 +1438,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Ground beef", "Beef stock", "Onion", "Flour", "Worcestershire sauce", "Puff pastry", "Shortcrust pastry", "Egg wash", "Tomato sauce"],
     instructions:
       "Cook chopped onion in a hot pot until softened, then add ground beef and brown it thoroughly, breaking up any clumps with a spoon. Sprinkle flour over the browned beef and stir it in, letting it cook for a minute to lose its raw taste. Pour in beef stock and a dash of Worcestershire sauce, stirring until the mixture turns smooth and gravy-like. Simmer the filling gently for about 20 minutes, stirring occasionally, until it thickens into a rich, glossy mince that holds its shape on a spoon. Let the filling cool completely, since hot filling would make the pastry soggy and hard to work with. Line small pie tins with shortcrust pastry, pressing it into the corners and trimming the excess from the edges. Spoon the cooled beef filling into each pastry shell, mounding it slightly in the center. Top each pie with a round of puff pastry, crimping the edges firmly to seal in the filling, then brush the tops with egg wash. Bake the pies in a hot oven for about 25 minutes, until the puff pastry rises tall and turns deep golden brown, then serve hot with a squeeze of tomato sauce on top.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Aussie_meat_pie_(cropped).jpg",
     isStreetFood: true,
   },
   {
@@ -1449,7 +1449,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Meat pie", "Dried split peas", "Onion", "Carrot", "Vegetable stock", "Tomato sauce", "Worcestershire sauce", "Salt"],
     instructions:
       "Soak dried split peas for a few hours, then drain them and add them to a pot with chopped onion, chopped carrot, and vegetable stock. Bring the pot to a boil, then lower the heat and simmer for about an hour, stirring occasionally, until the peas break down completely into a thick, bright green mush. Season the pea soup with salt and a dash of Worcestershire sauce, adjusting the consistency with a little extra stock if it turns too thick. Keep the soup at a steady simmer in a large pot set on the street cart, ready to be ladled at a moment's notice. Bake or reheat a whole meat pie until the pastry turns crisp and the filling inside is piping hot. Ladle a generous pool of the hot pea soup into a deep bowl. Lower the whole meat pie upside down into the center of the soup, so it floats with the pastry base facing up and the soup pooling around its sides. Squeeze a generous zigzag of tomato sauce across the top of the floating pie. Hand the bowl over immediately with a spoon, the classic late-night order from Adelaide's stainless steel food carts.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Pie_floater_in_Adelaide_SA.jpg",
     isStreetFood: true,
   },
   {
@@ -1460,7 +1460,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Russet potatoes", "Vegetable oil", "Cheese curds", "Beef stock", "Butter", "All-purpose flour", "Onion", "Garlic", "Black pepper", "Salt"],
     instructions:
       "Peel the potatoes and cut them into thick fries, then soak them in cold water for about 30 minutes to draw out excess starch. Drain the fries and pat them completely dry with a clean towel. Heat the oil to 325 degrees Fahrenheit and blanch the fries in batches for about 5 minutes, until they are soft and pale but not browned. Lift the fries out and let them rest on a rack for at least 15 minutes while you prepare the gravy. Melt the butter in a saucepan over medium heat, whisk in the flour, and cook for 2 minutes to form a light roux. Stir in the finely chopped onion and garlic, then slowly whisk in the beef stock and simmer for 10 minutes, until the gravy thickens enough to coat the back of a spoon. Season the gravy with salt and pepper and keep it warm over low heat. Raise the oil to 375 degrees Fahrenheit and fry the potatoes a second time for 3 to 4 minutes, until deeply golden and crackling crisp. Pile the hot fries into a bowl, scatter the cheese curds generously over the top, and ladle the hot gravy over everything so the curds begin to soften and squeak.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Poutine.JPG",
     isStreetFood: true,
   },
   {
@@ -1471,7 +1471,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Ground beef", "Garlic powder", "Onion powder", "Paprika", "Dried oregano", "Evaporated milk", "Sugar", "White vinegar", "Pita bread", "Tomato", "Onion"],
     instructions:
       "In a large bowl, combine the ground beef with garlic powder, onion powder, paprika, dried oregano, and a generous amount of salt, then knead the mixture firmly with your hands for several minutes until it turns pale and sticky. Press the meat tightly into a loaf shape on a baking sheet or mold it onto a vertical skewer to mimic a spit. Roast the meat in an oven preheated to 350 degrees Fahrenheit for about 1 hour, until the internal temperature reaches 160 degrees Fahrenheit. Let the meat rest for 15 minutes, then slice it into thin shavings once it has firmed up enough to cut cleanly. While the meat rests, whisk together the evaporated milk, sugar, and white vinegar in a bowl, letting the mixture thicken into a sweet, tangy sauce over about 10 minutes. Warm a pita on a dry skillet for about 1 minute per side, until soft and lightly toasted. Reheat a portion of the sliced meat in a hot pan for 2 to 3 minutes, until the edges crisp slightly. Pile the meat onto the warm pita, top with chopped tomato and onion, and drizzle generously with the sweet garlic sauce before folding and serving.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/5/50/King_of_Donairs.JPG",
     isStreetFood: true,
   },
   {
@@ -1482,7 +1482,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Beef chuck", "Pearl barley", "Carrot", "Celery", "Onion", "Beef stock", "Tomato paste", "Bay leaf", "Thyme", "Butter", "Black pepper"],
     instructions:
       "Cut the beef chuck into bite-sized cubes and pat them dry, then season generously with salt and pepper. Heat butter in a heavy pot over medium-high heat and sear the beef in batches for about 4 minutes per side, until deeply browned, then set the beef aside. Add the chopped onion, carrot, and celery to the same pot and cook for 6 minutes, stirring occasionally, until softened and lightly caramelized. Stir in the tomato paste and cook for 1 minute, until it darkens slightly and coats the vegetables. Return the beef to the pot along with the beef stock, bay leaf, and thyme, then bring everything to a gentle simmer. Cover and cook over low heat for about 1 1/2 hours, until the beef is nearly tender. Stir in the pearl barley and continue simmering, uncovered, for 30 more minutes, until the barley is tender and the stew has thickened. Remove the bay leaf, taste and adjust the seasoning with salt and pepper, and ladle the hot stew into bowls.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Vegetable_beef_barley_soup.jpg",
   },
   {
     region: "Bavaria",
@@ -1492,7 +1492,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Veal", "Pork back fat", "Ice water", "Onion", "Lemon zest", "Ground mace", "Cardamom", "Parsley", "Sausage casings", "Sweet mustard", "Pretzel"],
     instructions:
       "Grind the veal and pork back fat together through a fine die, keeping everything very cold to prevent the fat from smearing. Transfer the ground meat to a food processor and blend with ice water, finely chopped onion, lemon zest, ground mace, and a pinch of cardamom until the mixture becomes a smooth, pale emulsion. Fold in the chopped parsley by hand, then chill the mixture in the refrigerator for at least 30 minutes to firm it up. Stuff the mixture into sausage casings, twisting into individual links about 4 inches long. Bring a large pot of water to just below a simmer, around 175 degrees Fahrenheit, since boiling would split the delicate casings. Lower the sausages into the water and poach gently for about 20 minutes, until they turn opaque and firm to the touch. Lift the sausages out with a slotted spoon and let them drain briefly. Serve the warm sausages with sweet mustard and a soft pretzel on the side, traditionally enjoyed as a late-morning meal before noon.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/7/71/Weißwurst-1.jpg",
   },
   {
     region: "Berlin",
@@ -1502,7 +1502,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Pork sausage", "Vegetable oil", "Ketchup", "Curry powder", "Paprika", "Worcestershire sauce", "Sugar", "Onion powder"],
     instructions:
       "Heat a griddle or heavy skillet over medium-high heat and add a splash of oil. Grill the pork sausages for about 8 minutes, turning occasionally, until the skins are deeply browned and blistered and the inside is cooked through. While the sausages cook, combine the ketchup, curry powder, paprika, Worcestershire sauce, sugar, and onion powder in a small saucepan. Warm the sauce over low heat for about 5 minutes, stirring often, until the flavors meld and the sauce turns glossy. Remove the sausages from the heat and let them rest for 1 minute, then slice them into bite-sized rounds on a diagonal. Arrange the sliced sausage on a paper tray or plate. Ladle the warm curry sauce generously over the sausage pieces. Dust the top with an extra pinch of curry powder and serve immediately with a small wooden fork and a side of fries.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/d/da/CurryWurst.jpg",
     isStreetFood: true,
   },
   {
@@ -1513,7 +1513,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Beef roast", "Red wine vinegar", "Water", "Onion", "Carrot", "Bay leaf", "Juniper berries", "Cloves", "Black peppercorns", "Gingersnap cookies", "Raisins", "Butter"],
     instructions:
       "Place the beef roast in a deep non-reactive container and cover it with a marinade made from red wine vinegar, water, sliced onion, carrot, bay leaf, juniper berries, cloves, and peppercorns. Cover the container and refrigerate the beef for at least 3 days, turning it once daily so it marinates evenly. Remove the beef from the marinade and pat it completely dry, reserving the marinade and its vegetables. Heat butter in a heavy pot over medium-high heat and sear the beef on all sides for about 10 minutes total, until deeply browned. Strain the marinade, add the vegetables back to the pot around the beef, then pour in enough of the strained liquid to come halfway up the roast. Cover and braise over low heat for about 3 hours, turning the beef occasionally, until it is fork-tender. Lift the beef out and let it rest under foil while you strain the braising liquid into a saucepan. Whisk crushed gingersnap cookies and raisins into the liquid and simmer for 10 minutes, until the gravy thickens and turns glossy. Slice the beef against the grain and serve it napped with the sweet-and-sour gravy.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/8/88/Sauerbraten.jpg",
   },
   {
     region: "Pampas",
@@ -1523,7 +1523,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Chorizo sausage", "Crusty bread roll", "Parsley", "Garlic", "Red wine vinegar", "Olive oil", "Dried oregano", "Red chili flakes", "Onion"],
     instructions:
       "Light a charcoal grill and let the coals burn down until covered with white ash and glowing evenly. Place the chorizo sausages on the grill and cook for about 15 minutes total, turning every few minutes, until the casings are charred in spots and the inside is cooked through. While the sausages grill, finely chop the parsley and garlic and combine them in a bowl with red wine vinegar, olive oil, dried oregano, and a pinch of chili flakes to make the chimichurri sauce. Let the chimichurri rest for at least 10 minutes so the flavors combine. Split the crusty bread roll lengthwise without cutting all the way through, then toast it briefly on the edges of the grill for about 1 minute, until warm and lightly marked. Remove the chorizo from the grill and slice it lengthwise down the middle to open it flat. Nestle the split sausage inside the warm roll. Spoon the chimichurri generously over the sausage and top with a few thin slices of raw onion before serving hot.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/2/28/Choripán_San_Telmo.jpg",
     isStreetFood: true,
   },
   {
@@ -1534,7 +1534,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["White corn kernels", "Pork ribs", "Chorizo sausage", "Beef", "White beans", "Pumpkin", "Sweet potato", "Onion", "Paprika", "Cumin", "Scallion"],
     instructions:
       "Soak the dried white corn kernels and white beans separately in water overnight, then drain both the next day. Place the corn in a large heavy pot with fresh water and bring it to a simmer, cooking for about 1 hour, until the kernels begin to soften and split. Add the pork ribs, chorizo, and beef to the pot along with the drained beans, then top up with more water so everything is well covered. Simmer gently, partially covered, for about 2 hours, skimming off any foam that rises to the surface. Stir in the diced pumpkin and sweet potato and continue cooking for 30 more minutes, until the vegetables break down and thicken the broth. Meanwhile, cook chopped onion in a small pan with paprika and cumin for about 5 minutes, until soft and fragrant, to make a spiced topping. Taste the locro and adjust the seasoning with salt as needed, since the long cooking time mellows the flavors. Ladle the thick stew into bowls and finish each portion with a spoonful of the spiced onion topping and a scattering of chopped scallion.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/e/ee/Locro_argentino.JPG",
   },
   {
     region: "Patagonia",
@@ -1544,7 +1544,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Lamb", "Coarse salt", "Garlic", "Rosemary", "Olive oil", "Red wine vinegar"],
     instructions:
       "Butterfly a whole leg or half carcass of lamb and season it generously on both sides with coarse salt. Set up a wood or charcoal fire and let it burn down to steady, glowing embers positioned to one side. Skewer the lamb onto a metal cross or mount it on a rack angled toward the embers, with the bone side facing the heat first. Cook the lamb slowly for about 3 hours, rotating and repositioning it occasionally so the heat reaches every part evenly. Meanwhile, crush garlic and chopped rosemary together with olive oil and red wine vinegar to make a basting sauce. Baste the lamb with this mixture every 30 minutes or so, which keeps the meat moist as it renders. Continue cooking until the internal temperature reaches about 160 degrees Fahrenheit and the skin turns deeply crisp and mahogany colored. Remove the lamb from the fire and let it rest for 15 minutes before carving. Carve the meat into portions at the table and serve it simply, with just the pan juices spooned over the top.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Cordero_patagonico_al_asador_Neuquen.JPG",
   },
   {
     region: "Andean Region",
@@ -1554,7 +1554,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Chicken breast", "Papa criolla potato", "Russet potato", "Yukon gold potato", "Corn on the cob", "Guascas herb", "Chicken stock", "Onion", "Garlic", "Heavy cream", "Capers", "Avocado"],
     instructions:
       "Place the chicken breast in a large pot with chicken stock, chopped onion, and garlic, then bring it to a gentle simmer. Cook the chicken for about 25 minutes, until it is cooked through and easily shreds with a fork. Remove the chicken and set it aside to cool, then shred it into bite-sized pieces and return the shredded meat to the pot. Peel and slice all three varieties of potato and add them to the simmering broth along with the corn cut into thick rounds. Cook the potatoes for about 30 minutes, stirring occasionally, until the papa criolla variety completely breaks down and thickens the soup naturally. Stir in the dried guascas herb during the last 10 minutes of cooking, which gives the ajiaco its distinctive earthy aroma. Taste the soup and season it well with salt, then ladle it into wide bowls. Finish each bowl with a swirl of heavy cream, a spoonful of capers, and a few slices of ripe avocado on the side.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/0/05/Ajiaco_in_Bogotá.jpg",
   },
   {
     region: "Antioquia",
@@ -1564,7 +1564,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Red beans", "Pork belly", "Chorizo sausage", "Ground beef", "White rice", "Plantain", "Egg", "Avocado", "Arepa", "Garlic", "Cumin"],
     instructions:
       "Soak the red beans overnight in plenty of water, then drain and rinse them the next day. Simmer the beans in fresh water with garlic and a pinch of cumin for about 1 1/2 hours, until they turn tender and creamy, adding more water as needed. Meanwhile, cook the pork belly in a dry skillet over medium heat for about 15 minutes, until the fat renders and the pieces turn golden and crisp. Season the ground beef with salt, cumin, and chopped garlic, then cook it in a separate pan over medium-high heat for about 10 minutes, breaking it apart, until fully browned. Grill or pan-fry the chorizo for about 8 minutes, turning occasionally, until cooked through and lightly charred. Cook the white rice separately according to the standard method until fluffy. Slice the ripe plantain lengthwise and fry it in hot oil for about 3 minutes per side, until caramelized and golden. Fry an egg sunny-side up in a lightly oiled pan for about 3 minutes, until the white sets but the yolk stays runny. Arrange the beans, rice, pork belly, ground beef, chorizo, plantain, fried egg, sliced avocado, and a warm arepa together on one large platter before serving.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/1/12/Bandeja_paisa_(5082434401).jpg",
   },
   {
     region: "Caribbean Coast",
@@ -1574,7 +1574,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["White corn flour", "Water", "Salt", "Egg", "Vegetable oil"],
     instructions:
       "Combine the white corn flour with warm water and a pinch of salt, kneading the mixture by hand for a few minutes until it forms a smooth, pliable dough. Divide the dough into small balls and flatten each one into a disc about a quarter inch thick. Heat vegetable oil in a deep pot to about 350 degrees Fahrenheit. Fry the discs in the hot oil for about 2 minutes per side, until they puff slightly and turn a pale golden color, then remove them to drain. While each arepa is still warm, carefully slice a small opening along one edge to create a pocket without tearing through the other side. Crack a raw egg into a small cup, then pour it carefully into the pocket of the arepa. Pinch the opening closed as best you can and return the stuffed arepa to the hot oil immediately. Fry for about 3 more minutes, turning gently, until the outside is deep golden brown and the egg inside has set. Drain briefly on paper and serve hot, often with a dab of hot sauce on the side.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Arepa_de_huevo.jpg",
     isStreetFood: true,
   },
   {
@@ -1585,7 +1585,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Beef shank", "Whole wheat flour", "Ginger", "Garlic", "Onion", "Ghee", "Nihari masala spice blend", "Green chili", "Fresh coriander", "Lemon"],
     instructions:
       "Heat ghee in a heavy pot over medium-high heat and fry the sliced onion for about 12 minutes, stirring often, until deeply browned and caramelized. Add ginger and garlic paste and cook for 1 minute, until fragrant. Stir in the nihari masala spice blend and cook briefly for 1 minute, toasting the spices in the hot ghee. Add the beef shank pieces and sear them in the spiced ghee for about 8 minutes, turning occasionally, until browned on all sides. Pour in enough hot water to fully cover the meat, then bring the pot to a boil before reducing it to a very low simmer. Cover and cook the nihari for about 5 hours, checking occasionally and topping up water as needed, until the beef becomes completely tender and starts falling apart. Mix the whole wheat flour with a little water into a smooth paste and whisk it into the pot to thicken the gravy, simmering for 15 more minutes. Taste and adjust the seasoning with salt. Ladle the nihari into bowls and garnish with julienned ginger, sliced green chili, chopped coriander, and a squeeze of lemon.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/2/24/Nihari.JPG",
   },
   {
     region: "Sindh",
@@ -1606,7 +1606,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Ground beef", "Tomato", "Onion", "Green chili", "Coriander seed", "Pomegranate seeds", "Cornstarch", "Egg", "Fresh coriander", "Vegetable oil"],
     instructions:
       "Combine the ground beef in a large bowl with finely chopped tomato, onion, green chili, and fresh coriander. Coarsely crush the coriander seeds and dried pomegranate seeds with a mortar and pestle, then mix them into the meat along with salt. Add the cornstarch and a beaten egg to the mixture and knead everything together firmly for a few minutes, until it feels cohesive and slightly sticky. Shape the mixture into flat, wide patties about half an inch thick, pressing a few extra slices of tomato directly onto the surface of each one. Heat a generous layer of oil in a wide, flat pan over medium heat until shimmering. Carefully slide the patties into the hot oil and fry for about 5 minutes per side, until a deeply crisp, craggy crust forms and the inside is fully cooked. Press down gently on each kebab partway through cooking to help it hold its wide, flat shape. Drain the kebabs briefly on paper. Serve hot, wrapped in naan bread with sliced onion and a wedge of lemon.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/9/96/Peshawari_Chapli_Kabab_by_Chef_Nina.jpg",
     isStreetFood: true,
   },
   {
@@ -1617,7 +1617,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Basmati rice", "Mutton", "Yogurt", "Ginger", "Garlic", "Fried onion", "Potato", "Ghee", "Saffron", "Garam masala", "Green chili", "Rosewater"],
     instructions:
       "Marinate the mutton pieces in yogurt, ginger-garlic paste, fried onion, garam masala, and a little ghee, then cover and refrigerate for at least 4 hours or overnight. Parboil the basmati rice in salted water for about 6 minutes, until the grains are still firm at the center, then drain well. Fry the peeled potatoes in hot ghee for about 4 minutes, until lightly golden on the outside. Layer the marinated raw mutton across the bottom of a heavy pot, then arrange the fried potatoes over the meat. Spread the parboiled rice evenly over the meat and potatoes as the next layer. Soak a pinch of saffron in warm milk and drizzle it over the rice along with a splash of rosewater and a scatter of extra fried onion. Cover the pot tightly with a lid, sealing the edges with a strip of dough if needed to trap the steam completely. Cook over very low heat for about 45 minutes, allowing the rice to steam and the meat to cook entirely in its own juices. Let the pot rest undisturbed for 10 minutes off the heat, then gently fold the layers together before serving.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Mutton_Kacchi_Biriyani_Sultan_Dine.jpg",
   },
   {
     region: "Chittagong Division",
@@ -1627,7 +1627,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Beef", "Mustard oil", "Onion", "Ginger", "Garlic", "Cumin", "Coriander seed", "Dried red chili", "Bay leaf", "Black cardamom", "Green chili"],
     instructions:
       "Heat mustard oil in a large heavy pot until it begins to shimmer and lose its raw sharpness. Add sliced onion and fry for about 10 minutes, stirring frequently, until deeply browned. Stir in ginger and garlic paste and cook for 2 minutes, until fragrant. Add cumin, ground coriander seed, dried red chili, bay leaf, and black cardamom, then toast the spices in the hot oil for about 1 minute. Add the beef pieces and sear them directly in the spice mixture for about 10 minutes, until well coated and browned on the edges. Pour in enough water to just cover the meat, then bring the pot to a boil before lowering it to a steady simmer. Cover and cook for about 2 hours, stirring occasionally, until the beef becomes very tender and the gravy turns thick and dark. Uncover the pot for the final 15 minutes of cooking to let the sauce reduce and intensify. Finish with whole green chilies stirred in just before serving, alongside plain steamed rice.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/7/77/Mezbani_meal_from_a_famous_restaurant_in_Chittagong_Bangladesh.jpg",
   },
   {
     region: "Dhaka Division",
@@ -1637,7 +1637,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Semolina", "All-purpose flour", "Vegetable oil", "Potato", "Chickpeas", "Tamarind", "Green chili", "Cumin", "Black salt", "Fresh coriander", "Onion"],
     instructions:
       "Mix the semolina and flour with a little oil and water into a stiff dough, then cover it and let it rest for about 20 minutes. Roll the dough out thin and cut it into small circles about 2 inches wide. Heat oil in a deep pot to about 375 degrees Fahrenheit. Fry the dough circles in small batches for about 1 minute, pressing them gently with a slotted spoon so they puff into hollow shells, then drain them on paper. Boil the potatoes until tender, about 15 minutes, then peel, mash, and mix them with boiled chickpeas, chopped onion, green chili, and a pinch of black salt to make the filling. Blend tamarind pulp with water, cumin, and a touch more black salt into a thin, tangy tamarind water. Crack a small hole in the top of each puffed shell with your thumb. Spoon a little of the potato and chickpea filling into each shell. Fill each shell to the brim with the tangy tamarind water and serve them immediately, before the shells turn soft.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/1/15/Fuchka_Bengali_food_from_Rajshahi.jpg",
     isStreetFood: true,
     dietOverride: "vegan",
   },
@@ -1649,7 +1649,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Pork ears", "Pork jowl", "Chicken liver", "Onion", "Green chili", "Red chili", "Calamansi juice", "Soy sauce", "Butter", "Mayonnaise", "Egg", "Bay leaf", "Black peppercorns"],
     instructions:
       "Boil pork ears and pork jowl in water with bay leaves, peppercorns, and salt for about forty five minutes, until tender enough to pierce easily with a fork. Drain the pork and pat it dry, then grill it over hot charcoal for about eight minutes per side, until the skin is deeply browned and slightly charred. Let the grilled pork cool slightly, then chop it into very small, even pieces along with the chicken liver. Melt butter in a large flat pan or skillet over high heat, then add the chopped pork and liver and sear for about five minutes, stirring frequently, until crisp at the edges. Add finely chopped onion and both green and red chili, and cook for two more minutes, until the onion softens slightly but still has some bite. Season with soy sauce, calamansi juice, salt, and pepper, tossing everything together over high heat for one minute to combine. Transfer the sizzling mixture onto a hot sizzling plate or heatproof platter, then stir in a spoonful of mayonnaise for richness. Crack a raw egg directly on top of the hot sisig and let the residual heat begin to cook it as you bring the dish to the table. Mix the egg into the sisig tableside just before eating, and serve with extra calamansi wedges on the side.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/4/48/Sizzling_Sisig.jpg",
     isStreetFood: true,
   },
   {
@@ -1660,7 +1660,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Pork bones", "Pork belly", "Pork liver", "Fresh egg noodles", "Garlic", "Onion", "Fish sauce", "Soy sauce", "Chicharon", "Spring onion", "Boiled egg"],
     instructions:
       "Simmer pork bones and pork belly in a large pot of water with quartered onion and crushed garlic for about ninety minutes, skimming off any foam, until a rich stock forms. Remove the pork belly once tender, let it cool, then slice it thinly and set it aside. Strain the stock into a clean pot and season it with fish sauce and a splash of soy sauce, tasting and adjusting until it is deeply savory. In a separate small pan, fry thinly sliced garlic in oil over medium heat for about two minutes, until golden and fragrant, then set the garlic and its oil aside separately. Bring a second pot of water to a boil and cook fresh egg noodles for about two minutes, until just tender, then drain well. Divide the noodles among deep serving bowls and top each with sliced pork belly and a portion of raw pork liver, thinly sliced. Ladle the boiling hot stock directly over the noodles and liver so that the heat gently cooks the liver as it hits the bowl. Crush a generous handful of chicharon over each bowl so it begins to soften slightly in the broth. Finish each bowl with the fried garlic and oil, chopped spring onion, and a halved boiled egg before serving immediately.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/7/76/LaPazBatchoy.jpg",
     isStreetFood: true,
   },
   {
@@ -1671,7 +1671,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Pork belly", "Coconut milk", "Shrimp paste", "Green chili", "Red chili", "Garlic", "Onion", "Ginger", "Cooking oil"],
     instructions:
       "Cut pork belly into small cubes and set them aside while you prepare the aromatics. Heat oil in a heavy pot over medium heat and sauté minced garlic, chopped onion, and grated ginger for about three minutes, until fragrant. Add the pork belly and cook for about eight minutes, stirring occasionally, until the pieces are lightly browned on all sides. Stir in the shrimp paste and cook for one minute to let its flavor bloom into the oil and pork. Pour in the coconut milk and bring the mixture to a gentle simmer, then reduce the heat to low. Cover and cook for about thirty minutes, stirring occasionally, until the pork is tender and the sauce has thickened slightly. Add sliced green and red chili and continue simmering uncovered for ten more minutes, until the sauce turns rich and glossy and the chili has softened. Taste and adjust the seasoning, adding a little more shrimp paste if a saltier, deeper flavor is wanted. Serve hot over steamed rice, with extra sliced chili scattered on top for those who want more heat.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Bicol_Express.jpg",
   },
   {
     region: "Northern Peninsular Malaysia",
@@ -1681,7 +1681,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Flat rice noodles", "Shrimp", "Chinese sausage", "Egg", "Bean sprouts", "Garlic chives", "Dark soy sauce", "Light soy sauce", "Chili paste", "Garlic", "Cooking oil"],
     instructions:
       "Heat a well seasoned wok over very high heat until it just begins to smoke, then add a generous splash of oil. Add minced garlic and sliced Chinese sausage and stir fry for about one minute, until fragrant and the sausage edges start to crisp. Add the shrimp and stir fry for about two minutes, until they turn pink and just cooked through. Push everything to one side of the wok, crack in an egg, and scramble it briefly before folding it into the other ingredients. Add the flat rice noodles along with dark soy sauce, light soy sauce, and a spoonful of chili paste, tossing constantly over high heat for about two minutes so the noodles pick up color and a faint smoky aroma from the hot wok. Add bean sprouts and cut lengths of garlic chives, and toss for another minute, just until the sprouts soften slightly but still stay crunchy. Taste and adjust the seasoning with a little more soy sauce if needed, keeping the heat high throughout so nothing steams or turns soggy. Transfer immediately to a plate and serve right away while the noodles are still hot and glossy.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/0/04/Char_kway_teow.jpg",
     isStreetFood: true,
   },
   {
@@ -1692,7 +1692,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Rice", "Coconut milk", "Pandan leaf", "Dried anchovies", "Roasted peanuts", "Cucumber", "Hard boiled egg", "Onion", "Dried chili", "Shrimp paste", "Garlic", "Tamarind"],
     instructions:
       "Rinse the rice well and cook it in a pot with coconut milk, water, a knotted pandan leaf, and a pinch of salt, using the usual ratio for steamed rice. Once the liquid has mostly absorbed, cover the pot and let the rice steam undisturbed on the lowest heat for about fifteen minutes, until fluffy and fragrant. While the rice cooks, rinse dried anchovies and fry them in oil over medium heat for about four minutes, until crisp and golden, then drain and set aside. In the same oil, fry a handful of raw peanuts for about three minutes, until golden brown, then drain them separately from the anchovies. Blend onion, garlic, dried chili, and shrimp paste into a smooth paste, then fry it in oil over low heat for about ten minutes, stirring often, until it turns deep red and fragrant. Stir in tamarind pulp dissolved in water along with a pinch of sugar, and simmer the sambal for five more minutes, until thickened and glossy. Fluff the coconut rice with a fork and mound it onto plates. Arrange sliced cucumber, a halved hard boiled egg, the fried anchovies, and the fried peanuts around the rice. Spoon the warm sambal generously over or alongside the rice just before serving.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/3/34/Nasi_lemak.jpg",
   },
   {
     region: "East Malaysia (Borneo)",
@@ -1702,7 +1702,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Rice vermicelli", "Chicken breast", "Shrimp", "Bean sprouts", "Egg", "Laksa spice paste", "Coconut milk", "Chicken stock", "Sambal", "Lime", "Coriander leaves"],
     instructions:
       "Poach chicken breast in simmering water for about fifteen minutes, until cooked through, then remove it, let it cool, and shred it into thin strips, reserving the poaching liquid as stock. Heat oil in a pot over medium heat and fry the laksa spice paste for about six minutes, stirring constantly, until it darkens slightly and turns deeply fragrant. Pour in the reserved chicken stock and bring it to a simmer, then stir in coconut milk and let the broth simmer gently for ten minutes. Season the broth with salt and a little sugar, tasting until it reaches a balance of rich, spicy, and slightly sweet flavor. Blanch the shrimp in the simmering broth for about two minutes, until just pink, then remove them and set aside. Soak rice vermicelli in hot water for about five minutes, until softened, then drain and divide it among serving bowls. Prepare a thin omelet by frying beaten egg in a lightly oiled pan for about two minutes, then slice it into fine strips once cooled. Ladle the hot broth over the noodles, then top each bowl with shredded chicken, the poached shrimp, bean sprouts, and the shredded omelet. Finish with a spoonful of sambal, a squeeze of lime, and chopped coriander leaves before serving hot.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Laksa_Sarawak.JPG",
     isStreetFood: true,
   },
   {
@@ -1713,7 +1713,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Potato", "Farmer's cheese", "Onion", "Flour", "Egg", "Butter", "Sour cream", "Salt"],
     instructions:
       "Boil peeled potatoes in salted water for about twenty minutes, until soft enough to mash easily, then drain well. Mash the potatoes while still warm and mix them with crumbled farmer's cheese, folding until evenly combined. Finely chop half an onion and sauté it in butter over medium heat for about six minutes, until soft and golden, then stir most of it into the potato and cheese filling, reserving the rest for topping. Season the filling generously with salt and pepper, then set it aside to cool slightly. On a lightly floured surface, knead together flour, egg, a pinch of salt, and enough warm water to form a smooth, elastic dough, then let it rest for ten minutes under a cloth. Roll the dough out thinly and cut circles using a glass or round cutter. Place a spoonful of filling in the center of each circle, fold the dough over into a half moon, and pinch the edges firmly to seal. Drop the pierogi into a large pot of gently boiling salted water and cook for about three minutes after they float to the surface. Drain the pierogi and serve them warm, topped with the reserved sautéed onion and a dollop of sour cream.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Pierogi_ruskie_ze_skwarkami_na_stole.jpg",
   },
   {
     region: "Silesia",
@@ -1733,7 +1733,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Flour", "Yeast", "Sugar", "Salt", "Water", "Poppy seeds", "Sesame seeds", "Coarse salt", "Malt syrup"],
     instructions:
       "Dissolve yeast and a pinch of sugar in warm water and let the mixture stand for about ten minutes, until foamy on top. Mix the yeast mixture into flour and salt, then knead for about eight minutes, until the dough is smooth and elastic. Cover the dough and let it rise in a warm spot for about one hour, until roughly doubled in size. Divide the dough into equal pieces and roll each into a long rope, then twist two ropes together and join the ends to form a ring. Let the shaped rings rest, covered, for about twenty minutes while you bring a wide pot of water mixed with malt syrup to a gentle boil. Boil each ring for about thirty seconds per side, until it puffs slightly and rises to the surface, then lift it out with a slotted spoon and drain briefly. Immediately press the top of each warm ring into a dish of poppy seeds, sesame seeds, or coarse salt so the topping sticks. Arrange the rings on a baking tray lined with parchment and bake in a hot oven at around two hundred twenty degrees Celsius for about eighteen minutes, until deeply golden and crisp on the outside. Cool the rings briefly on a wire rack before selling or serving, as street vendors traditionally do, threaded on long dowels or piled in baskets.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/9/97/Obwarzanki_krakowskie.jpg",
     isStreetFood: true,
     dietOverride: "vegan",
   },
@@ -1745,7 +1745,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Stale bread", "Garlic", "Fresh coriander", "Olive oil", "Egg", "Water", "Salt", "Bay leaf"],
     instructions:
       "Crush garlic cloves with a pinch of salt in a large mortar until a smooth paste forms. Add a generous handful of fresh coriander leaves to the mortar and continue pounding until the mixture turns into a fragrant green paste. Transfer the paste to a large bowl and stir in a good glug of olive oil, working it together with a wooden spoon. Tear stale bread into rough chunks and set them into the bowl on top of the garlic and coriander paste. Bring water seasoned with a bay leaf and a pinch of salt to a rolling boil in a separate pot. Pour the boiling water over the bread and paste, then stir vigorously so the bread breaks down and thickens the mixture into a rustic, porridge-like consistency. Poach eggs gently in a separate pot of barely simmering water for about three minutes, until the whites are set but the yolks stay soft. Ladle the açorda into shallow bowls and top each portion with a poached egg. Drizzle with a little more olive oil and scatter extra coriander leaves over the top before serving immediately while still hot.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/2/23/A%C3%A7orda_%C3%A0_Alentejana.jpg",
   },
   {
     region: "Algarve",
@@ -1755,7 +1755,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Clams", "Shrimp", "Mussels", "White fish", "Tomato", "Onion", "Garlic", "Bell pepper", "White wine", "Olive oil", "Paprika", "Bay leaf", "Parsley"],
     instructions:
       "Heat olive oil in a wide pan over medium heat and sauté chopped onion and garlic for about five minutes, until softened and translucent. Add sliced bell pepper and cook for another three minutes, until it begins to soften slightly. Stir in chopped tomato, a pinch of paprika, and a bay leaf, and cook for about eight minutes, until the tomato breaks down into a thick base. Pour in white wine and let it bubble for two minutes to cook off the sharp alcohol smell. Nestle chunks of white fish into the sauce first, since they need the longest cooking time, and simmer gently for four minutes. Add the clams and mussels, cover the pan tightly, and cook for about five minutes, until the shells begin to open. Scatter the shrimp over the top, cover again, and cook for three more minutes, until the shrimp turn pink and any remaining shells have opened fully. Discard any shellfish that have not opened, then season the broth with salt and pepper to taste. Sprinkle with chopped parsley and serve straight from the pan with crusty bread for soaking up the broth.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/b/ba/A_pork,_prawn_and_clams_Cataplana.JPG",
   },
   {
     region: "Norte",
@@ -1765,7 +1765,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Bread", "Ham", "Linguiça sausage", "Fresh sausage", "Steak", "Cheese slices", "Tomato", "Beer", "Beef stock", "Butter", "Flour", "Chili", "French fries"],
     instructions:
       "Season a thin steak with salt and pepper and pan fry it in butter over medium high heat for about two minutes per side, until browned, then set it aside. In the same pan, quickly sear slices of linguiça sausage, fresh sausage, and ham for about two minutes total, just to warm them through and pick up a little color. Assemble a sandwich by layering the steak, sausages, and ham between two slices of bread. Cover the entire sandwich generously with sliced cheese, making sure the edges are fully enclosed. To make the sauce, melt butter in a saucepan and whisk in flour to form a paste, cooking for one minute over low heat. Gradually whisk in beer, beef stock, and a spoonful of chopped tomato, then simmer the sauce for about ten minutes, until it thickens slightly and turns a deep amber color. Season the sauce with a little chili for heat and adjust the salt to taste. Place the cheese covered sandwich under a hot grill or broiler for about four minutes, until the cheese melts completely and turns bubbly and golden in spots. Set the sandwich on a plate, pour the hot beer sauce generously over the top, and serve immediately with a portion of French fries alongside.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/6/60/Francesinha_especial.JPG",
     isStreetFood: true,
   },
   {
@@ -1776,7 +1776,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Chicken thighs", "Scotch bonnet pepper", "Green onion", "Allspice berries", "Thyme", "Garlic", "Ginger", "Soy sauce", "Brown sugar", "Lime juice", "Cooking oil"],
     instructions:
       "Blend scotch bonnet pepper, green onion, allspice berries, thyme, garlic, and ginger with soy sauce, brown sugar, lime juice, and a little oil into a thick, fragrant marinade. Score the chicken thighs lightly with a few shallow cuts to help the marinade penetrate. Rub the marinade generously over the chicken, working it into every crevice, then cover and refrigerate for at least four hours, or overnight for the deepest flavor. Prepare a charcoal or wood fire and let it burn down until the coals are covered in gray ash and glow steadily. Place the chicken skin side down over indirect heat, away from the direct flame, and close the grill lid. Cook for about twenty five minutes, then flip the chicken and cook for another twenty five minutes, until the internal temperature reaches a safe level and the juices run clear. During the last ten minutes, move the chicken briefly over direct heat to char the skin, turning frequently to avoid burning. Let the chicken rest for about five minutes off the heat so the juices redistribute. Chop the chicken into pieces with a cleaver, as street vendors traditionally do on a wooden board, and serve with festival bread or rice and peas.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/1/19/Jerk_chicken_plate.jpg",
     isStreetFood: true,
   },
   {
@@ -1797,7 +1797,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Whole fish", "Carrot", "Bell pepper", "Onion", "Scotch bonnet pepper", "White vinegar", "Allspice berries", "Garlic", "Cooking oil", "Flour"],
     instructions:
       "Clean and score the whole fish with a few diagonal cuts on each side to help it cook evenly. Season the fish generously with salt, pepper, and crushed garlic, then let it sit for about twenty minutes. Dust the fish lightly with flour and fry it in hot oil for about six minutes per side, until the skin is crisp and deep golden brown and the flesh flakes easily. Drain the fried fish on paper towels and set it aside on a serving platter. In a separate pan, combine white vinegar, sliced carrot, sliced bell pepper, sliced onion, sliced scotch bonnet pepper, and allspice berries. Bring the mixture to a brief boil, then reduce the heat and simmer for about five minutes, until the vegetables soften slightly but still keep some crunch. Season the pickling liquid with a little salt and sugar to balance the sharpness of the vinegar. Pour the hot pickled vegetables and liquid generously over the fried fish while both are still warm. Let the dish sit for at least fifteen minutes before serving so the flavors meld, as is traditional from roadside stalls along the coast.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/2/27/Escoveitch_fish_Jamaica.jpg",
     isStreetFood: true,
   },
   {
@@ -1808,7 +1808,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Pork", "Chicken", "Lamb", "Potato", "Kumara", "Pumpkin", "Cabbage", "Water"],
     instructions:
       "Dig a pit in the ground and build a large wood fire inside it, then place a layer of river stones on top and let the fire burn for about two hours, until the stones are extremely hot and the flames have died down to embers. Carefully rake away the embers and lower a large wire basket or wrapped bundles of meat directly onto the hot stones. Layer the pork, chicken, and lamb in the basket, followed by whole potatoes, kumara, pumpkin, and cabbage arranged around and above the meat. Cover the food completely with wet cloths or leaves to trap steam and protect it from direct dirt. Shovel the excavated earth back over the covered basket, sealing the pit completely so no steam can escape. Leave the hangi to cook undisturbed underground for about three to four hours, relying entirely on the trapped heat and steam from the hot stones. Carefully dig away the earth and lift out the covering cloths once the cooking time has passed, taking care of the rising steam. Lift the basket out and check that the meat is fully tender and the vegetables are soft all the way through. Arrange the meat and vegetables on large platters and serve immediately while everything is still steaming hot, in the traditional communal style.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Hangi_prepare.jpg",
   },
   {
     region: "South Island",
@@ -1818,7 +1818,7 @@ export const worldDishes: SeedDish[] = [
     ingredients: ["Whitebait", "Egg", "Flour", "Butter", "Salt", "Lemon", "Parsley"],
     instructions:
       "Rinse the whitebait gently in cold water and drain them well in a colander, taking care not to break the delicate little fish apart. Beat eggs in a large bowl until well combined, then season lightly with salt. Fold the whitebait directly into the beaten egg, along with a small amount of flour, just enough to lightly bind the mixture without turning it into a thick batter. Stir in a little chopped parsley for freshness. Heat butter in a wide frying pan over medium heat until it foams and turns lightly golden. Spoon portions of the whitebait mixture into the pan, flattening each into a small round patty. Fry the fritters for about two minutes per side, until the edges turn golden and slightly crisp while the center stays tender. Transfer the cooked fritters to a plate lined with paper towel to drain briefly. Serve the fritters warm with a generous squeeze of fresh lemon juice over the top.",
-    photo: null,
+    photo: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Whitebait_Fritter.JPG",
   },
   {
     region: "North Island",
