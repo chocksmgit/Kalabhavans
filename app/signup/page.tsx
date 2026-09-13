@@ -14,12 +14,13 @@ export default function SignUpPage() {
     ageGroup: "",
     address: "",
     password: "",
+    ageConfirmed: false,
   });
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [confirmEmailNotice, setConfirmEmailNotice] = useState(false);
 
-  function set<K extends keyof typeof form>(key: K, value: string) {
+  function set<K extends keyof typeof form>(key: K, value: (typeof form)[K]) {
     setForm((f) => ({ ...f, [key]: value }));
   }
 
@@ -100,7 +101,6 @@ export default function SignUpPage() {
           <Field label="Age group (optional)">
             <select value={form.ageGroup} onChange={(e) => set("ageGroup", e.target.value)} className={inputClass}>
               <option value="">Select...</option>
-              <option value="under_18">Under 18</option>
               <option value="age_18_24">18–24</option>
               <option value="age_25_34">25–34</option>
               <option value="age_35_44">35–44</option>
@@ -125,6 +125,23 @@ export default function SignUpPage() {
             className={inputClass}
           />
         </Field>
+
+        <label className="flex items-start gap-2 text-sm text-ink-700">
+          <input
+            type="checkbox"
+            required
+            checked={form.ageConfirmed}
+            onChange={(e) => set("ageConfirmed", e.target.checked)}
+            className="mt-0.5 h-4 w-4 rounded border-ink-300 text-saffron-600 focus:ring-saffron-500"
+          />
+          <span>
+            I confirm that I am 18 years of age or older. See our{" "}
+            <a href="/legal/terms" className="font-medium text-saffron-600 hover:underline">
+              Terms of Use
+            </a>
+            .
+          </span>
+        </label>
 
         {error && <p className="text-sm text-chili-600">{error}</p>}
 

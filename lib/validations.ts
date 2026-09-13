@@ -3,8 +3,11 @@ import { isRecognizedCountry } from "./geo";
 
 // Mirrors the Prisma enums in prisma/schema.prisma — keep in sync.
 export const genderValues = ["female", "male", "non_binary", "prefer_not_to_say"] as const;
+// "under_18" remains a valid value in the Prisma/database AgeGroup enum (it's
+// harmless to keep there), but it's deliberately excluded from the values a
+// new sign-up can submit — see the 18+ requirement in the Terms of Use
+// (app/legal/terms/page.tsx) and the required ageConfirmed checkbox below.
 export const ageGroupValues = [
-  "under_18",
   "age_18_24",
   "age_25_34",
   "age_35_44",
@@ -33,6 +36,14 @@ export const signUpSchema = z.object({
   ageGroup: z.enum(ageGroupValues).optional(),
   address: z.string().trim().max(500).optional().or(z.literal("")),
   password: z.string().min(8, "Password must be at least 8 characters"),
+  // Required checkbox affirming the Terms of Use's 18+ requirement. We don't
+  // do formal age verification (no ID check), so this self-attestation plus
+  // rejecting the request server-side if it's missing/false is the
+  // enforcement mechanism — validated here, not just in the UI, so a direct
+  // API call can't skip it.
+  ageConfirmed: z
+    .boolean()
+    .refine((v) => v === true, { message: "You must confirm you are 18 or older to sign up" }),
 });
 export type SignUpInput = z.infer<typeof signUpSchema>;
 

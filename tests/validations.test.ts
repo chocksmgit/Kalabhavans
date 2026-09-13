@@ -14,6 +14,7 @@ describe("signUpSchema", () => {
     lastName: "Chokkalingam",
     email: "kalachocks@gmail.com",
     password: "correct-horse",
+    ageConfirmed: true,
   };
 
   it("accepts the minimum required fields (email required, everything else optional)", () => {
@@ -51,6 +52,16 @@ describe("signUpSchema", () => {
   it("rejects an unrecognized gender or age group value", () => {
     expect(signUpSchema.safeParse({ ...base, gender: "other" }).success).toBe(false);
     expect(signUpSchema.safeParse({ ...base, ageGroup: "teen" }).success).toBe(false);
+  });
+
+  it("rejects 'under_18' as an age group — the Terms of Use require sign-ups to be 18+", () => {
+    expect(signUpSchema.safeParse({ ...base, ageGroup: "under_18" }).success).toBe(false);
+  });
+
+  it("rejects a sign-up that hasn't confirmed the 18+ age requirement", () => {
+    const { ageConfirmed, ...withoutAgeConfirmed } = base;
+    expect(signUpSchema.safeParse(withoutAgeConfirmed).success).toBe(false);
+    expect(signUpSchema.safeParse({ ...base, ageConfirmed: false }).success).toBe(false);
   });
 
   it("allows phone to be omitted entirely or passed as an empty string", () => {
