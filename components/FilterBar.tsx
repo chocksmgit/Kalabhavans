@@ -51,7 +51,7 @@ export default function FilterBar({
     <form
       role="search"
       onSubmit={(e) => e.preventDefault()}
-      className="flex flex-wrap items-center gap-3 rounded-2xl border border-ink-100 bg-white p-4"
+      className="flex flex-wrap items-center gap-3 rounded-2xl border-2 border-teal-100 bg-white p-4 shadow-sm"
     >
       <label className="sr-only" htmlFor="q">
         Search recipes
@@ -62,7 +62,7 @@ export default function FilterBar({
         defaultValue={searchParams.get("q") ?? ""}
         onChange={(e) => update("q", e.target.value)}
         placeholder="Search by dish or ingredient..."
-        className="min-w-[220px] flex-1 rounded-lg border border-ink-200 px-3 py-2 text-sm focus:border-saffron-500 focus:outline-none"
+        className="min-w-[220px] flex-1 rounded-lg border border-ink-200 px-3 py-2 text-sm focus:border-saffron-500 focus:outline-none focus:ring-2 focus:ring-saffron-200"
       />
 
       <label className="sr-only" htmlFor="continent">
@@ -148,12 +148,12 @@ export default function FilterBar({
         <option value="hard">Hard</option>
       </select>
 
-      <label className="flex items-center gap-1.5 text-sm text-ink-700">
+      <label className="flex items-center gap-1.5 text-sm font-medium text-berry-700">
         <input
           type="checkbox"
           defaultChecked={searchParams.get("street") === "1"}
           onChange={(e) => updateCheckbox("street", e.target.checked)}
-          className="rounded border-ink-300"
+          className="rounded border-berry-300 text-berry-600 focus:ring-berry-400"
         />
         Street food only
       </label>

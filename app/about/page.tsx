@@ -8,7 +8,9 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-2xl px-4 py-14 sm:px-6">
-      <h1 className="font-display text-3xl font-semibold text-ink-900">Our Mission</h1>
+      <h1 className="font-display bg-gradient-to-r from-violet-600 via-berry-600 to-chili-600 bg-clip-text text-3xl font-semibold text-transparent">
+        Our Mission
+      </h1>
       <p className="mt-6 leading-relaxed text-ink-700">
         Kalabhavans started as one family&rsquo;s effort to bring together and share the best dishes
         from across India &mdash; one state, one ingredient, one story at a time. We&rsquo;ve since

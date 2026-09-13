@@ -59,7 +59,9 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
-      <h1 className="font-display text-3xl font-semibold text-ink-900">Explore Recipes</h1>
+      <h1 className="font-display bg-gradient-to-r from-saffron-600 via-chili-600 to-berry-600 bg-clip-text text-3xl font-semibold text-transparent">
+        Explore Recipes
+      </h1>
       <p className="mt-2 max-w-2xl text-ink-600">
         Filter by continent, country, state/region, diet, or difficulty — combine as many as you
         like — or search for something specific.

@@ -11,7 +11,7 @@ import TimestampDisplay from "@/components/TimestampDisplay";
 import CommentList from "@/components/CommentList";
 import CommentForm from "@/components/CommentForm";
 import ReportButton from "@/components/ReportButton";
-import { dietLabels } from "@/lib/dish-labels";
+import { dietLabels, dietBadgeClasses } from "@/lib/dish-labels";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -111,13 +111,18 @@ export default async function RecipeDetailPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="flex flex-wrap items-center gap-2">
-        <p className="text-xs font-medium uppercase tracking-wide text-saffron-600">{place}</p>
+        <p className="text-xs font-semibold uppercase tracking-wide text-saffron-600">{place}</p>
         {recipe.isStreetFood && (
-          <span className="rounded-full bg-chili-50 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-chili-600">
+          <span className="rounded-full bg-gradient-to-r from-berry-500 to-violet-600 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white">
             Street Food
           </span>
         )}
-        <span className="rounded-full bg-leaf-50 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-leaf-700">
+        <span
+          className={`rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide ${
+            dietBadgeClasses[recipe.diet as keyof typeof dietBadgeClasses] ??
+            "bg-leaf-100 text-leaf-700"
+          }`}
+        >
           {dietLabels[recipe.diet as keyof typeof dietLabels] ?? recipe.diet}
         </span>
       </div>
@@ -154,7 +159,7 @@ export default async function RecipeDetailPage({ params }: Props) {
         <h2 className="sr-only">Ingredients and Steps</h2>
         <Link
           href={`/recipe/${recipe.slug}/cook`}
-          className="inline-flex items-center gap-2 rounded-full bg-ink-900 px-5 py-2.5 text-sm font-medium text-white hover:bg-ink-800"
+          className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-violet-600 to-berry-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:brightness-110"
         >
           👨‍🍳 Cook Mode
         </Link>

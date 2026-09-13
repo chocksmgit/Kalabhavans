@@ -2,11 +2,17 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="mt-16 border-t border-ink-100 bg-white">
+    <footer className="relative mt-16 border-t border-ink-100 bg-white">
+      <div
+        aria-hidden="true"
+        className="h-1 w-full bg-[linear-gradient(to_right,theme(colors.leaf.400),theme(colors.sky.400),theme(colors.violet.500),theme(colors.berry.500),theme(colors.chili.500),theme(colors.saffron.400))]"
+      />
       <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
         <div className="grid gap-8 sm:grid-cols-3">
           <div>
-            <p className="font-display text-lg font-semibold text-ink-900">Kalabhavans</p>
+            <p className="font-display bg-gradient-to-r from-saffron-600 via-chili-600 to-berry-600 bg-clip-text text-lg font-semibold text-transparent">
+              Kalabhavans
+            </p>
             <p className="mt-2 text-sm text-ink-600">
               A global community hub for discovering and sharing everyday recipes and street food
               from every state and country.
@@ -15,22 +21,22 @@ export default function Footer() {
           <nav aria-label="Footer" className="text-sm text-ink-600">
             <ul className="space-y-2">
               <li>
-                <Link href="/explore" className="hover:text-ink-900">
+                <Link href="/explore" className="hover:text-teal-700">
                   Explore Recipes
                 </Link>
               </li>
               <li>
-                <Link href="/submit" className="hover:text-ink-900">
+                <Link href="/submit" className="hover:text-berry-600">
                   Submit a Recipe
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-ink-900">
+                <Link href="/about" className="hover:text-violet-600">
                   Our Mission
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-ink-900">
+                <Link href="/contact" className="hover:text-sky-600">
                   Contact
                 </Link>
               </li>

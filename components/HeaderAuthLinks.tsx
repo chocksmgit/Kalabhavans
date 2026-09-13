@@ -17,7 +17,7 @@ export default function HeaderAuthLinks({
         </Link>
         <Link
           href="/signup"
-          className="rounded-full bg-saffron-500 px-4 py-2 text-white shadow-sm hover:bg-saffron-600"
+          className="rounded-full bg-gradient-to-r from-saffron-500 via-chili-500 to-berry-600 px-4 py-2 text-white shadow-sm hover:brightness-110"
         >
           Sign Up
         </Link>

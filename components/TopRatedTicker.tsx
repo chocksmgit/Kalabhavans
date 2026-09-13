@@ -28,14 +28,14 @@ export default function TopRatedTicker({ items }: { items: TickerItem[] }) {
 
   return (
     <div
-      className="relative overflow-hidden border-y border-saffron-100 bg-saffron-50 py-2"
+      className="relative overflow-hidden bg-gradient-to-r from-saffron-500 via-chili-500 to-berry-600 py-2 shadow-sm"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       onFocus={() => setPaused(true)}
       onBlur={() => setPaused(false)}
     >
       <div className="mx-auto flex max-w-6xl items-center gap-3 px-4 sm:px-6">
-        <span className="shrink-0 text-xs font-semibold uppercase tracking-wide text-saffron-700">
+        <span className="shrink-0 rounded-full bg-white/20 px-2 py-0.5 text-xs font-semibold uppercase tracking-wide text-white">
           🔥 Top Rated
         </span>
         <div className="flex-1 overflow-hidden">
@@ -44,7 +44,7 @@ export default function TopRatedTicker({ items }: { items: TickerItem[] }) {
               <Link
                 key={`${item.slug}-${i}`}
                 href={`/recipe/${item.slug}`}
-                className="whitespace-nowrap text-sm font-medium text-ink-700 hover:text-saffron-700 hover:underline"
+                className="whitespace-nowrap text-sm font-medium text-white hover:text-sunny-200 hover:underline"
               >
                 {item.title} &middot; {item.avgRating.toFixed(1)}★
               </Link>
@@ -55,7 +55,7 @@ export default function TopRatedTicker({ items }: { items: TickerItem[] }) {
           type="button"
           onClick={() => setPaused((p) => !p)}
           aria-pressed={paused}
-          className="shrink-0 rounded-full border border-saffron-200 px-2 py-1 text-xs font-medium text-saffron-700 hover:bg-saffron-100"
+          className="shrink-0 rounded-full border border-white/40 px-2 py-1 text-xs font-medium text-white hover:bg-white/20"
         >
           {paused ? "▶ Play" : "⏸ Pause"}
         </button>
