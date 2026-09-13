@@ -9,13 +9,10 @@ export default function ContactPage() {
       <p className="mt-4 text-ink-700">
         Questions, a recipe correction, or a content report you&rsquo;d rather send directly? Reach
         the site owners at{" "}
-        <a href="mailto:hello@kalabhavans.com" className="text-saffron-600 hover:underline">
-          hello@kalabhavans.com
+        <a href="mailto:hello.kalabhavans@gmail.com" className="text-saffron-600 hover:underline">
+          hello.kalabhavans@gmail.com
         </a>
         .
-      </p>
-      <p className="mt-2 text-sm text-ink-400">
-        (Update this address once your production mailbox is set up — see DEPLOYMENT.md.)
       </p>
     </div>
   );

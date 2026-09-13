@@ -40,8 +40,11 @@ export default function TermsPage() {
             secure and for all activity under your account. Create only one account for yourself
             &mdash; don&rsquo;t create an account for someone else without permission, and
             don&rsquo;t impersonate another person or organization. Tell us right away at{" "}
-            <a href="mailto:hello@kalabhavans.com" className="text-saffron-600 hover:underline">
-              hello@kalabhavans.com
+            <a
+              href="mailto:hello.kalabhavans@gmail.com"
+              className="text-saffron-600 hover:underline"
+            >
+              hello.kalabhavans@gmail.com
             </a>{" "}
             if you think your account has been compromised.
           </p>
@@ -193,8 +196,11 @@ export default function TermsPage() {
           <h2 className="font-display text-lg font-semibold text-ink-900">13. Contact us</h2>
           <p className="mt-2">
             Questions about these Terms? Reach us at{" "}
-            <a href="mailto:hello@kalabhavans.com" className="text-saffron-600 hover:underline">
-              hello@kalabhavans.com
+            <a
+              href="mailto:hello.kalabhavans@gmail.com"
+              className="text-saffron-600 hover:underline"
+            >
+              hello.kalabhavans@gmail.com
             </a>
             .
           </p>
