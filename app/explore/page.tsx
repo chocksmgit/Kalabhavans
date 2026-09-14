@@ -69,7 +69,13 @@ export default async function ExplorePage({ searchParams }: { searchParams: Sear
 
       <div className="mt-6">
         <Suspense>
-          <FilterBar continents={continents} countries={countries} regions={regions} />
+          {/* Keyed by the current query string so every field (including the
+              ones this render didn't touch) remounts with fresh defaultValues
+              whenever the URL changes — otherwise the dropdowns/checkbox are
+              uncontrolled and can visually keep a stale selection after
+              "Clear filters" or after picking a new continent clears country
+              and region under the hood. */}
+          <FilterBar key={JSON.stringify(params)} continents={continents} countries={countries} regions={regions} />
         </Suspense>
       </div>
 

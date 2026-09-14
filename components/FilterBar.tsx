@@ -47,6 +47,8 @@ export default function FilterBar({
     update(key, checked ? "1" : "");
   }
 
+  const hasActiveFilters = Array.from(searchParams.keys()).length > 0;
+
   return (
     <form
       role="search"
@@ -170,6 +172,16 @@ export default function FilterBar({
         <option value="newest">Newest</option>
         <option value="top_rated">Top Rated</option>
       </select>
+
+      {hasActiveFilters && (
+        <button
+          type="button"
+          onClick={() => router.push("/explore")}
+          className="rounded-lg border border-ink-200 px-3 py-2 text-sm font-semibold text-ink-600 hover:border-chili-300 hover:text-chili-600"
+        >
+          ✕ Clear filters
+        </button>
+      )}
     </form>
   );
 }
