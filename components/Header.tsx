@@ -1,6 +1,8 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getCurrentUser } from "@/lib/auth";
 import HeaderAuthLinks from "./HeaderAuthLinks";
+import logoIcon from "../public/images/logo-icon.png";
 
 export default async function Header() {
   const user = await getCurrentUser();
@@ -9,12 +11,7 @@ export default async function Header() {
     <header className="relative border-b border-ink-100 bg-white">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
         <Link href="/" className="flex items-center gap-2 font-display text-xl font-semibold text-ink-900">
-          <span
-            aria-hidden="true"
-            className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-saffron-400 via-chili-500 to-berry-600 text-lg shadow-sm"
-          >
-            🍛
-          </span>
+          <Image src={logoIcon} alt="" aria-hidden="true" className="h-11 w-11" priority />
           Kalabhavans
         </Link>
 
