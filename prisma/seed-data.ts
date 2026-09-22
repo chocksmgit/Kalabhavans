@@ -729,6 +729,153 @@ const indiaDishes: SeedDish[] = [
     photo: null,
   },
 
+  {
+    region: "Northeast India",
+    state: "Meghalaya",
+    title: "Dohkhlieh",
+    ingredients: ["Pork", "Onion", "Ginger", "Green Chili", "Mustard Oil", "Coriander", "Black Pepper"],
+    instructions:
+      "Boil a piece of pork, usually including some skin and fat, in water with a little salt and ginger until it is fully cooked and tender enough to shred easily. Once cooled, chop the meat into very small, even pieces so the texture stays light rather than chunky. Finely dice a generous quantity of raw onion and toss it with the chopped pork while it is still slightly warm, which helps the onion flavor mellow and blend in. Add finely chopped green chilies, a little grated ginger, and a splash of mustard oil to bring sharpness and earthy heat to the mix. Season with salt and freshly cracked black pepper, then finish with a scatter of chopped coriander leaves for freshness. Toss everything together thoroughly so the onion, pork, and seasonings are evenly distributed throughout. The salad is traditionally served cold or at room temperature as a side dish alongside rice and other Khasi preparations. It is best eaten the same day it is made, while the onion still has its bite and the flavors are bright.",
+    photo: null,
+  },
+  {
+    region: "South India",
+    state: "Puducherry",
+    title: "Kadamba Sadam",
+    ingredients: ["Rice", "Mixed Vegetables", "Toor Dal", "Tamarind", "Sambar Powder", "Coconut", "Curry Leaves", "Mustard Seeds"],
+    instructions:
+      "Cook rice and toor dal together, either separately or in the same pot, until both are fully soft and can be mashed together easily. Prepare a tangy tamarind extract and simmer it with a mix of chopped vegetables such as drumstick, carrot, beans, and brinjal until they soften. Stir in a fragrant sambar-style spice powder along with a portion of ground coconut to thicken the base and deepen the flavor. Combine the cooked rice and dal with the simmering vegetable and tamarind mixture, stirring well so everything comes together into a soft, slightly mushy one-pot dish. Adjust the consistency with a little water or reserved cooking liquid so it stays moist without becoming watery. In a small pan, prepare a tempering of mustard seeds, dried red chilies, and curry leaves in hot oil, letting them crackle before pouring it over the finished rice. Mix the tempering through so its aroma coats the entire dish evenly. Serve the kadamba sadam warm, traditionally with a dollop of ghee, papad, or a simple yogurt-based side.",
+    photo: null,
+  },
+  {
+    region: "North India",
+    state: "Ladakh",
+    title: "Chutagi",
+    ingredients: ["Wheat Flour", "Potato", "Tomato", "Onion", "Green Vegetables", "Ginger", "Garlic"],
+    instructions:
+      "Knead a firm dough from wheat flour and water, then let it rest so it becomes easier to roll and shape. Pinch off small pieces of the dough and press each one between your fingers into a tiny bowtie or pinwheel shape, setting them aside on a floured surface. In a pot, sauté chopped onion, ginger, and garlic in a little oil until fragrant, then add tomatoes and cook until they break down into a soft base. Add diced potatoes and any available local greens or vegetables, along with enough water to create a light broth, and simmer until the vegetables are nearly tender. Drop the shaped dough pieces into the simmering broth and cook them until they float and turn slightly translucent, which shows they are done. Season the stew with salt and a touch of ground spice to taste, keeping the flavors simple and warming. Stir gently from time to time so the dumplings do not stick together or to the bottom of the pot. Serve the chutagi hot in bowls, spooning out both the broth and the dumpling pieces together, ideal for the cold Ladakhi climate.",
+    photo: null,
+  },
+  {
+    region: "South India",
+    state: "Andaman & Nicobar",
+    title: "Andaman Karen Musley Rice",
+    ingredients: ["Musley Rice", "Coconut", "Dried Fish", "Green Chili", "Onion", "Garlic", "Salt"],
+    instructions:
+      "Rinse the distinctive local Musley rice, grown by the Karen community of the islands, several times until the water runs mostly clear. Cook the rice in a pot with enough water, covering and simmering gently until the grains are tender and slightly sticky, which is characteristic of this variety. While the rice cooks, sauté finely chopped onion and garlic in a little oil until golden, then add shredded dried fish and cook briefly to release its savory aroma. Stir in freshly grated coconut and chopped green chilies, letting the mixture cook together for a few minutes so the flavors meld. Once the rice is done, fluff it gently with a fork and fold in the coconut and dried fish mixture until evenly distributed. Season with salt to taste, adjusting the chili for the desired level of heat. Let the combined rice rest briefly off the heat so the flavors settle and the grains firm up slightly. Serve warm, often accompanied by a simple vegetable side or fresh island seafood, reflecting the Karen community's distinct culinary heritage on the islands.",
+    photo: null,
+  },
+  {
+    region: "North India",
+    state: "Haryana",
+    title: "Churma",
+    ingredients: ["Wheat Flour", "Ghee", "Jaggery", "Cardamom", "Almonds", "Sugar"],
+    instructions:
+      "Knead a stiff dough from coarse wheat flour and a generous amount of ghee, working it until the mixture feels crumbly yet holds together when pressed. Shape the dough into small thick discs or balls and either deep-fry them slowly on low heat or bake them until they turn golden brown and cooked through to the center. Allow the fried or baked dough pieces to cool slightly, then break them into rough chunks. Grind or pound the chunks in a mortar, or pulse them in a food processor, until they form a coarse, slightly grainy crumb rather than a fine powder. Melt jaggery gently with a little water or ghee until it forms a smooth syrup, being careful not to let it harden into a hard candy stage. Pour the warm jaggery syrup over the crumbled wheat mixture and combine thoroughly so every bit of churma is coated and slightly moist. Stir in crushed cardamom and chopped almonds for fragrance and texture, then let the mixture rest so it can absorb the sweetness fully. Serve churma warm or at room temperature, either on its own or alongside dal and baati as part of a traditional festive meal.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/9/91/Churma.JPG",
+  },
+  {
+    region: "South India",
+    state: "Karnataka",
+    title: "Ragi Mudde",
+    ingredients: ["Ragi Flour", "Water", "Salt"],
+    instructions:
+      "Bring a pot of water to a rolling boil, adding a pinch of salt if desired. Sprinkle in finger millet, or ragi, flour gradually while stirring continuously to prevent lumps from forming. Reduce the heat and keep stirring vigorously with a sturdy wooden paddle or spoon as the mixture thickens into a dense, dough-like mass. Cover the pot and let the mixture steam briefly on low heat, which helps the flour cook through fully and lose its raw taste. Wet your hands with a little water or oil, then take a portion of the hot ragi mixture and shape it quickly into a smooth, firm ball before it cools. Work efficiently since the dough is easiest to mold while still warm and pliable. Repeat with the remaining mixture to form several balls, keeping them covered so they do not dry out. Serve the ragi mudde hot alongside a spicy lentil or vegetable curry, traditionally eaten by breaking off small pieces and dipping them directly into the accompanying gravy.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/d/dc/Ragi_Mudde.jpg",
+  },
+  {
+    region: "South India",
+    state: "Andhra Pradesh",
+    title: "Pesarattu",
+    ingredients: ["Green Gram", "Rice", "Ginger", "Green Chili", "Cumin", "Onion", "Oil"],
+    instructions:
+      "Soak whole green gram along with a small amount of rice in water for several hours, or overnight, until the grains soften completely. Drain the soaked mixture and grind it with fresh ginger, green chilies, and a little cumin into a smooth, thick batter, adding just enough water to reach a pourable consistency. Season the batter with salt and let it rest briefly so the flavors combine. Heat a flat griddle until hot, then pour a ladleful of the batter in the center and spread it outward in a circular motion to form a thin, even crepe. Drizzle a little oil around the edges and, if desired, scatter finely chopped onion over the surface while it cooks. Cook until the underside turns golden and slightly crisp, then carefully flip and cook the other side briefly. Fold the pesarattu in half or roll it up once both sides are done. Serve immediately while hot, typically paired with a coconut or ginger chutney and sometimes stuffed with upma for a heartier breakfast.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/c/c7/MLA_Pesarattu.JPG",
+    isStreetFood: true,
+  },
+  {
+    region: "South India",
+    state: "Telangana",
+    title: "Bagara Baingan",
+    ingredients: ["Brinjal", "Peanuts", "Sesame Seeds", "Coconut", "Tamarind", "Onion", "Spices"],
+    instructions:
+      "Select small, tender brinjals and slit each one into quarters from the bottom while keeping the stem intact, so they stay whole during cooking. Dry roast peanuts, sesame seeds, and grated coconut separately until lightly golden and fragrant, then grind them together into a coarse, thick paste along with a little water. Fry sliced onions in oil until deeply golden, then blend them into the roasted paste to add sweetness and body. Heat oil in a pan and shallow-fry the slit brinjals briefly until their skins blister slightly, then set them aside. In the same pan, cook the ground peanut and coconut paste with a splash of tamarind extract and warming spices until the oil begins to separate from the mixture. Return the fried brinjals to the pan, gently folding them into the thick gravy so the stuffing works its way into the slits. Simmer everything together on low heat, adding water as needed, until the brinjals are fully tender and infused with the rich sauce. Serve bagara baingan hot with steamed rice or biryani, letting the nutty, tangy gravy soak into each bite.",
+    photo: null,
+  },
+  {
+    region: "East India",
+    state: "Odisha",
+    title: "Chhena Poda",
+    ingredients: ["Chhena", "Sugar", "Semolina", "Cardamom", "Cashew", "Raisins", "Ghee"],
+    instructions:
+      "Curdle fresh milk with a natural souring agent, then strain and press the resulting chhena to remove excess moisture while keeping it soft and crumbly. Knead the chhena by hand for several minutes until it becomes smooth and slightly elastic, which is essential for the right texture. Mix in sugar, a small amount of semolina for structure, and crushed cardamom, blending everything evenly into the kneaded chhena. Fold in chopped cashews and raisins so they are distributed throughout the mixture rather than concentrated in one spot. Grease a heavy baking dish generously with ghee and spread the chhena mixture into it in an even layer. Sprinkle a little extra sugar over the top, which will caramelize during baking and give the dessert its signature dark, toasted crust. Bake in a moderately hot oven for a long, slow stretch of time until the top turns deep golden brown and the interior sets into a dense, fudgy consistency. Allow the chhena poda to cool completely before slicing, as it firms up further once cooled, and serve it at room temperature.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Chhena_Poda-Puri-Odisha-IMG_1323.jpg",
+  },
+  {
+    region: "East India",
+    state: "Bihar",
+    title: "Champaran Mutton",
+    ingredients: ["Mutton", "Mustard Oil", "Onion", "Garlic", "Yogurt", "Whole Spices", "Green Chili"],
+    instructions:
+      "Marinate mutton pieces in a generous amount of mustard oil, whole garlic cloves, sliced onions, yogurt, and a blend of whole spices, allowing the meat to absorb the flavors for several hours or overnight. Traditionally the dish is cooked in a handi, or clay pot, which is sealed at the mouth with dough to trap steam and moisture inside during cooking. Place the marinated mutton along with all the marinade ingredients directly into the pot without adding extra water, relying on the meat's own juices and the mustard oil to cook it through. Seal the pot tightly and set it over a slow, steady flame, letting the mutton cook undisturbed for a long period so it becomes deeply tender. The slow, sealed cooking method allows the whole spices and garlic to infuse the meat thoroughly while preventing moisture from escaping. Check occasionally by gently shaking the pot rather than opening the seal, to avoid releasing the trapped steam too early. Once the meat pulls apart easily and the oil has risen to the surface, the dish is ready and the seal can be broken. Serve the mutton hot straight from the pot, ideally with tandoori roti or steamed rice, and enjoy the rich, smoky aroma that comes from the traditional slow-cooking method.",
+    photo: null,
+  },
+  {
+    region: "West India",
+    state: "Madhya Pradesh",
+    title: "Dal Bafla",
+    ingredients: ["Wheat Flour", "Toor Dal", "Ghee", "Gram Flour", "Tomato", "Onion", "Spices"],
+    instructions:
+      "Prepare a stiff dough from wheat flour, a little gram flour, and a spoonful of ghee, kneading it firmly and shaping it into round balls. Boil the dough balls in water until they float and firm up, then either deep-fry or bake them until the outer surface turns golden and slightly crisp. While the baflas cook, prepare a spiced lentil curry by cooking toor dal until soft, then tempering it with onions, tomatoes, ginger, garlic, and a blend of warming spices simmered together into a thick, flavorful dal. Once the baflas are ready, crack or lightly crush each one so it can better soak up ghee and the accompanying dal. Generously drizzle or dunk the warm baflas in melted ghee, letting them absorb its richness before serving. Plate the baflas alongside a generous ladle of the hot dal, allowing the two to be combined at the table. Some versions include a side of tangy garlic chutney or pickled vegetables to balance the richness of the ghee-soaked bread. Serve the dish hot, encouraging diners to crumble the bafla directly into the dal for the most traditional way of eating it.",
+    photo: null,
+  },
+  {
+    region: "East India",
+    state: "Chhattisgarh",
+    title: "Chapda Chutney",
+    ingredients: ["Red Weaver Ants", "Ant Eggs", "Green Chili", "Salt", "Ginger", "Garlic", "Coriander"],
+    instructions:
+      "Gather red weaver ants along with their eggs, a traditional foraged ingredient among tribal communities of the Bastar region, and rinse them gently to remove any leaves or debris. Wash the ants briefly in water and drain them well, taking care to keep the process quick so their natural tang is preserved. Grind the ants and eggs together with fresh green chilies, a small piece of ginger, and a few cloves of garlic using a traditional stone grinder or mortar and pestle. Add salt to taste and continue grinding until the mixture forms a coarse, slightly wet paste with visible texture rather than a completely smooth puree. Stir in freshly chopped coriander leaves for added freshness and a herbal note that balances the tangy, slightly sour flavor of the ants. Taste and adjust the seasoning, adding more chili or salt as needed to achieve the desired balance of heat and tang. Let the chutney rest briefly so the flavors meld together before serving. Serve chapda chutney as a condiment alongside rice or flatbreads, valued in Bastar's tribal cuisine both for its distinctive flavor and its traditional medicinal reputation.",
+    photo: null,
+    isStreetFood: true,
+  },
+  {
+    region: "Northeast India",
+    state: "Assam",
+    title: "Aloo Pitika",
+    ingredients: ["Potato", "Mustard Oil", "Onion", "Green Chili", "Coriander", "Salt"],
+    instructions:
+      "Boil whole potatoes with their skins on until a knife slides through them easily, then drain and let them cool just enough to handle. Peel the potatoes while still warm, since the skins come off more easily and the residual heat helps the seasonings absorb better. Place the peeled potatoes in a bowl and mash them roughly with a fork or your hands, leaving some texture rather than making them completely smooth. Add finely chopped raw onion, minced green chilies, and a handful of chopped coriander leaves directly into the warm mashed potato. Drizzle in raw mustard oil, which is essential to the dish's sharp, pungent character, and season generously with salt. Mix everything together thoroughly using your fingers, pressing gently so the flavors combine evenly throughout the mash. Taste and adjust the chili, salt, or mustard oil to personal preference, keeping the dish simple and rustic. Serve aloo pitika at room temperature as a staple side dish with steamed rice and dal, characteristic of everyday Assamese home cooking.",
+    photo: null,
+  },
+  {
+    region: "Northeast India",
+    state: "Manipur",
+    title: "Singju",
+    ingredients: ["Cabbage", "Banana Flower", "Roasted Chickpea Flour", "Ginger", "Green Chili", "Perilla Seeds", "Fermented Fish"],
+    instructions:
+      "Thinly shred fresh cabbage, or a mix of cabbage and banana flower, so the vegetables form light, fine strands suitable for a raw salad. Toast a small amount of gram flour or ground perilla seeds in a dry pan until fragrant, then set it aside to cool, as this adds a nutty aroma to the final dish. In a bowl, combine the shredded vegetables with finely chopped ginger, sliced green chilies, and a touch of the toasted flour or seeds. Add a small amount of fermented fish or its pungent oil, a hallmark of Manipuri cooking, to introduce a deep savory note to the salad. Squeeze in a little lime juice and season with salt, then toss everything together by hand so the flavors coat the vegetables evenly. Adjust the balance of heat, sourness, and pungency to taste, as singju is meant to be sharp and assertive in flavor. Let the salad rest for a few minutes so the shredded vegetables soften slightly and absorb the seasoning. Serve singju fresh and cool, often enjoyed as a light snack or side dish, and commonly sold by vendors in Manipur's markets.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Cabbage_and_chana_Singju.jpg",
+    isStreetFood: true,
+  },
+  {
+    region: "Northeast India",
+    state: "Nagaland",
+    title: "Smoked Pork with Anishi",
+    ingredients: ["Smoked Pork", "Anishi", "Dried Chili", "Ginger", "Garlic", "Water"],
+    instructions:
+      "Soak dried anishi, which is fermented and dried taro or colocasia leaf cake, in a little warm water until it softens enough to break apart into smaller pieces. Cut smoked pork, including some fat and skin, into bite-sized chunks, which adds richness and a distinctive smoky flavor to the finished dish. Place the pork in a pot with enough water to cover it, along with sliced ginger and garlic, and let it simmer until the meat begins to soften and release its smoky aroma into the broth. Add the softened anishi to the pot, breaking it up further with a spoon so it disperses through the liquid rather than staying in large clumps. Continue simmering the mixture on low heat, allowing the anishi to slowly dissolve and thicken the broth into a rustic, slightly pungent stew. Add whole or crushed dried chilies according to taste, letting them infuse their heat into the dish as it cooks. Stir occasionally and cook until the pork is fully tender and the anishi has thickened the liquid into a hearty, stew-like consistency. Serve smoked pork with anishi hot alongside steamed rice, a beloved comfort dish rooted in traditional Naga preservation techniques.",
+    photo: null,
+  },
+  {
+    region: "Northeast India",
+    state: "Sikkim",
+    title: "Phagshapa",
+    ingredients: ["Pork Fat", "Radish", "Dried Chili", "Ginger", "Garlic", "Salt"],
+    instructions:
+      "Cut pork, favoring fattier cuts, into thick strips so it can render slowly and flavor the dish as it cooks. Slice a generous quantity of radish into thick batons, which will absorb the rendered pork fat and become the heart of the dish. Heat a heavy pan and add the pork strips directly, without extra oil, allowing the fat to melt and coat the pan as the meat begins to brown lightly. Add whole or torn dried red chilies to the pan, letting them toast briefly in the rendered fat to build a deep, smoky heat. Stir in sliced ginger and garlic, cooking them just until fragrant before adding the sliced radish to the pan. Pour in a small amount of water, enough to help the radish steam and soften without turning the dish into a soup. Cover and simmer on low heat, stirring occasionally, until the radish turns tender and translucent while soaking up the smoky, spicy pork fat. Season with salt to taste and serve phagshapa hot with steamed rice, a warming dish well suited to Sikkim's cold mountain climate.",
+    photo: null,
+  },
 ];
 
 // All seed rows share one Original/Updated timestamp: the moment this

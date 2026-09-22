@@ -12,6 +12,7 @@ import CommentList from "@/components/CommentList";
 import CommentForm from "@/components/CommentForm";
 import ReportButton from "@/components/ReportButton";
 import BackLink from "@/components/BackLink";
+import NearbyRestaurantsLink from "@/components/NearbyRestaurantsLink";
 import { dietLabels, dietBadgeClasses } from "@/lib/dish-labels";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -158,14 +159,17 @@ export default async function RecipeDetailPage({ params }: Props) {
 
       {recipe.description && <p className="mt-6 text-ink-700">{recipe.description}</p>}
 
-      <div className="mt-10 flex items-center justify-between">
+      <div className="mt-10 flex flex-wrap items-center justify-between gap-3">
         <h2 className="sr-only">Ingredients and Steps</h2>
-        <Link
-          href={`/recipe/${recipe.slug}/cook`}
-          className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-violet-600 to-berry-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:brightness-110"
-        >
-          👨‍🍳 Cook Mode
-        </Link>
+        <div className="flex flex-wrap items-center gap-3">
+          <Link
+            href={`/recipe/${recipe.slug}/cook`}
+            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-violet-600 to-berry-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:brightness-110"
+          >
+            👨‍🍳 Cook Mode
+          </Link>
+          <NearbyRestaurantsLink title={recipe.title} />
+        </div>
         <span className="text-xs text-ink-400">Big text, no distractions — for the stove</span>
       </div>
 

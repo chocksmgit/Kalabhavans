@@ -1832,4 +1832,460 @@ export const worldDishes: SeedDish[] = [
     isStreetFood: true,
   },
 
+  {
+    region: "Latin America",
+    state: "Tucumán",
+    country: "Argentina",
+    title: "Empanadas Tucumanas",
+    ingredients: ["Beef", "Onion", "Hard-boiled egg", "Scallions", "Cumin", "Paprika", "Beef broth", "Empanada dough"],
+    instructions:
+      "Start by hand-chopping a cut of beef into very small pieces rather than mincing it, since the uneven texture is part of what defines this style. Sauté finely diced onion in beef fat or lard until soft and translucent, then add the chopped beef along with cumin, sweet paprika, salt, and a splash of beef broth, cooking it down until the meat is tender and the mixture is slightly juicy but not soupy. Let this filling cool completely, then stir in chopped hard-boiled egg and the green parts of scallions so they stay fresh rather than cooking through. Roll out discs of empanada dough, place a generous spoonful of the cooled filling just off-center on each one, and fold the dough over to form a half-moon. Seal the edge with a traditional repulgue, a rope-like fold made by pinching and folding the dough over itself along the curved edge, which also helps keep the juicy filling sealed in during cooking. Traditionally these are baked in a very hot clay or wood-fired oven until the dough is golden and slightly blistered, though a home oven or deep fryer also works well. Serve them hot, ideally within minutes of coming out of the oven, so the filling is still steaming when bitten into.",
+    photo: null,
+    isStreetFood: true,
+  },
+  {
+    region: "Latin America",
+    state: "Buenos Aires",
+    country: "Argentina",
+    title: "Buenos Aires Milanesa Napolitana",
+    ingredients: ["Beef cutlet", "Breadcrumbs", "Eggs", "Tomato sauce", "Mozzarella", "Ham", "Oregano", "Garlic"],
+    instructions:
+      "Pound thin cutlets of beef top round or eye of round between sheets of plastic wrap until they are even and tender, then season them with salt, pepper, and a little minced garlic. Dip each cutlet in beaten egg and then press it into fine breadcrumbs, coating it fully and pressing the crumbs on so they adhere well during frying. Shallow-fry the breaded cutlets in hot oil a couple at a time until deeply golden and crisp on both sides, then drain them briefly on paper towels. Arrange the fried milanesas on a baking sheet or oven-safe platter and spoon a layer of simple tomato sauce over each one, leaving the crisp edges partially exposed. Top each cutlet generously with sliced mozzarella and, if desired, a slice of ham tucked underneath the cheese for extra richness. Slide the tray under a hot broiler or into a hot oven just until the cheese is fully melted and starting to bubble and brown in spots. Finish with a scattering of dried oregano over the melted cheese right before serving. Serve immediately alongside french fries or a simple salad while the cheese is still stretchy and the breading underneath remains crisp.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/4/47/Milanesa_napolitana_(1).jpg",
+  },
+  {
+    region: "South Asia",
+    state: "Barisal",
+    country: "Bangladesh",
+    title: "Barisal-Style Bhapa Ilish (Steamed Hilsa in Mustard Sauce)",
+    ingredients: ["Hilsa fish", "Mustard seeds", "Mustard oil", "Green chilies", "Turmeric", "Yogurt", "Nigella seeds"],
+    instructions:
+      "Soak black and yellow mustard seeds in warm water for about twenty minutes, then grind them with a couple of green chilies into a smooth paste, straining out any bitter husks if needed. Whisk the mustard paste together with plain yogurt, a spoonful of pungent mustard oil, turmeric, salt, and a pinch of sugar to balance the sharpness, forming a loose, pourable sauce. Clean thick steaks of hilsa fish, known for its rich oiliness and delicate bones, and arrange them in a single layer in a heatproof bowl or tiffin container. Pour the mustard sauce evenly over the fish pieces, scatter a few whole slit green chilies and a pinch of nigella seeds on top, and cover the container tightly with a lid or foil. Set the covered container inside a larger pot with a couple of inches of simmering water, cover the outer pot, and let the fish steam gently for about twenty to twenty-five minutes rather than boiling it directly. Check that the fish is opaque and just cooked through, since hilsa's delicate flesh can dry out quickly if overcooked. Let the dish rest for a few minutes off the heat so the mustard sauce sets slightly and the flavors settle. Serve hot over steamed rice, spooning the fragrant mustard sauce generously over each portion.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Steamed_Ilish_-_Howrah_20170531131511.jpg",
+  },
+  {
+    region: "South Asia",
+    state: "Sylhet",
+    country: "Bangladesh",
+    title: "Sylheti Shatkora Beef Curry",
+    ingredients: ["Beef", "Shatkora citron", "Onion", "Garlic", "Ginger", "Turmeric", "Whole spices", "Mustard oil"],
+    instructions:
+      "Cut bone-in beef into large chunks and marinate it briefly with turmeric, salt, and a little ginger-garlic paste while preparing the other ingredients. Heat mustard oil in a heavy pot until it just begins to smoke, then temper it with whole spices such as cinnamon, cardamom, and bay leaf until they release their aroma. Add thinly sliced onions and cook them slowly until deeply browned, since this long caramelization builds the base of the curry's flavor. Stir in ginger-garlic paste and cook briefly before adding the marinated beef, browning the pieces on all sides over high heat. Add ground coriander, cumin, chili powder, and a little water, then cover and let the beef simmer slowly until it becomes tender, topping up water as needed. Meanwhile, prepare the shatkora, a large bitter-sour citron unique to the Sylhet region, by scraping and lightly cooking the pith and rind to soften its intense bitterness. Fold the prepared shatkora into the curry during the last stage of cooking so its citrusy, slightly bitter fragrance infuses the gravy without dominating it. Simmer everything together a little longer until the oil separates at the surface, then serve hot with steamed rice.",
+    photo: null,
+  },
+  {
+    region: "North America",
+    state: "Quebec",
+    country: "Canada",
+    title: "Quebec Tourtière",
+    ingredients: ["Ground pork", "Ground beef", "Onion", "Potato", "Cinnamon", "Cloves", "Pie crust", "Beef broth"],
+    instructions:
+      "In a large pot, cook finely diced onion and minced garlic in a little butter until softened, then add a mix of ground pork and ground beef, breaking it apart as it browns. Season the meat with salt, pepper, and warm spices such as cinnamon, ground cloves, and a touch of nutmeg, which give the filling its distinctive Quebecois character. Add a small amount of beef or chicken broth along with one finely diced, peeled potato, then cover and simmer the mixture slowly until the potato has mostly broken down and thickened the filling into a cohesive, spreadable mixture. Taste and adjust the seasoning, keeping in mind the spices should be present but not overpowering, then let the filling cool completely before assembling the pie. Roll out a bottom crust of buttery pastry dough and fit it into a pie dish, then spoon in the cooled meat filling and smooth it into an even layer. Cover with a second sheet of pastry, crimp the edges together to seal, and cut a few small vents in the top to let steam escape during baking. Brush the top crust with beaten egg for a glossy, golden finish, then bake in a hot oven until the crust is deeply golden and the filling is heated through. Let the pie rest for a few minutes before slicing, and serve warm, traditionally with a side of tangy ketchup or fruit chutney.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Tourti%C3%A8re_%C3%A0_la_viande.jpg",
+  },
+  {
+    region: "North America",
+    state: "Nanaimo, British Columbia",
+    country: "Canada",
+    title: "Nanaimo Bars",
+    ingredients: ["Graham cracker crumbs", "Cocoa powder", "Coconut", "Walnuts", "Custard powder", "Butter", "Icing sugar", "Semisweet chocolate"],
+    instructions:
+      "Melt butter with cocoa powder and sugar in a bowl set over simmering water, then whisk in a beaten egg and stir constantly until the mixture thickens slightly, which cooks the egg safely and builds a fudgy base. Off the heat, stir in graham cracker crumbs, shredded coconut, and chopped walnuts until everything is evenly combined into a moist, crumbly mixture. Press this base firmly and evenly into a lined square pan, using the back of a spoon or a flat-bottomed glass to compact it into a smooth layer, then chill it until firm. For the middle layer, beat softened butter with icing sugar, custard powder, and a little milk or cream until light and fluffy, forming a pale yellow custard buttercream. Spread this custard layer evenly over the chilled base, smoothing the top, then refrigerate again until it firms up enough to hold a clean layer. Melt semisweet chocolate together with a little butter until glossy and pourable, then spread it in a thin, even layer over the chilled custard layer. Return the pan to the refrigerator just until the chocolate is set but not fully hardened, which makes it easier to slice cleanly without cracking. Cut into small squares while still cold and keep refrigerated, since this is a no-bake treat best enjoyed chilled or at cool room temperature.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Nanaimo_bar.JPG",
+  },
+  {
+    region: "Latin America",
+    state: "Cali, Valle del Cauca",
+    country: "Colombia",
+    title: "Cali-Style Sancocho de Gallina",
+    ingredients: ["Hen", "Plantain", "Yuca", "Corn", "Potato", "Cilantro", "Onion", "Garlic"],
+    instructions:
+      "Start by browning pieces of bone-in hen or stewing chicken in a large pot with oil, onion, garlic, and scallions to build a deep base flavor before adding liquid. Cover the browned meat with plenty of water and bring it to a gentle simmer, skimming off any foam that rises to the surface so the broth stays clear. Add thick rounds of peeled yuca and chunks of corn on the cob first, since they take the longest to cook, and let the pot simmer steadily. After the yuca has softened somewhat, add peeled potatoes and thick slices of green plantain, which will slowly break down and naturally thicken the broth as they cook. Season the pot with salt, cumin, and a bundle of fresh cilantro, adjusting the seasoning as the flavors concentrate during the long simmer. Continue cooking until the hen is fall-apart tender and all the vegetables are soft but still holding their shape, which can take well over an hour for a proper sancocho. Skim any excess fat from the surface before serving, then ladle the soup into large bowls, making sure each portion gets a good mix of meat, plantain, yuca, corn, and potato. Serve with white rice, avocado slices, and a wedge of lime on the side, as is traditional throughout Colombia's Valle del Cauca region.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/4/42/Sancocho-hueso.JPG",
+  },
+  {
+    region: "Latin America",
+    state: "Ibagué, Tolima",
+    country: "Colombia",
+    title: "Ibagué Lechona Tolimense",
+    ingredients: ["Whole pig", "Rice", "Peas", "Onion", "Garlic", "Cumin", "Annatto", "Scallions"],
+    instructions:
+      "Begin the day before by carefully deboning a whole pig, keeping the skin intact so it can later hold the stuffing like a large edible pouch. Prepare the stuffing by cooking rice with green peas, diced pork meat, onion, garlic, scallions, cumin, and annatto for color, seasoning it generously since it will flavor the entire dish as it bakes. Pack the seasoned rice and pork mixture into the cavity of the deboned pig, then sew or skewer the opening closed so the filling stays contained during the long roast. Rub the outside of the skin thoroughly with salt and let it rest uncovered in a cool place, which helps the skin dry out and become extra crisp during baking. Roast the stuffed pig very slowly in a large oven at moderate heat for many hours, turning occasionally, until the internal stuffing is fully cooked and the skin has crackled into a deep golden crust. Baste occasionally with its own rendered fat to keep the skin developing an even, crisp texture rather than drying out in patches. Once done, let the lechona rest before carving it into portions that include both the crackling skin and the flavorful stuffed rice. Serve traditionally with arepas or insulso, a bland corn cake meant to balance the richness of the pork.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/6/64/Lechona.JPG",
+    isStreetFood: true,
+  },
+  {
+    region: "Europe",
+    state: "Munich, Bavaria",
+    country: "Germany",
+    title: "Munich Schweinshaxe",
+    ingredients: ["Pork knuckle", "Caraway seeds", "Garlic", "Onion", "Dark beer", "Bay leaves", "Salt", "Black pepper"],
+    instructions:
+      "Score the skin of a whole pork knuckle in a crosshatch pattern, which helps the fat render and the skin crackle evenly during roasting. Rub the knuckle all over with salt, crushed garlic, and caraway seeds, working the seasoning into the scored cuts so it penetrates the meat. Place the knuckle in a roasting pan on a bed of roughly chopped onion, carrot, and celery, along with a couple of bay leaves, then pour in a mixture of dark beer and water until it comes partway up the sides. Roast the knuckle low and slow in a covered pan for a couple of hours, basting occasionally with the pan liquid so the meat stays moist while it becomes tender. Once the meat is nearly falling off the bone, uncover the pan and raise the oven temperature significantly, continuing to roast uncovered so the skin dries out and begins to blister. Baste the skin periodically with a little more beer or its own rendered fat during this final stage to encourage even, deep crackling. Keep roasting until the skin is uniformly crisp and deeply golden-brown, checking that it shatters slightly when tapped rather than staying chewy. Rest the knuckle briefly, then carve and serve with the reduced pan juices, alongside sauerkraut and a large potato dumpling in the traditional Bavarian style.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/a/ad/Schweinshaxe,_Frankfurt.jpg",
+  },
+  {
+    region: "Europe",
+    state: "Berlin",
+    country: "Germany",
+    title: "Berlin-Style Königsberger Klopse",
+    ingredients: ["Ground veal", "Ground pork", "Anchovies", "Capers", "Onion", "Egg", "White bread", "Sour cream"],
+    instructions:
+      "Soak a couple of slices of stale white bread in milk until soft, then squeeze out the excess liquid and combine the bread with a mix of ground veal and ground pork in a large bowl. Add a beaten egg, finely minced onion, a few chopped anchovy fillets, and a spoonful of chopped capers, then season with salt, pepper, and a little allspice, mixing gently so the meatballs stay tender. Shape the mixture into large, smooth meatballs, rolling them firmly enough to hold together but without overworking the meat. Bring a pot of lightly salted water or light broth to a gentle simmer, then carefully lower the meatballs in and poach them slowly until just cooked through, which keeps them pale and delicate rather than browned. Remove the meatballs with a slotted spoon and set them aside, reserving the poaching liquid to use as the base for the sauce. Make a light roux with butter and flour, then whisk in the reserved poaching liquid gradually to form a smooth, pale sauce, finishing it with a generous spoonful of sour cream for richness and tang. Stir in extra capers and a squeeze of lemon juice to brighten the sauce, adjusting the seasoning to balance salty, sour, and creamy notes. Return the meatballs to the warm sauce to coat them thoroughly, then serve hot over boiled potatoes or rice.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/6/6c/K%C3%B6nigsberger_Klopse_Portal_Essen_und_Trinken.JPG",
+  },
+  {
+    region: "Caribbean",
+    state: "Mandeville, Manchester",
+    country: "Jamaica",
+    title: "Mandeville Curry Goat",
+    ingredients: ["Goat meat", "Curry powder", "Scotch bonnet pepper", "Onion", "Garlic", "Thyme", "Potato", "Allspice"],
+    instructions:
+      "Cut bone-in goat meat into chunks and rub it generously with Jamaican curry powder, letting it marinate for at least a few hours, or ideally overnight, so the spice penetrates deeply. Heat oil in a heavy pot and toast a little extra curry powder in the hot oil briefly, which deepens and blooms its flavor before the meat goes in. Add the marinated goat pieces and sear them on all sides until nicely browned, developing a good crust that will add flavor to the finished stew. Stir in chopped onion, garlic, fresh thyme sprigs, and a whole scotch bonnet pepper left uncut so it perfumes the dish with heat without overwhelming it. Add enough water or stock to come partway up the meat, then cover and let it simmer slowly, since goat meat needs a long, gentle cook to become properly tender. Once the meat is nearly tender, add chunks of potato and continue simmering until both the potato and the goat are fully cooked and the gravy has thickened naturally. Taste and adjust the seasoning with salt, allspice, and black pepper, removing the whole scotch bonnet before serving if a milder heat is preferred. Serve hot over rice and peas, spooning plenty of the rich, spiced gravy over the top.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/f/f0/Curry_Goat_with_rice_and_peas_(in_this_case_kidney_beans).jpg",
+  },
+  {
+    region: "Caribbean",
+    state: "Spanish Town, Saint Catherine",
+    country: "Jamaica",
+    title: "Spanish Town Jamaican Beef Patty",
+    ingredients: ["Ground beef", "Scotch bonnet pepper", "Onion", "Turmeric", "Curry powder", "Flour", "Butter", "Breadcrumbs"],
+    instructions:
+      "Make the distinctive golden pastry first by rubbing cold butter or shortening into flour along with turmeric and a pinch of curry powder, which gives the dough its signature yellow color, then bind it with ice water into a firm dough and chill it. For the filling, cook finely diced onion, garlic, and scallion in a hot pan until softened, then add ground beef and brown it thoroughly, breaking up any clumps. Season the beef generously with curry powder, thyme, and a small amount of finely minced scotch bonnet pepper, adjusting the heat level to taste since the pepper is intensely spicy. Add a splash of water and let the filling simmer until most of the liquid has cooked off, then stir in breadcrumbs to bind the mixture into a moist but scoopable filling, and let it cool completely. Roll out the chilled pastry and cut it into circles, then place a spoonful of the cooled beef filling onto one half of each circle. Fold the pastry over into a half-moon shape and crimp the edges firmly with a fork to seal in the filling completely. Arrange the patties on a baking sheet and bake in a hot oven until the pastry turns a deep golden yellow and becomes flaky and crisp. Serve the patties hot, ideally fresh from the oven, as a handheld snack or light meal on their own.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Jamaican_patties_and_redstripe.jpg",
+    isStreetFood: true,
+  },
+  {
+    region: "Southeast Asia",
+    state: "Negeri Sembilan",
+    country: "Malaysia",
+    title: "Negeri Sembilan Beef Rendang",
+    ingredients: ["Beef chuck", "Coconut milk", "Lemongrass", "Galangal", "Turmeric leaf", "Dried chilies", "Kerisik", "Shallots"],
+    instructions:
+      "Blend shallots, garlic, ginger, galangal, and soaked dried chilies into a smooth, fragrant spice paste using a mortar and pestle or a food processor. Fry the spice paste in oil over medium heat, stirring frequently, until it darkens slightly and the raw edge of the aromatics fades into a rich, toasty fragrance. Add bruised lemongrass stalks and torn turmeric leaves, then stir in large chunks of beef chuck, coating the meat thoroughly in the fried paste. Pour in thick coconut milk and bring the mixture to a gentle simmer, stirring occasionally to keep the coconut milk from splitting or catching on the bottom of the pot. Let the beef cook uncovered over low heat for a long stretch of time, allowing the liquid to reduce slowly as the meat becomes increasingly tender. Stir in kerisik, toasted and pounded coconut paste, partway through cooking, since it thickens the sauce and adds a deep, nutty richness characteristic of Negeri Sembilan-style rendang. Continue cooking, stirring more frequently as the sauce thickens, until the liquid has reduced almost completely and clings darkly to the meat rather than pooling as a sauce. The rendang is ready when the beef is deeply tender and the color has turned a rich brown, with the oil separating slightly at the edges of the pot.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/3/38/Rendang.JPG",
+  },
+  {
+    region: "Southeast Asia",
+    state: "Penang",
+    country: "Malaysia",
+    title: "Penang Roti Canai",
+    ingredients: ["Flour", "Ghee", "Condensed milk", "Egg", "Salt", "Water", "Dhal curry"],
+    instructions:
+      "Mix flour with salt, a beaten egg, condensed milk, and water into a soft, slightly sticky dough, then knead it thoroughly until it becomes smooth and elastic. Divide the dough into balls, coat each one generously in ghee or oil, and let them rest covered for at least a couple of hours so the gluten relaxes fully. Working with one oiled ball at a time, flatten it and stretch it by hand over a greased surface, pulling the dough gently and repeatedly until it becomes an almost translucent, paper-thin sheet. Fold the stretched sheet over itself into loose layers, tucking the edges in to form a compact square or round parcel, which traps air pockets that create flakiness later. Let the folded dough rest briefly, then cook it on a hot, well-oiled flat griddle, pressing gently with a spatula and flipping occasionally until both sides are golden brown and crisp. Once cooked, use both hands or two spatulas to clap and crush the bread lightly, which separates and fluffs up the internal layers into airy, flaky strands. Repeat the stretching and cooking process for the remaining dough balls, keeping finished breads warm under a cloth. Serve hot with a bowl of mildly spiced dhal or fish curry for dipping, as is customary at roadside stalls across Penang.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Roti_canai.jpeg",
+    isStreetFood: true,
+  },
+  {
+    region: "Oceania",
+    state: "Auckland",
+    country: "New Zealand",
+    title: "Pavlova",
+    ingredients: ["Egg whites", "Caster sugar", "Cornflour", "White vinegar", "Vanilla extract", "Whipped cream", "Strawberries", "Kiwifruit"],
+    instructions:
+      "Begin by separating fresh eggs and whisking the egg whites in a clean, grease-free bowl until they form soft peaks. Gradually add caster sugar a spoonful at a time, beating continuously until the mixture turns thick, glossy, and stands in stiff peaks. Sift in a little cornflour and fold through a dash of white vinegar and vanilla extract to help stabilize the meringue and give it a marshmallowy center. Pile the mixture onto a lined baking tray, shaping it into a round with a slight dip in the middle to later hold the topping, then smooth the sides with a spatula. Place it in a low oven and bake slowly until the outside forms a crisp, pale shell, then turn off the heat and let it cool completely inside the oven to prevent cracking. Once fully cooled, transfer the meringue base carefully onto a serving platter. Whip fresh cream to soft peaks and spoon it generously over the top just before serving. Finish with a scattering of sliced strawberries, kiwifruit, and other seasonal fruit so the tart sweetness balances the crisp, chewy meringue beneath.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Pavlova_garnished_with_cream_and_strawberries.jpg",
+  },
+  {
+    region: "Oceania",
+    state: "Northland",
+    country: "New Zealand",
+    title: "Māori Boil Up",
+    ingredients: ["Pork bones", "Watercress", "Puha", "Potatoes", "Kumara", "Onion", "Salt", "Doughboys"],
+    instructions:
+      "Start by placing smoked pork bones or a piece of pork belly into a large pot and covering it generously with cold water. Bring the pot to a boil, then skim off any foam that rises to the surface and reduce to a steady simmer so the meat slowly releases its flavor into the broth. Let the pork cook for a good hour or more until the meat is tender and starting to fall from the bone. Add peeled potatoes and kumara, cut into large chunks, along with a roughly chopped onion, and continue simmering until the vegetables are nearly soft. Wash the puha thoroughly to remove its natural bitterness, squeezing and rinsing it several times before adding it to the pot along with watercress in the final stage of cooking. While the greens wilt into the broth, mix a simple dough of flour, baking powder, and water to form soft doughboys, then drop spoonfuls of this dough directly into the simmering liquid. Cover and let everything cook together until the doughboys puff up and cook through, soaking up the smoky pork broth. Serve the boil up hot in bowls, making sure each portion gets a share of meat, greens, root vegetables, and doughboys.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/9/90/Maori_boil_up.jpg",
+  },
+  {
+    region: "South Asia",
+    state: "Hyderabad, Sindh",
+    country: "Pakistan",
+    title: "Sindhi Biryani",
+    ingredients: ["Basmati rice", "Mutton", "Yogurt", "Potatoes", "Dried plums", "Green chilies", "Fried onions", "Biryani masala"],
+    instructions:
+      "Marinate cubed mutton in a mixture of thick yogurt, ginger-garlic paste, red chili powder, and a blend of whole biryani spices, then set it aside for at least an hour. In a heavy-bottomed pot, fry sliced onions until deep golden and crisp, then remove half for garnish and cook the marinated meat in the remaining oil until it browns and releases its juices. Add chopped tomatoes, green chilies, and quartered potatoes to the meat, cooking everything down into a thick, well-spiced masala base. Stir in a handful of dried plums and fresh coriander and mint leaves, which give Sindhi biryani its distinctive tangy, herby edge, then simmer until the potatoes are nearly tender. Meanwhile, parboil basmati rice with whole spices in salted water until it is about seventy percent cooked, then drain it well. Layer the rice over the meat masala in stages, scattering fried onions, more herbs, and a splash of saffron milk between each layer. Cover the pot tightly, first with foil and then a lid, and cook on very low heat so the rice finishes steaming in the fragrant vapor from the meat below. Once the dum is complete, gently fold the layers together just before serving so every spoonful carries rice, meat, and potato.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/7/74/Sindhi_biryani.jpg",
+  },
+  {
+    region: "South Asia",
+    state: "Quetta, Balochistan",
+    country: "Pakistan",
+    title: "Quetta Sajji",
+    ingredients: ["Whole lamb", "Salt", "Green papaya paste", "Rice", "Charcoal", "Black pepper"],
+    instructions:
+      "Begin with a whole young lamb or a whole chicken, cleaned thoroughly and left largely unspiced in the traditional Balochi style. Rub the meat lightly with salt and, if desired, a little green papaya paste to help tenderize it, but avoid the heavy spicing typical of other regional kebabs. Skewer the whole animal onto a long iron rod, positioning it so the meat is evenly balanced and will cook uniformly. Plant the skewer upright at an angle around a large open charcoal fire, positioning it far enough from the flames that the meat roasts slowly rather than chars. Turn and reposition the skewer periodically over several hours, allowing the smoke and radiant heat to render the fat and cook the meat through to a tender, smoky finish. Baste occasionally with the rendered juices that collect at the base to keep the exterior from drying out. Once fully roasted, the sajji is pulled from the skewer and carved into large pieces at the table. It is traditionally served over a bed of Balochi sajji rice, cooked with the same rendered juices, and eaten with flatbread and a simple salad.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Sajji.JPG",
+  },
+  {
+    region: "Southeast Asia",
+    state: "Cebu",
+    country: "Philippines",
+    title: "Cebu Lechon",
+    ingredients: ["Whole pig", "Lemongrass", "Garlic", "Onion", "Salt", "Bay leaves", "Tamarind", "Black pepper"],
+    instructions:
+      "Start with a whole cleaned pig, its cavity opened along the belly so it can be stuffed and later mounted on a spit. Fill the cavity generously with bundles of lemongrass, whole garlic cloves, sliced onions, bay leaves, and a handful of tamarind or other souring agents that give Cebu lechon its distinctive fragrant, well-seasoned interior. Sew or skewer the belly closed so the aromatics and juices stay sealed inside during roasting. Rub the skin all over with salt and mount the pig securely on a long bamboo or metal spit. Roast it slowly over a long bed of glowing charcoal, turning the spit continuously and evenly for several hours so the skin crisps gradually without burning while the meat inside steams in its own juices and herbs. Baste the skin occasionally, some cooks using a mixture of oil, soy sauce, or coconut vinegar to encourage even browning and shine. Keep rotating and monitoring the heat until the skin turns a deep golden-brown and shatters audibly when tapped, a sign that it has reached the prized crackling texture. Once done, let the lechon rest briefly before the skin and meat are chopped into pieces and served, the crisp skin considered the highlight and the herb-infused meat prized for needing little extra seasoning.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/5/55/Lechon_De_Cebu.jpg",
+  },
+  {
+    region: "Southeast Asia",
+    state: "Batangas",
+    country: "Philippines",
+    title: "Batangas Bulalo",
+    ingredients: ["Beef shank", "Beef bone marrow", "Corn", "Cabbage", "Pechay", "Potatoes", "Onion", "Whole peppercorns"],
+    instructions:
+      "Start by placing beef shank cut into thick pieces, along with marrow-filled bones, into a large stockpot and covering everything with plenty of water. Bring the pot to a boil and skim away the foam and impurities that rise to the top so the resulting broth stays clear. Add a quartered onion and whole peppercorns, then lower the heat and let the pot simmer gently for a long stretch of time, often two hours or more, until the beef becomes fork-tender and the marrow softens inside the bone. Season the developing broth with fish sauce or salt to taste, adjusting gradually as the flavors concentrate. Add chunks of corn on the cob and quartered potatoes partway through, letting them cook until just tender without turning mushy. In the final minutes, drop in cabbage wedges and pechay leaves so they wilt gently without overcooking. Taste and adjust the seasoning one last time before removing the pot from the heat. Serve the bulalo piping hot in deep bowls, making sure each portion includes a marrow bone, with the broth ladled generously over rice on the side, and encourage diners to scoop out the soft marrow with a small spoon.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Bulalo,_Pamana._(Philippines).jpg",
+  },
+  {
+    region: "Europe",
+    state: "Białystok, Podlasie",
+    country: "Poland",
+    title: "Bigos (Hunter's Stew)",
+    ingredients: ["Sauerkraut", "Fresh cabbage", "Pork shoulder", "Kielbasa", "Bacon", "Dried mushrooms", "Onion", "Prunes"],
+    instructions:
+      "Begin by rinsing sauerkraut lightly if it's especially sour, then set it aside while you render chopped bacon in a large heavy pot until crisp and fragrant. Add diced onion to the rendered fat and cook until soft, then brown cubed pork shoulder in batches so it develops a deep color on all sides. Return everything to the pot along with sliced kielbasa, the sauerkraut, and a portion of fresh shredded cabbage, stirring to combine the layers of meat and cabbage evenly. Pour in a splash of water or stock along with softened dried mushrooms and their soaking liquid, which lend the stew its deep, earthy backbone. Season with bay leaves, whole peppercorns, and a touch of caraway, then bring the pot to a gentle simmer, cover, and let it cook low and slow for several hours, stirring occasionally so nothing catches on the bottom. Stir in a handful of chopped prunes partway through cooking to add a subtle sweetness that balances the sourness of the kraut. Many cooks let the bigos cool and then reheat it the next day, since resting overnight is said to deepen and marry the flavors further. Serve it hot in bowls with crusty rye bread alongside to soak up the rich, tangy juices.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Bigos.jpg",
+  },
+  {
+    region: "Europe",
+    state: "Lublin",
+    country: "Poland",
+    title: "Żurek (Sour Rye Soup)",
+    ingredients: ["Rye flour starter", "Smoked sausage", "Bacon", "Potatoes", "Garlic", "Marjoram", "Hard-boiled eggs", "Cream"],
+    instructions:
+      "A few days before cooking, prepare a rye sour by mixing rye flour with warm water and letting it ferment at room temperature until it turns pleasantly tangy, straining off the liquid when ready. Begin the soup by simmering smoked sausage and a piece of bacon or ham hock in water to build a smoky, savory stock, then remove the meat once it's cooked through and slice it for later. Add diced potatoes and minced garlic to the simmering stock and cook until the potatoes are just tender. Pour in the prepared rye sour gradually, tasting as you go, since it provides the soup's signature sour tang and should be balanced rather than overwhelming. Season with dried marjoram, a bay leaf, and salt and pepper, letting the soup simmer gently so the flavors meld together. Return the sliced smoked sausage to the pot to warm through in the finished broth. Just before serving, stir in a spoonful of cream to mellow the sourness and give the soup a silky texture. Ladle the żurek into bowls and top each with a halved hard-boiled egg, traditionally served alongside rye bread.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Zurek.JPG",
+  },
+  {
+    region: "Europe",
+    state: "Lisbon",
+    country: "Portugal",
+    title: "Bacalhau à Brás",
+    ingredients: ["Salt cod", "Potatoes", "Onion", "Eggs", "Garlic", "Olive oil", "Black olives", "Parsley"],
+    instructions:
+      "Begin by soaking salt cod in several changes of cold water over a day or two to draw out excess salt, then poach it gently until just cooked and flake the flesh into fine shreds, discarding any skin and bones. Cut potatoes into thin matchsticks and fry them in hot oil until golden and crisp, then drain them well on paper towels. In a wide pan, soften thinly sliced onion and minced garlic in olive oil until translucent and fragrant. Add the flaked cod to the pan and toss it with the onions for a few minutes so it absorbs the oil and aromatics. Fold the crisp fried potatoes into the pan, mixing gently so they stay mostly intact rather than turning mushy. Beat eggs lightly and pour them over the cod and potato mixture, stirring constantly over low heat just until the eggs turn softly creamy and bind everything together without becoming fully set like scrambled eggs. Remove from the heat immediately once the eggs reach that just-set, custardy stage. Finish the dish with a scattering of black olives and chopped fresh parsley before serving it warm.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/3/39/Bacalhau_a_Bras.jpg",
+  },
+  {
+    region: "Europe",
+    state: "Braga, Minho",
+    country: "Portugal",
+    title: "Caldo Verde",
+    ingredients: ["Potatoes", "Collard greens", "Onion", "Garlic", "Chouriço", "Olive oil", "Salt", "Water"],
+    instructions:
+      "Peel and roughly chop potatoes and place them in a large pot with chopped onion, minced garlic, and enough water to cover everything generously. Bring the pot to a boil and cook until the potatoes are completely soft and starting to fall apart, which will help thicken the finished soup. Remove the pot from the heat and blend or mash the potatoes directly in their cooking liquid until the base turns smooth and creamy, adjusting the consistency with a little extra water if needed. Season the base generously with salt and a good drizzle of olive oil, then return it to a gentle simmer. While the base heats back up, slice collard greens or kale as thinly as possible, almost shredding it into fine ribbons. In a separate small pan, brown slices of chouriço until they render some of their spiced, smoky fat. Stir the finely shredded greens into the simmering potato base and cook for just a few minutes so they soften but keep a slight bite and their vivid green color. Ladle the soup into bowls, top each with a few slices of the browned chouriço, and finish with a final thread of olive oil before serving.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/6/69/Caldo_verde.jpg",
+  },
+  {
+    region: "Oceania",
+    state: "Outback, New South Wales",
+    country: "Australia",
+    title: "Damper",
+    ingredients: ["Self-raising flour", "Salt", "Butter", "Milk", "Wattleseed"],
+    instructions:
+      "In a large bowl, combine self-raising flour with a pinch of salt, and if desired, a spoonful of ground wattleseed for a nutty, coffee-like flavor traditional to some outback variations. Rub in cold butter or lard with your fingertips until the mixture resembles coarse breadcrumbs, which helps give the finished bread a slightly short, tender crumb. Make a well in the center and pour in milk or water gradually, mixing with a knife or your hands until the dough just comes together, taking care not to overwork it. Turn the shaggy dough out onto a lightly floured surface and knead briefly, just enough to bring it into a smooth, cohesive ball. Shape the dough into a round loaf and place it either directly on the coals of an open campfire, wrapped in foil, or in a preheated camp oven buried in hot embers. Traditionally, the loaf was placed straight in the ashes of the fire, with hot coals raked over the top so it baked evenly from both sides. Bake until the crust turns deeply golden and firm, and the loaf sounds hollow when tapped on its base, which typically takes around thirty to forty minutes depending on the heat. Brush off any ash, let the damper cool slightly, then tear or slice it and serve warm with butter and golden syrup.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Wattleseed_Damper_(cropped).jpg",
+  },
+  {
+    region: "Latin America",
+    state: "Espírito Santo",
+    country: "Brazil",
+    title: "Moqueca Capixaba",
+    ingredients: ["Fish fillets", "Tomatoes", "Onion", "Garlic", "Cilantro", "Palm oil", "Lime", "Bell peppers"],
+    instructions:
+      "Begin by cutting firm white fish fillets into large chunks and marinating them briefly in lime juice, minced garlic, and salt while you prepare the rest of the dish. In a wide clay pot, known as a panela de barro, layer thinly sliced onions, ripe tomatoes, and bell peppers across the bottom, building the traditional base this dish is known for. Arrange the marinated fish pieces over the vegetable layer and scatter more sliced tomato, onion, and pepper on top so the fish steams gently between the layers rather than being stirred. Drizzle the annatto-infused palm oil characteristic of Espírito Santo's style over everything, which gives the stew its signature golden-orange hue and subtle earthy flavor. Cover the pot and set it over medium-low heat, letting the moqueca cook undisturbed so the vegetables release their juices and gently poach the fish. Resist the urge to stir too much, occasionally just shaking the pot gently to prevent sticking while keeping the layers mostly intact. Once the fish flakes easily and the vegetables have softened into a light, fragrant sauce, scatter fresh chopped cilantro over the top. Serve the moqueca straight from the clay pot alongside white rice and a side of pirão, a cassava-thickened broth made from the cooking liquid.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/b/be/Moqueca_capixaba_18_de_janeiro_de_2014_(2).JPG",
+  },
+  {
+    region: "Middle East",
+    state: "Luxor",
+    country: "Egypt",
+    title: "Molokhia",
+    ingredients: ["Molokhia leaves", "Chicken", "Garlic", "Coriander", "Chicken broth", "Ghee", "Lemon", "Rice"],
+    instructions:
+      "Begin by making a rich broth, traditionally simmering a whole chicken or rabbit with onion and warming spices until the meat is tender and the stock is deeply flavorful. Remove the meat from the pot, shred or portion it, and strain the broth, skimming off excess fat but reserving it since a little will be used later. Wash fresh molokhia leaves thoroughly, then finely chop them, almost mincing them, since the texture depends on the leaves being cut extremely fine. Bring the reserved broth back to a simmer and add the finely chopped molokhia, stirring frequently as it cooks so the leaves release their naturally thickening, slightly mucilaginous texture. In a small pan, heat ghee or butter and fry a generous amount of minced garlic and ground coriander until fragrant, taking care not to let the garlic burn and turn bitter. Pour this sizzling garlic and coriander mixture, known as the taqliya, directly into the simmering molokhia pot, where it will hiss and infuse the whole soup with its aroma. Let the soup simmer a few more minutes so the flavors meld, adjusting the consistency with more broth if it becomes too thick. Serve the molokhia hot over white rice, with the reserved chicken pieces and a wedge of lemon on the side.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/9/96/Molokheya_hi_res.JPG",
+  },
+  {
+    region: "Africa",
+    state: "Gurage Zone",
+    country: "Ethiopia",
+    title: "Kitfo",
+    ingredients: ["Beef tenderloin", "Mitmita spice", "Niter kibbeh", "Ayib cheese", "Collard greens", "Injera"],
+    instructions:
+      "Start with a well-trimmed cut of fresh beef tenderloin, chosen for its tenderness since much of the meat will be served raw or only lightly warmed. Finely mince the beef by hand with a sharp knife, working it into an almost paste-like consistency rather than using a grinder, which is considered key to the traditional texture. In a small pan, gently melt niter kibbeh, the spiced clarified butter central to Ethiopian cooking, until it becomes fragrant with its background of garlic, ginger, and spices. Stir in a generous spoonful of mitmita, a fiery ground chili spice blend, into the warm butter until it's fully incorporated and richly colored. Pour the spiced butter over the minced beef and mix thoroughly by hand, coating every strand of meat evenly so the heat and flavor are distributed throughout. For those who prefer it, the mixture can be warmed briefly in a pan just until it barely changes color, a style known as leb leb, rather than serving it fully raw. Mound the kitfo onto a plate and serve it alongside a scoop of crumbled ayib, a soft fresh cheese, and a portion of cooked collard greens to balance the richness and heat. Present it with injera on the side, using the spongy flatbread to scoop up the spiced meat in the traditional communal style.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Kitfo_Ethiopian_Food.JPG",
+  },
+  {
+    region: "Europe",
+    state: "Toulouse, Occitanie",
+    country: "France",
+    title: "Cassoulet Toulousain",
+    ingredients: ["White beans", "Duck confit", "Pork sausage", "Pork shoulder", "Bacon", "Onion", "Garlic", "Breadcrumbs"],
+    instructions:
+      "Begin a day ahead by soaking dried white beans overnight in plenty of water so they soften and cook evenly the next day. Simmer the drained beans with a piece of pork rind, a studded onion, garlic, and a bouquet of herbs until they turn tender but still hold their shape, then set them aside along with their cooking liquid. In a separate pan, brown cubed pork shoulder and thick slices of Toulouse sausage until deeply caramelized on all sides, building the savory base of the dish. Warm pieces of duck confit gently in their own fat until the skin turns crisp and the meat is heated through. In a large earthenware cassole, layer the cooked beans with the browned pork, sausage, and duck confit, ladling in enough of the reserved bean broth to keep everything moist but not swimming in liquid. Scatter a layer of breadcrumbs over the top and place the dish in a slow oven, letting it bake uncovered for a long stretch of time. As a golden crust forms on top, traditionally the cook breaks it and stirs it back into the beans several times, allowing a new crust to reform each time, which deepens the flavor and texture. Once a final deep golden crust has set and the beans are meltingly tender, serve the cassoulet bubbling hot straight from its baking dish.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Cassoulet_toulousain.jpg",
+  },
+  {
+    region: "Europe",
+    state: "Athens",
+    country: "Greece",
+    title: "Pastitsio",
+    ingredients: ["Bucatini pasta", "Ground beef", "Butter", "Flour", "Milk", "Kefalotyri cheese", "Tomato paste", "Cinnamon", "Eggs"],
+    instructions:
+      "Cook thick tubular pasta such as bucatini in salted boiling water until just shy of al dente, then drain and toss with a beaten egg and grated cheese so it forms a sealed base layer. In a wide pan, brown ground beef with diced onion until no pink remains, then stir in tomato paste, a splash of red wine, cinnamon, and a bay leaf and simmer until the mixture thickens into a fragrant meat sauce. Spread half the pasta in a buttered baking dish, cover with the entire meat sauce, then top with the remaining pasta to create three distinct layers. Make a béchamel by whisking melted butter and flour into a smooth paste, gradually adding warm milk while stirring constantly until it thickens, then remove from heat and beat in egg yolks and grated kefalotyri or parmesan cheese. Pour the béchamel evenly over the pasta, smoothing the top with a spatula so it seals the layers completely. Bake in a moderate oven until the top turns deep golden and slightly puffed, which usually takes about 45 minutes. Let the pastitsio rest for at least 20 minutes before cutting so the layers hold together when sliced. Serve warm as a hearty main course, often alongside a simple green salad.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/2/21/Pastitsio.jpg",
+  },
+  {
+    region: "Southeast Asia",
+    state: "Surabaya, East Java",
+    country: "Indonesia",
+    title: "Rawon",
+    ingredients: ["Beef shank", "Keluak nuts", "Shallots", "Garlic", "Lemongrass", "Galangal", "Bean sprouts", "Tamarind", "Rice"],
+    instructions:
+      "Simmer beef shank or chuck in water with bay leaves and lemongrass until the meat is tender enough to shred easily, reserving the flavorful broth. Toast the black keluak (kluwek) nuts' flesh along with shallots, garlic, candlenuts, ginger, and galangal, then grind everything into a smooth, dark spice paste. Fry the spice paste in oil until it turns deeply fragrant and the oil begins to separate at the edges, which develops the soup's signature near-black color. Return the cooked beef and its broth to the pot along with the fried paste, then season with salt, sugar, and a bit of tamarind for tartness. Let the soup simmer gently for another 20 to 30 minutes so the beef absorbs the earthy, slightly bitter flavor of the keluak. Just before serving, stir in fresh bean sprouts so they soften slightly but keep some crunch. Ladle the soup over steamed white rice and finish with sliced scallions, fried shallots, and a wedge of lime. A salted duck egg and extra sambal are traditionally served alongside for balance.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Nasi_Rawon.jpg",
+  },
+  {
+    region: "East Asia",
+    state: "Kansai region (Osaka)",
+    country: "Japan",
+    title: "Sukiyaki",
+    ingredients: ["Thinly sliced beef", "Napa cabbage", "Shirataki noodles", "Grilled tofu", "Japanese leek", "Shiitake mushrooms", "Soy sauce", "Sugar", "Raw egg"],
+    instructions:
+      "Heat a shallow iron or heavy skillet at the table and melt a generous knob of butter or beef fat until it sizzles. Sear thin slices of well-marbled beef directly in the hot fat for just a few seconds per side, then push them to one side of the pan. Sprinkle sugar directly over the seared beef and drizzle with soy sauce, letting it caramelize slightly to form the base of the sweet-savory sauce. Add napa cabbage, shiitake mushrooms, grilled tofu, shirataki noodles, and segments of Japanese leek to the pan in separate sections rather than mixing them together. Pour in a little dashi or water along with more soy sauce and sugar as needed, letting everything simmer gently while the vegetables soften and soak up the sauce. Each diner cracks a raw egg into a small bowl and beats it lightly to use as a dipping sauce that cools the hot ingredients and adds richness. Diners pick pieces of beef and vegetables straight from the communal pan, dip them in the beaten egg, and eat immediately. As the meal continues, more ingredients and sauce are added to the pan to keep the meal going family-style.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/3/32/Sukiyaki_01.jpg",
+  },
+  {
+    region: "Middle East",
+    state: "Sidon, South Lebanon",
+    country: "Lebanon",
+    title: "Tabbouleh",
+    ingredients: ["Fine bulgur wheat", "Flat-leaf parsley", "Fresh mint", "Tomatoes", "Scallions", "Lemon juice", "Olive oil"],
+    instructions:
+      "Soak fine bulgur wheat in a little water or lemon juice for about 10 minutes until it softens slightly, since it will not be cooked further. While the bulgur hydrates, wash and thoroughly dry large bunches of flat-leaf parsley and fresh mint, then finely chop them by hand so the herbs remain the dominant bulk of the salad rather than the grain. Dice ripe tomatoes small and let them drain briefly to avoid watering down the salad, then finely mince scallions or a small onion. Combine the drained bulgur with the chopped herbs, tomatoes, and scallions in a large bowl, keeping the ratio heavily weighted toward parsley in the traditional Levantine style. Dress the mixture generously with fresh lemon juice and good olive oil, then season with salt and a pinch of allspice or black pepper. Toss everything together just before serving so the herbs stay bright and don't wilt from the acidic dressing. Serve tabbouleh chilled or at room temperature, traditionally scooped up with crisp romaine lettuce leaves or wedges of pita. It is a staple part of a mezze spread across Lebanon.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Tabouleh.JPG",
+  },
+  {
+    region: "Latin America",
+    state: "Guadalajara, Jalisco",
+    country: "Mexico",
+    title: "Pozole Rojo",
+    ingredients: ["Pork shoulder", "Hominy corn", "Dried guajillo chiles", "Dried ancho chiles", "Garlic", "Onion", "Cabbage", "Radishes", "Oregano"],
+    instructions:
+      "Simmer a whole pork shoulder or a mix of pork shoulder and trotters in a large pot of water with onion and garlic, skimming off foam, until the meat is fork-tender, then remove and shred the meat, reserving the broth. Toast dried guajillo and ancho chiles briefly in a dry pan, then soak them in hot water until softened and blend them with garlic, onion, and a little of the soaking liquid into a smooth red sauce. Strain the chile sauce to remove any tough skins, then fry it briefly in a splash of oil to deepen its flavor before stirring it into the reserved pork broth. Add the shredded pork back into the pot along with drained white hominy, and season with salt, oregano, and cumin. Simmer everything together for at least 30 minutes so the hominy absorbs the chile broth and the flavors meld into a rich red stew. Ladle the finished pozole into deep bowls while it's steaming hot. Serve with small bowls of shredded cabbage or lettuce, sliced radishes, diced onion, dried oregano, and lime wedges so each diner can garnish their own bowl. Crisp tostadas are traditionally served on the side for scooping and crunch.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Pozole_rojo_(2017).jpg",
+  },
+  {
+    region: "Africa",
+    state: "Fes",
+    country: "Morocco",
+    title: "Seven-Vegetable Couscous",
+    ingredients: ["Couscous semolina", "Lamb", "Carrots", "Turnips", "Pumpkin", "Zucchini", "Cabbage", "Chickpeas", "Ras el hanout"],
+    instructions:
+      "Brown pieces of lamb or chicken in a large pot with olive oil, onions, and a blend of spices such as turmeric, ginger, and black pepper until fragrant. Add water or broth to cover, along with hard root vegetables like carrots, turnips, and chunks of pumpkin, then simmer gently so the meat begins to tenderize while the broth deepens in flavor. After the tougher vegetables have softened somewhat, add softer vegetables such as zucchini and cabbage wedges along with cooked or canned chickpeas, continuing to simmer until everything is tender but not falling apart. Meanwhile, prepare the couscous by rubbing dry semolina grains with a little oil, then steaming it in a couscoussier or fine sieve set over the simmering stew so it absorbs the aromatic steam. Fluff the steamed couscous with a fork between steamings, sprinkling with a little water each time to keep the grains light and separate rather than clumped. Once the meat and vegetables are fully cooked, taste the broth and adjust the seasoning with salt and pepper. Mound the fluffy couscous on a large communal platter, arrange the meat and vegetables on top, and ladle broth generously over everything. Serve with extra broth and a spoonful of spiced tomato-onion tfaya or harissa on the side for those who want more heat.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/8/82/Moroccan_cuisine-Couscous_with_vegetables.jpg",
+  },
+  {
+    region: "South Asia",
+    state: "Kathmandu Valley",
+    country: "Nepal",
+    title: "Sel Roti",
+    ingredients: ["Rice flour", "Sugar", "Ghee", "Milk", "Banana", "Cardamom", "Oil"],
+    instructions:
+      "Soak rice overnight, then drain it and grind it with a little water into a smooth, thick batter, traditionally using a stone mill though a blender works as well. Mash a ripe banana into the batter for natural sweetness and binding, then stir in sugar, ghee, a pinch of cardamom, and enough milk or water to loosen the batter to a pourable, ribbon-like consistency. Let the batter rest for a couple of hours so the flavors meld and the texture relaxes slightly. Heat a generous amount of oil or ghee in a deep, wide pan until moderately hot, since sel roti needs steady, not scorching, heat to cook through without burning. Pour the batter from a height in a circular motion directly into the hot oil, letting it fall in a continuous ring so the strands overlap and fuse into a hollow-centered loop. Fry the ring until the underside turns deep golden brown, then carefully flip it with a skewer or chopstick and fry the other side until evenly colored and cooked through. Lift the sel roti out and drain on paper towels, letting it cool slightly so the crust firms up while the inside stays soft and slightly chewy. Traditionally made in large batches during the Tihar and Dashain festivals, sel roti is enjoyed on its own or alongside meat curries and achar.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Sel_Roti.jpg",
+    isStreetFood: true,
+  },
+  {
+    region: "Africa",
+    state: "Lagos, Southwest Nigeria",
+    country: "Nigeria",
+    title: "Egusi Soup",
+    ingredients: ["Ground egusi seeds", "Palm oil", "Spinach", "Beef", "Stockfish", "Crayfish", "Onion", "Scotch bonnet pepper"],
+    instructions:
+      "Grind hulled egusi (melon) seeds into a coarse meal, either in a blender or with a mortar and pestle, keeping some texture rather than making it completely smooth. Heat red palm oil in a large pot until it loosens and turns fragrant, then add chopped onion and cook briefly before stirring in the ground egusi a little at a time to form small, fried clumps. Add blended fresh pepper, chopped tomatoes, and crayfish, and let the mixture fry together for several minutes so the raw egusi taste cooks off. Pour in stock or water along with pieces of pre-cooked beef, tripe, or stockfish, and simmer everything together so the flavors of the meats infuse the thickening sauce. Add ground crayfish, seasoning cubes, and chopped onion, then let the soup simmer until it reaches a thick, slightly grainy consistency. Stir in torn leafy greens such as bitter leaf, spinach, or pumpkin leaves along with a splash more palm oil, and cook just until the greens wilt but retain their color. Adjust the seasoning with salt and pepper to taste, keeping in mind the soup should be rich, hearty, and moderately spicy. Serve hot alongside a stiff swallow such as pounded yam, eba, or fufu for scooping.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Original_Nigerian_Egusi_soup_(cropped).jpg",
+  },
+  {
+    region: "Latin America",
+    state: "Lima",
+    country: "Peru",
+    title: "Aji de Gallina",
+    ingredients: ["Shredded chicken", "Aji amarillo paste", "White bread", "Evaporated milk", "Parmesan cheese", "Walnuts", "Onion", "Garlic", "Potatoes"],
+    instructions:
+      "Poach a whole chicken or chicken breasts in water with onion, garlic, and celery until cooked through, then remove the chicken and shred it finely by hand, reserving the poaching broth. Soak slices of crustless white bread in some of the warm broth or evaporated milk until soft, then blend it into a smooth paste that will thicken the sauce. Sauté finely chopped onion and garlic in oil until soft, then stir in aji amarillo (Peruvian yellow chili) paste and cook for several minutes until the raw chili flavor mellows and the oil turns golden. Add the bread paste to the pan along with more broth, stirring constantly to prevent lumps, until the mixture becomes a smooth, creamy sauce. Stir in ground walnuts or pecans and grated parmesan cheese, which add nuttiness and body to the sauce. Fold the shredded chicken into the creamy aji sauce and simmer gently, thinning with more broth if needed, until the mixture reaches a thick, stew-like consistency. Season with salt and a little sugar to balance the chili's heat. Serve the aji de gallina over boiled potato slices and white rice, garnished with black olives and slices of hard-boiled egg.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/c/ca/Aji_de_gallina_10.jpg",
+  },
+  {
+    region: "East Asia",
+    state: "Seoul",
+    country: "South Korea",
+    title: "Japchae",
+    ingredients: ["Sweet potato glass noodles", "Beef", "Spinach", "Carrots", "Onion", "Shiitake mushrooms", "Soy sauce", "Sesame oil"],
+    instructions:
+      "Soak dried sweet potato starch noodles (dangmyeon) in warm water until pliable, then boil them briefly until translucent and chewy, and rinse with cold water to stop the cooking. Toss the drained noodles with a little sesame oil and soy sauce while still warm so they don't stick together and begin absorbing flavor. Separately stir-fry julienned carrots, onion, and spinach each on their own, since they cook at different rates and are seasoned individually with salt and sesame oil to preserve their distinct colors and textures. Marinate thin strips of beef in soy sauce, garlic, sugar, and sesame oil, then quickly stir-fry them along with sliced shiitake mushrooms until just cooked through. In a large bowl or wok, combine the noodles with all the stir-fried vegetables and beef, then add a well-balanced sauce of soy sauce, sugar, and sesame oil. Toss everything together thoroughly using tongs or chopsticks so the noodles and vegetables coat evenly without breaking apart. Taste and adjust the seasoning, adding a touch more sesame oil or soy sauce as needed for a glossy finish. Garnish with toasted sesame seeds and serve japchae warm or at room temperature as a side dish or light main.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Japchae-bap.jpg",
+  },
+  {
+    region: "Europe",
+    state: "Asturias",
+    country: "Spain",
+    title: "Fabada Asturiana",
+    ingredients: ["White fabes beans", "Chorizo", "Morcilla", "Pork shoulder", "Pancetta", "Saffron", "Bay leaf", "Onion", "Garlic"],
+    instructions:
+      "Soak large dried white fabes beans overnight in plenty of water so they soften and cook evenly the next day. The following day, place the drained beans in a large pot with cold water, along with chunks of pork shoulder, a piece of pancetta, chorizo, and morcilla, taking care not to let the sausages break apart. Bring the pot slowly to a gentle simmer rather than a rapid boil, since fast boiling can toughen the bean skins and cause them to split. Skim off any foam that rises to the surface, then add a bay leaf and a pinch of saffron threads for color and subtle aroma. Occasionally add a splash of cold water directly to the pot to shock the beans, a traditional technique called 'asustar las fabes' that keeps them tender and intact. Let everything simmer very slowly, partially covered, for two to three hours, until the beans are creamy and the meats are fully tender. Remove the meats, slice the chorizo and morcilla, then return everything to the pot and season with salt to taste. Serve fabada steaming hot in deep bowls, with the meats either sliced on top or served alongside as a separate plate.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Fabada.jpg",
+  },
+  {
+    region: "South Asia",
+    state: "Galle, Southern Province",
+    country: "Sri Lanka",
+    title: "Fish Ambul Thiyal",
+    ingredients: ["Tuna", "Goraka", "Black pepper", "Curry leaves", "Garlic", "Ginger", "Roasted curry powder"],
+    instructions:
+      "Cut firm, oily fish such as tuna into thick cubes and pat them dry, since a firm texture is essential for the fish to hold together through slow cooking. Grind or pound goraka (dried gamboge rind) with a little water into a dark, sour paste, which gives the dish its distinctive tangy flavor and acts as a natural preservative. Combine the fish with the goraka paste, along with roasted curry powder, black pepper, garlic, ginger, and curry leaves, rubbing the spices directly onto each piece. Place the coated fish in a clay pot or heavy-bottomed pan without additional liquid, letting the goraka's moisture and the fish's own juices form the sauce as it cooks. Cook over low heat, turning the pieces occasionally and shaking the pot rather than stirring with a spoon, so the fish stays intact instead of flaking apart. Continue cooking uncovered until nearly all the liquid has evaporated and the fish is coated in a thick, dark, intensely sour and peppery glaze. The slow reduction concentrates the flavors and also helps the dish keep well without refrigeration for a few days, reflecting its origins as a preservation method for fishing villages. Serve ambul thiyal at room temperature or gently reheated, alongside rice and other curries as part of a Sri Lankan rice-and-curry meal.",
+    photo: null,
+  },
+  {
+    region: "Southeast Asia",
+    state: "Bangkok",
+    country: "Thailand",
+    title: "Tom Yum Goong",
+    ingredients: ["Shrimp", "Lemongrass", "Kaffir lime leaves", "Galangal", "Thai chilies", "Fish sauce", "Lime juice", "Mushrooms", "Cilantro"],
+    instructions:
+      "Bring water or a light shrimp stock to a boil in a pot, then add bruised lemongrass stalks, sliced galangal, and torn kaffir lime leaves, letting them simmer for a few minutes to infuse the broth with their citrusy aroma. Add straw or oyster mushrooms and let them cook briefly until they soften slightly. Stir in shrimp along with their shells or heads if available, since the shells add extra depth and color to the broth as they cook. Season the broth with fish sauce and a generous squeeze of fresh lime juice, balancing the salty and sour notes carefully since tom yum should taste bright and tart. Crush fresh Thai bird's eye chilies and add them along with a spoonful of roasted chili paste (nam prik pao) to build heat and a subtle smoky sweetness. Simmer just until the shrimp turn pink and curl, which only takes a couple of minutes, since overcooking will make them tough. Taste and adjust with more fish sauce, lime, or chilies until the broth has a clear balance of sour, spicy, salty, and slightly sweet flavors. Ladle into bowls and garnish with fresh cilantro leaves, serving immediately while the broth is fragrant and hot.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/b/b4/Tom_yum_goong-01.jpg",
+  },
+  {
+    region: "Middle East",
+    state: "Bursa",
+    country: "Turkey",
+    title: "Iskender Kebab",
+    ingredients: ["Doner lamb", "Pita bread", "Tomato sauce", "Butter", "Strained yogurt", "Tomatoes", "Green peppers"],
+    instructions:
+      "Prepare thin slices of seasoned lamb or beef doner-style, either stacked on a vertical rotisserie or pan-seared in thin strips, until the edges turn crisp and browned. Cut fresh pita bread into small cubes and arrange them in a single layer across a serving plate to form a base that will soak up the sauces. Make a simple tomato sauce by simmering crushed tomatoes with a little butter and salt until it thickens slightly and turns glossy. Layer the sliced doner meat generously over the bed of pita cubes, covering the bread evenly. Pour the hot tomato sauce over the meat and bread so it seeps down and softens the cubes underneath. In a small pan, melt butter until it turns golden and starts to foam, then immediately drizzle it sizzling hot over the entire plate for a dramatic tableside finish. Add a generous dollop of thick strained yogurt alongside the meat, letting it melt slightly from the residual heat. Serve immediately with grilled tomatoes and green peppers on the side while the butter is still sizzling.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/3/38/Iskender_kebap.jpg",
+  },
+  {
+    region: "Europe",
+    state: "Edinburgh, Scotland",
+    country: "United Kingdom",
+    title: "Haggis, Neeps and Tatties",
+    ingredients: ["Haggis", "Potatoes", "Swede", "Butter", "Milk", "Black pepper"],
+    instructions:
+      "Prepare or source a traditional haggis, a sausage-like pudding of seasoned sheep's offal, oats, suet, and spices encased in a natural casing, and cook it gently by simmering or oven-baking according to its size, taking care never to pierce the casing while it cooks. While the haggis cooks, peel and chop potatoes ('tatties') and a swede or rutabaga ('neeps') into similarly sized chunks so they cook evenly. Boil the potatoes and swede in separate pots of salted water, since the swede typically takes longer to soften than the potatoes. Once tender, drain each vegetable well and mash them separately with butter, a splash of warm milk, and a good grinding of black pepper, keeping their distinct flavors apart rather than combining them. Carefully split open the cooked haggis casing and spoon out the crumbly, peppery filling rather than serving the casing itself. Plate a generous scoop of haggis alongside separate mounds of buttery mashed neeps and mashed tatties. Some cooks finish the plate with a warm whisky cream sauce drizzled over the haggis for extra richness. This dish is traditionally the centerpiece of a Burns Supper, served with a dram of whisky on the side.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Haggis,_neeps_and_tatties.jpg",
+  },
+  {
+    region: "Southeast Asia",
+    state: "Hanoi",
+    country: "Vietnam",
+    title: "Bun Cha",
+    ingredients: ["Ground pork", "Pork belly", "Rice vermicelli noodles", "Fish sauce", "Lime", "Garlic", "Pickled green papaya", "Fresh herbs"],
+    instructions:
+      "Mix ground pork with minced garlic, shallots, fish sauce, sugar, and black pepper, then shape the mixture into small flattened patties. Separately, slice pork belly into thin strips and marinate it with a similar blend of fish sauce, sugar, and garlic so both cuts of meat share a complementary caramelized flavor once grilled. Grill the patties and pork belly strips over hot charcoal, turning frequently, until they develop a smoky char on the outside while staying juicy inside. While the pork grills, prepare a dipping broth called nuoc cham by combining fish sauce, sugar, lime juice, and water, then stir in minced garlic, sliced chilies, and thin strips of pickled green papaya and carrot. Cook rice vermicelli noodles in boiling water until just tender, then rinse under cold water and drain well so the strands stay loose and separate. Arrange a large plate of fresh herbs and lettuce alongside the noodles, since diners wrap and dip rather than eat everything mixed together. Add the hot grilled pork directly into the bowl of warm dipping broth just before serving so it gently warms the sauce. To eat, diners take a portion of noodles and herbs, dip them into the broth along with the pork, and enjoy the contrast of hot, cold, sweet, and savory in each bite.",
+    photo: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Bun_cha,_Hai_Duong_restaurant,_Eden_Center.jpg",
+    isStreetFood: true,
+  },
 ];
