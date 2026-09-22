@@ -6,6 +6,15 @@ import { ADMIN_EMAILS } from "@/lib/constants";
 
 export async function POST(request: Request) {
   const body = await request.json().catch(() => null);
+
+  // Honeypot: app/signup/page.tsx keeps a `website` field hidden and out of
+  // tab order, so only a bot filling in every input it finds will ever
+  // populate it. Return a fake success (no account, no email sent) rather
+  // than an error, so the bot doesn't learn what tripped it.
+  if (body?.website) {
+    return NextResponse.json({ ok: true, needsEmailConfirmation: true });
+  }
+
   const parsed = signUpSchema.safeParse(body);
   if (!parsed.success) {
     return NextResponse.json({ error: parsed.error.issues[0]?.message ?? "Invalid input" }, { status: 400 });

@@ -40,6 +40,25 @@ export default function AdminUserRow({
     });
   }
 
+  function deleteMember() {
+    if (
+      !confirm(
+        `Permanently remove ${name} (${email})? This deletes their account and login. Any recipes they submitted stay up, credited to "Former member". This can't be undone.`
+      )
+    )
+      return;
+    startTransition(async () => {
+      const res = await fetch(`/api/admin/users/${userId}`, { method: "DELETE" });
+      const body = await res.json().catch(() => null);
+      if (res.ok) {
+        if (body?.warning) alert(body.warning);
+        router.refresh();
+      } else {
+        alert(body?.error ?? "Something went wrong.");
+      }
+    });
+  }
+
   return (
     <tr className="border-b border-ink-100 last:border-0">
       <td className="py-3 pr-4">
@@ -61,26 +80,37 @@ export default function AdminUserRow({
         </span>
       </td>
       <td className="py-3 text-right">
-        {!isYou &&
-          (role === "admin" ? (
+        {!isYou && (
+          <div className="flex justify-end gap-2">
+            {role === "admin" ? (
+              <button
+                type="button"
+                disabled={isPending}
+                onClick={() => setRole("member")}
+                className="rounded-full border border-ink-200 px-3 py-1 text-sm text-ink-600 hover:bg-ink-50"
+              >
+                Remove admin
+              </button>
+            ) : (
+              <button
+                type="button"
+                disabled={isPending}
+                onClick={() => setRole("admin")}
+                className="rounded-full bg-gradient-to-r from-saffron-500 via-chili-500 to-berry-600 px-3 py-1 text-sm font-semibold text-white hover:brightness-110"
+              >
+                Make admin
+              </button>
+            )}
             <button
               type="button"
               disabled={isPending}
-              onClick={() => setRole("member")}
-              className="rounded-full border border-ink-200 px-3 py-1 text-sm text-ink-600 hover:bg-ink-50"
+              onClick={deleteMember}
+              className="rounded-full border border-chili-200 px-3 py-1 text-sm font-medium text-chili-600 hover:bg-chili-50"
             >
-              Remove admin
+              Remove
             </button>
-          ) : (
-            <button
-              type="button"
-              disabled={isPending}
-              onClick={() => setRole("admin")}
-              className="rounded-full bg-gradient-to-r from-saffron-500 via-chili-500 to-berry-600 px-3 py-1 text-sm font-semibold text-white hover:brightness-110"
-            >
-              Make admin
-            </button>
-          ))}
+          </div>
+        )}
       </td>
     </tr>
   );

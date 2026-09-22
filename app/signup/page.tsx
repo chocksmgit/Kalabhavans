@@ -15,6 +15,11 @@ export default function SignUpPage() {
     address: "",
     password: "",
     ageConfirmed: false,
+    // Honeypot: real visitors never see this field (it's positioned off
+    // screen and skipped by tab order), so anything that fills it in is a
+    // bot blindly completing every input it finds. Checked server-side in
+    // app/api/auth/signup/route.ts.
+    website: "",
   });
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
@@ -71,6 +76,24 @@ export default function SignUpPage() {
       </p>
 
       <form onSubmit={handleSubmit} className="mt-6 space-y-4">
+        {/* Honeypot field — invisible and unreachable for real visitors
+            (off-screen, not tab-focusable, hidden from screen readers), so
+            only an automated script filling in every field will ever
+            populate it. Leave it out of the tab order and out of view;
+            don't use display:none/hidden, which some bots special-case. */}
+        <div className="absolute left-[-9999px] top-auto h-0 w-0 overflow-hidden" aria-hidden="true">
+          <label htmlFor="website">Leave this field blank</label>
+          <input
+            id="website"
+            name="website"
+            type="text"
+            tabIndex={-1}
+            autoComplete="off"
+            value={form.website}
+            onChange={(e) => set("website", e.target.value)}
+          />
+        </div>
+
         <div className="grid grid-cols-2 gap-3">
           <Field label="First name" required>
             <input required value={form.firstName} onChange={(e) => set("firstName", e.target.value)} className={inputClass} />
