@@ -114,7 +114,7 @@ export default function SignUpPage() {
         <div className="grid grid-cols-2 gap-3">
           <Field label="Gender (optional)">
             <select value={form.gender} onChange={(e) => set("gender", e.target.value)} className={inputClass}>
-              <option value="">Prefer not to say</option>
+              <option value="">Select...</option>
               <option value="female">Female</option>
               <option value="male">Male</option>
               <option value="non_binary">Non-binary</option>

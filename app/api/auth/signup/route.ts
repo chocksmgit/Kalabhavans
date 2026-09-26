@@ -38,8 +38,12 @@ export async function POST(request: Request) {
         lastName,
         email,
         phone: phone || null,
-        gender,
-        ageGroup,
+        // "" (the select's default, skipped value) must not be handed to
+        // Prisma as-is — these are enum columns, and Prisma/Postgres will
+        // reject an empty string the same way the old schema did. Collapse
+        // it to null, same treatment as phone/address just above.
+        gender: gender || null,
+        ageGroup: ageGroup || null,
         address: address || null,
         // The only two emails that auto-grant admin — see lib/constants.ts.
         role: ADMIN_EMAILS.includes(email.toLowerCase()) ? "admin" : "member",

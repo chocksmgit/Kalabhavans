@@ -68,6 +68,17 @@ describe("signUpSchema", () => {
     expect(signUpSchema.safeParse(base).success).toBe(true);
     expect(signUpSchema.safeParse({ ...base, phone: "" }).success).toBe(true);
   });
+
+  it("allows gender and age group to be passed as an empty string, not just omitted", () => {
+    // Regression test: the sign-up form's <select> for each field defaults
+    // to an empty-string value when a visitor leaves it untouched (exactly
+    // what the "(optional)" label invites), not `undefined`. An earlier
+    // version of this schema only special-cased `undefined` via `.optional()`
+    // and rejected "" with a confusing "Invalid enum value ... received ''"
+    // error — even though both fields are meant to be skippable.
+    expect(signUpSchema.safeParse({ ...base, gender: "" }).success).toBe(true);
+    expect(signUpSchema.safeParse({ ...base, ageGroup: "" }).success).toBe(true);
+  });
 });
 
 describe("loginSchema", () => {

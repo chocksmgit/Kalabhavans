@@ -32,8 +32,16 @@ export const signUpSchema = z.object({
   lastName: z.string().trim().min(1, "Last name is required").max(100),
   email: z.string().trim().email("Enter a valid email address"),
   phone: z.string().trim().max(30).optional().or(z.literal("")),
-  gender: z.enum(genderValues).optional(),
-  ageGroup: z.enum(ageGroupValues).optional(),
+  // `.or(z.literal(""))` matters here the same way it does for phone/address:
+  // the sign-up form's <select> defaults to an empty-string value when left
+  // untouched, and z.enum(...).optional() alone only tolerates `undefined`,
+  // not `""` — without this, leaving Gender or Age Group at their default
+  // (exactly what "(optional)" invites a visitor to do) fails validation
+  // with a confusing "Invalid enum value ... received ''" error. This was a
+  // real bug, not an intentional requirement — both fields are meant to be
+  // skippable (see the field-by-field rationale in the comment above).
+  gender: z.enum(genderValues).optional().or(z.literal("")),
+  ageGroup: z.enum(ageGroupValues).optional().or(z.literal("")),
   address: z.string().trim().max(500).optional().or(z.literal("")),
   password: z.string().min(8, "Password must be at least 8 characters"),
   // Required checkbox affirming the Terms of Use's 18+ requirement. We don't
